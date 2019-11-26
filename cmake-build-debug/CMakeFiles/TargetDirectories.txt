@@ -1,0 +1,4 @@
+/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir
+/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir
