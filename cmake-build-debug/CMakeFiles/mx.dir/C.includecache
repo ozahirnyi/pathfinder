@@ -6,3 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
+unistd.h
+-
+wchar.h
+-
+stdlib.h
+-
+fcntl.h
+-
+stdbool.h
+-
+
+/Users/ozahirnyi/pathfinder/libmx/src/mx_binary_search.c
+../inc/libmx.h
+/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
+

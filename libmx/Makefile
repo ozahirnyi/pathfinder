@@ -59,10 +59,16 @@ SRC = src/mx_printchar.c \
 		src/mx_strncmp.c \
 		src/mx_is_space.c \
 		src/mx_strjoin.c \
-		src/mx_atoi.c \
+        src/mx_atoi.c \
+        src/mx_validator.c \
+        src/mx_isdigit.c \
+        src/mx_matrix_creator.c \
 
 OBJ = mx_printchar.o \
         mx_atoi.o \
+        mx_validator.o \
+        mx_matrix_creator.o \
+        mx_isdigit.o \
 		mx_realloc.o \
 		mx_file_to_str.o \
 		mx_print_unicode.o \
