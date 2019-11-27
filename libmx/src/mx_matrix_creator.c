@@ -1,8 +1,16 @@
 #include "../inc/libmx.h"
 
-int **mx_matrix_creator(const char *file) {
-    int size = mx_atoi(mx_file_to_str(file));
-    system("leaks -q pathfinder");
+//static char **splitter(char *str) {
+
+//}
+
+static char  **islands(char *str) {
+    char **splitter_n = mx_strsplit(str, '\n');
+    char **splitter_
+}
+
+int **mx_matrix_creator(char *str) {
+    int size = mx_atoi(str);
     int **matrix = (int **)malloc(size * (sizeof(int **)));
     int i = 0;
     int j = 0;
