@@ -1,7 +1,7 @@
 #include "../inc/libmx.h"
 
-void	mx_push_back(t_list **list, void *data) {
-	t_list *new_node = mx_create_node(data);
+void	mx_push_back_count(t_list **list, void *data, int count) {
+	t_list *new_node = mx_create_node(data, count);
 	t_list *buf = *list;
 
 	if (buf == NULL) {
