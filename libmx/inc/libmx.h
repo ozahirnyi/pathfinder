@@ -40,7 +40,7 @@ int	mx_get_substr_index(const char *str, const char *sub);
 int	mx_skip_substr_index(const char *str, const char *sub, int counter);
 int	mx_count_substr(const char *str, const char *sub);
 int	mx_binary_search(char **arr, int size, const char *s, int *count);
-int **mx_matrix_creator(char *str);
+int **mx_matrix_creator(int size, char **islands);
 double	mx_pow(double n, unsigned int pow);
 char	*mx_itoa(int number);
 char mx_validator(void);
@@ -64,15 +64,15 @@ unsigned long	mx_hex_to_nbr(const char *hex);
 
 typedef struct s_list {
 	char *data;
-	int counter;
+	int count;
 	struct s_list *next;
 } t_list;
 
-t_list	*mx_create_node_count(void *data);
+t_list	*mx_create_node(void *data);
 t_list	*mx_sort_list(t_list *lst, bool (*cmp)(void *, void *));
 int	mx_list_size(t_list *list);
 void	mx_push_front(t_list **list, void *data);
-void	mx_push_back_count(t_list **list, void *data);
+void	mx_push_back(t_list **list, void *data);
 void	mx_pop_front(t_list **head);
 void	mx_pop_back(t_list **head);
 
