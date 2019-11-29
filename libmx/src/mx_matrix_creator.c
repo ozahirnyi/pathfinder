@@ -1,12 +1,15 @@
 #include "../inc/libmx.h"
 
-//static char **splitter(char *str) {
+//static t_list *lists(char *island) {
 
 //}
 
 static char  **islands(char *str) {
     char **splitter_n = mx_strsplit(str, '\n');
-    char **splitter_
+
+    for (int i = 0; splitter_n[i]; i++)
+        printf("%s\n", splitter_n[i]);
+    return splitter_n;
 }
 
 int **mx_matrix_creator(char *str) {
