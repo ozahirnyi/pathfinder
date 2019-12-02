@@ -11,6 +11,8 @@ CMakeFiles/mx.dir/libmx/src/mx_count_substr.c.o: ../libmx/src/mx_count_substr.c
 
 CMakeFiles/mx.dir/libmx/src/mx_count_words.c.o: ../libmx/src/mx_count_words.c
 
+CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o: ../libmx/src/mx_create_node.c
 
 CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o: ../libmx/src/mx_del_extra_spaces.c
 
@@ -68,6 +70,8 @@ CMakeFiles/mx.dir/libmx/src/mx_printint.c.o: ../libmx/src/mx_printint.c
 
 CMakeFiles/mx.dir/libmx/src/mx_printstr.c.o: ../libmx/src/mx_printstr.c
 
+CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o: ../libmx/src/mx_push_back.c
 
 CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o: ../libmx/src/mx_push_front.c
 

@@ -271,32 +271,32 @@ libmx/src/mx_count_words.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_count_words.c.s
 .PHONY : libmx/src/mx_count_words.c.s
 
-libmx/src/mx_create_node_count.o: libmx/src/mx_create_node_count.c.o
+libmx/src/mx_create_node.o: libmx/src/mx_create_node.c.o
 
-.PHONY : libmx/src/mx_create_node_count.o
+.PHONY : libmx/src/mx_create_node.o
 
 # target to build an object file
-libmx/src/mx_create_node_count.c.o:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.o
-.PHONY : libmx/src/mx_create_node_count.c.o
+libmx/src/mx_create_node.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o
+.PHONY : libmx/src/mx_create_node.c.o
 
-libmx/src/mx_create_node_count.i: libmx/src/mx_create_node_count.c.i
+libmx/src/mx_create_node.i: libmx/src/mx_create_node.c.i
 
-.PHONY : libmx/src/mx_create_node_count.i
+.PHONY : libmx/src/mx_create_node.i
 
 # target to preprocess a source file
-libmx/src/mx_create_node_count.c.i:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.i
-.PHONY : libmx/src/mx_create_node_count.c.i
+libmx/src/mx_create_node.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_create_node.c.i
+.PHONY : libmx/src/mx_create_node.c.i
 
-libmx/src/mx_create_node_count.s: libmx/src/mx_create_node_count.c.s
+libmx/src/mx_create_node.s: libmx/src/mx_create_node.c.s
 
-.PHONY : libmx/src/mx_create_node_count.s
+.PHONY : libmx/src/mx_create_node.s
 
 # target to generate assembly for a file
-libmx/src/mx_create_node_count.c.s:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.s
-.PHONY : libmx/src/mx_create_node_count.c.s
+libmx/src/mx_create_node.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_create_node.c.s
+.PHONY : libmx/src/mx_create_node.c.s
 
 libmx/src/mx_del_extra_spaces.o: libmx/src/mx_del_extra_spaces.c.o
 
@@ -1081,32 +1081,32 @@ libmx/src/mx_printstr.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_printstr.c.s
 .PHONY : libmx/src/mx_printstr.c.s
 
-libmx/src/mx_push_back_count.o: libmx/src/mx_push_back_count.c.o
+libmx/src/mx_push_back.o: libmx/src/mx_push_back.c.o
 
-.PHONY : libmx/src/mx_push_back_count.o
+.PHONY : libmx/src/mx_push_back.o
 
 # target to build an object file
-libmx/src/mx_push_back_count.c.o:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.o
-.PHONY : libmx/src/mx_push_back_count.c.o
+libmx/src/mx_push_back.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o
+.PHONY : libmx/src/mx_push_back.c.o
 
-libmx/src/mx_push_back_count.i: libmx/src/mx_push_back_count.c.i
+libmx/src/mx_push_back.i: libmx/src/mx_push_back.c.i
 
-.PHONY : libmx/src/mx_push_back_count.i
+.PHONY : libmx/src/mx_push_back.i
 
 # target to preprocess a source file
-libmx/src/mx_push_back_count.c.i:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.i
-.PHONY : libmx/src/mx_push_back_count.c.i
+libmx/src/mx_push_back.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_push_back.c.i
+.PHONY : libmx/src/mx_push_back.c.i
 
-libmx/src/mx_push_back_count.s: libmx/src/mx_push_back_count.c.s
+libmx/src/mx_push_back.s: libmx/src/mx_push_back.c.s
 
-.PHONY : libmx/src/mx_push_back_count.s
+.PHONY : libmx/src/mx_push_back.s
 
 # target to generate assembly for a file
-libmx/src/mx_push_back_count.c.s:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.s
-.PHONY : libmx/src/mx_push_back_count.c.s
+libmx/src/mx_push_back.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_push_back.c.s
+.PHONY : libmx/src/mx_push_back.c.s
 
 libmx/src/mx_push_front.o: libmx/src/mx_push_front.c.o
 
@@ -1835,9 +1835,9 @@ help:
 	@echo "... libmx/src/mx_count_words.o"
 	@echo "... libmx/src/mx_count_words.i"
 	@echo "... libmx/src/mx_count_words.s"
-	@echo "... libmx/src/mx_create_node_count.o"
-	@echo "... libmx/src/mx_create_node_count.i"
-	@echo "... libmx/src/mx_create_node_count.s"
+	@echo "... libmx/src/mx_create_node.o"
+	@echo "... libmx/src/mx_create_node.i"
+	@echo "... libmx/src/mx_create_node.s"
 	@echo "... libmx/src/mx_del_extra_spaces.o"
 	@echo "... libmx/src/mx_del_extra_spaces.i"
 	@echo "... libmx/src/mx_del_extra_spaces.s"
@@ -1925,9 +1925,9 @@ help:
 	@echo "... libmx/src/mx_printstr.o"
 	@echo "... libmx/src/mx_printstr.i"
 	@echo "... libmx/src/mx_printstr.s"
-	@echo "... libmx/src/mx_push_back_count.o"
-	@echo "... libmx/src/mx_push_back_count.i"
-	@echo "... libmx/src/mx_push_back_count.s"
+	@echo "... libmx/src/mx_push_back.o"
+	@echo "... libmx/src/mx_push_back.i"
+	@echo "... libmx/src/mx_push_back.s"
 	@echo "... libmx/src/mx_push_front.o"
 	@echo "... libmx/src/mx_push_front.i"
 	@echo "... libmx/src/mx_push_front.s"

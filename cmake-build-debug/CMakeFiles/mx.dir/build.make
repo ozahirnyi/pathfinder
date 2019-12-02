@@ -122,18 +122,18 @@ CMakeFiles/mx.dir/libmx/src/mx_count_words.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mx.dir/libmx/src/mx_count_words.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/libmx/src/mx_count_words.c -o CMakeFiles/mx.dir/libmx/src/mx_count_words.c.s
 
-CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.o: CMakeFiles/mx.dir/flags.make
-CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.o: ../libmx/src/mx_create_node_count.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_create_node_count.c
+CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o: CMakeFiles/mx.dir/flags.make
+CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o: ../libmx/src/mx_create_node.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_create_node.c
 
-CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/libmx/src/mx_create_node_count.c > CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.i
+CMakeFiles/mx.dir/libmx/src/mx_create_node.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mx.dir/libmx/src/mx_create_node.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/libmx/src/mx_create_node.c > CMakeFiles/mx.dir/libmx/src/mx_create_node.c.i
 
-CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/libmx/src/mx_create_node_count.c -o CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.s
+CMakeFiles/mx.dir/libmx/src/mx_create_node.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mx.dir/libmx/src/mx_create_node.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/libmx/src/mx_create_node.c -o CMakeFiles/mx.dir/libmx/src/mx_create_node.c.s
 
 CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o: ../libmx/src/mx_del_extra_spaces.c
@@ -512,18 +512,18 @@ CMakeFiles/mx.dir/libmx/src/mx_printstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mx.dir/libmx/src/mx_printstr.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/libmx/src/mx_printstr.c -o CMakeFiles/mx.dir/libmx/src/mx_printstr.c.s
 
-CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.o: CMakeFiles/mx.dir/flags.make
-CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.o: ../libmx/src/mx_push_back_count.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_count.c
+CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o: CMakeFiles/mx.dir/flags.make
+CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o: ../libmx/src/mx_push_back.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_push_back.c
 
-CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_count.c > CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.i
+CMakeFiles/mx.dir/libmx/src/mx_push_back.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mx.dir/libmx/src/mx_push_back.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/libmx/src/mx_push_back.c > CMakeFiles/mx.dir/libmx/src/mx_push_back.c.i
 
-CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_count.c -o CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.s
+CMakeFiles/mx.dir/libmx/src/mx_push_back.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mx.dir/libmx/src/mx_push_back.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/libmx/src/mx_push_back.c -o CMakeFiles/mx.dir/libmx/src/mx_push_back.c.s
 
 CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o: ../libmx/src/mx_push_front.c
@@ -857,7 +857,7 @@ mx_OBJECTS = \
 "CMakeFiles/mx.dir/libmx/src/mx_bubble_sort.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_count_substr.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_count_words.c.o" \
-"CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.o" \
+"CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_del_strarr.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_file_to_str.c.o" \
@@ -887,7 +887,7 @@ mx_OBJECTS = \
 "CMakeFiles/mx.dir/libmx/src/mx_printchar.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_printint.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_printstr.c.o" \
-"CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.o" \
+"CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.o" \
@@ -922,7 +922,7 @@ libmx.a: CMakeFiles/mx.dir/libmx/src/mx_binary_search.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_bubble_sort.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_count_substr.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_count_words.c.o
-libmx.a: CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.o
+libmx.a: CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_del_strarr.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_file_to_str.c.o
@@ -952,7 +952,7 @@ libmx.a: CMakeFiles/mx.dir/libmx/src/mx_print_unicode.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_printchar.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_printint.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_printstr.c.o
-libmx.a: CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.o
+libmx.a: CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.o

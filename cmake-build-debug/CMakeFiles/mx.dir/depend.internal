@@ -11,7 +11,9 @@ CMakeFiles/mx.dir/libmx/src/mx_count_substr.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_count_substr.c
 CMakeFiles/mx.dir/libmx/src/mx_count_words.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_count_words.c
-CMakeFiles/mx.dir/libmx/src/mx_create_node_count.c.o
+CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o
+ /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
+ /Users/ozahirnyi/pathfinder/libmx/src/mx_create_node.c
 CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_del_extra_spaces.c
 CMakeFiles/mx.dir/libmx/src/mx_del_strarr.c.o
@@ -68,7 +70,9 @@ CMakeFiles/mx.dir/libmx/src/mx_printint.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_printint.c
 CMakeFiles/mx.dir/libmx/src/mx_printstr.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_printstr.c
-CMakeFiles/mx.dir/libmx/src/mx_push_back_count.c.o
+CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o
+ /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
+ /Users/ozahirnyi/pathfinder/libmx/src/mx_push_back.c
 CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_push_front.c
 CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o

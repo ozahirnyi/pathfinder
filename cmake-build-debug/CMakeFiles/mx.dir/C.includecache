@@ -22,3 +22,11 @@ stdbool.h
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 
+/Users/ozahirnyi/pathfinder/libmx/src/mx_create_node.c
+../inc/libmx.h
+/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
+
+/Users/ozahirnyi/pathfinder/libmx/src/mx_push_back.c
+../inc/libmx.h
+/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
+

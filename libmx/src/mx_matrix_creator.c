@@ -1,8 +1,8 @@
 #include "../inc/libmx.h"
 
-static int island_index(t_list *list, char *str) {
+static int island_index(t_list **list, char *str) {
     int count = 0;
-    t_list *buf = list;
+    t_list *buf = *list;
 
     while (buf != NULL) {
         if (mx_strcmp(buf->data, str) == 0)
@@ -24,12 +24,12 @@ static int check_duplicates(t_list **list, char *str) {
     return 0;
 }
 
-static t_list *islands_list(char **island) {
+static t_list *islands_list(char **islands) {
     t_list *new_list = NULL;
     char *temp = NULL;
 
-    for (int i = 1; island[i] != NULL; i++) {
-        char **temp_minus = mx_strsplit(island[i], '-');
+    for (int i = 1; islands[i] != NULL; i++) {
+        char **temp_minus = mx_strsplit(islands[i], '-');
             if (!check_duplicates(&new_list, temp_minus[0])) {
                 temp = mx_strdup(temp_minus[0]);
                 mx_push_back(&new_list, temp);
@@ -45,28 +45,33 @@ static t_list *islands_list(char **island) {
     return new_list;
 }
 
-/*static char  **islands(char *str) {
-    char **splitter_n = mx_strsplit(str, '\n');
-
-    for (int i = 0; splitter_n[i]; i++)
-        printf("%s\n", splitter_n[i]);
-    return splitter_n;
-}*/
-
-int **mx_matrix_creator(int size, char **islands) {
+static int **empty_matrix(char **islands) {
+    int size = mx_atoi(islands[0]);
     int **matrix = (int **)malloc(size * (sizeof(int **)));
-    t_list *list = islands_list(islands);
 
-    while (list != NULL) {
-        printf("data = %s\n", list->data);
-        printf("count = %d\n", list->count);
-        list = list->next;
-    }
-    printf("%d\n", island_index(list, "Java"));
     for (int i = 0; i < size; i++) {
         matrix[i] = (int *)malloc(size * (sizeof(int *)));
         for (int j = 0; j < size; j++)
-            matrix[i][j] = 1;
+            matrix[i][j] = -1;
+    }
+    return matrix;
+}
+
+int **mx_matrix_creator(char **islands) {
+    int **matrix = empty_matrix(islands);
+    t_list *list = islands_list(islands);
+
+    for (int i = 1; islands[i]; i++) {
+        char **temp_minus = mx_strsplit(islands[i], '-');
+        int itoe = island_index(&list, temp_minus[0]);
+        char **temp_koma = mx_strsplit(temp_minus[1], ',');
+        int jitoe = island_index(&list, temp_koma[0]);
+        int value = mx_atoi(temp_koma[1]);
+        matrix[itoe][jitoe] = value;
+        matrix[jitoe][itoe] = value;
+
+        mx_del_strarr(&temp_minus);
+        mx_del_strarr(&temp_koma);
     }
     return matrix;
 }

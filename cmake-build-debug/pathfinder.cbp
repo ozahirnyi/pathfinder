@@ -137,7 +137,7 @@
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_count_words.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_create_node_count.c">
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_create_node.c">
 			<Option target="mx"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_del_extra_spaces.c">
@@ -227,7 +227,7 @@
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_printstr.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_count.c">
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_push_back.c">
 			<Option target="mx"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_push_front.c">
