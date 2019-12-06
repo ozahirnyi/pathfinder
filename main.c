@@ -6,11 +6,12 @@ int main(void) {
     char **islands = mx_strsplit(str, '\n');
     int **matrix = mx_matrix_creator(islands);
 
-    for (int i = 0; i < mx_atoi(str); i++) {
-        for (int j = 0; j < mx_atoi(str); j++) {
-            printf("%d  ", matrix[i][j]);
-        }
-        printf("\n");
-    }
+    mx_deixtra(matrix);
+    //for (int i = 0; i < mx_atoi(str); i++) {
+    //    for (int j = 0; j < mx_atoi(str); j++) {
+    //        printf("%d  ", matrix[i][j]);
+    //    }
+    //    printf("\n");
+    //}
     return 0;
 }

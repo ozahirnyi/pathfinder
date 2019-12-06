@@ -298,6 +298,33 @@ libmx/src/mx_create_node.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_create_node.c.s
 .PHONY : libmx/src/mx_create_node.c.s
 
+libmx/src/mx_deixtra.o: libmx/src/mx_deixtra.c.o
+
+.PHONY : libmx/src/mx_deixtra.o
+
+# target to build an object file
+libmx/src/mx_deixtra.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o
+.PHONY : libmx/src/mx_deixtra.c.o
+
+libmx/src/mx_deixtra.i: libmx/src/mx_deixtra.c.i
+
+.PHONY : libmx/src/mx_deixtra.i
+
+# target to preprocess a source file
+libmx/src/mx_deixtra.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.i
+.PHONY : libmx/src/mx_deixtra.c.i
+
+libmx/src/mx_deixtra.s: libmx/src/mx_deixtra.c.s
+
+.PHONY : libmx/src/mx_deixtra.s
+
+# target to generate assembly for a file
+libmx/src/mx_deixtra.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.s
+.PHONY : libmx/src/mx_deixtra.c.s
+
 libmx/src/mx_del_extra_spaces.o: libmx/src/mx_del_extra_spaces.c.o
 
 .PHONY : libmx/src/mx_del_extra_spaces.o
@@ -1838,6 +1865,9 @@ help:
 	@echo "... libmx/src/mx_create_node.o"
 	@echo "... libmx/src/mx_create_node.i"
 	@echo "... libmx/src/mx_create_node.s"
+	@echo "... libmx/src/mx_deixtra.o"
+	@echo "... libmx/src/mx_deixtra.i"
+	@echo "... libmx/src/mx_deixtra.s"
 	@echo "... libmx/src/mx_del_extra_spaces.o"
 	@echo "... libmx/src/mx_del_extra_spaces.i"
 	@echo "... libmx/src/mx_del_extra_spaces.s"

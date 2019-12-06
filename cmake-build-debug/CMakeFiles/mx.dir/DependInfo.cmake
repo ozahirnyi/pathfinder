@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_count_substr.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_count_substr.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_count_words.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_count_words.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_create_node.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_deixtra.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_del_extra_spaces.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_del_strarr.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_del_strarr.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_file_to_str.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_file_to_str.c.o"

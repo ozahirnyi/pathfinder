@@ -63,9 +63,11 @@ SRC = src/mx_printchar.c \
         src/mx_validator.c \
         src/mx_isdigit.c \
         src/mx_matrix_creator.c \
+        src/mx_deixtra.c \
 
 OBJ = mx_printchar.o \
         mx_atoi.o \
+        mx_deixtra.o \
         mx_validator.o \
         mx_matrix_creator.o \
         mx_isdigit.o \

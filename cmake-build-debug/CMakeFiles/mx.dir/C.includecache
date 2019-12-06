@@ -18,15 +18,7 @@ fcntl.h
 stdbool.h
 -
 
-/Users/ozahirnyi/pathfinder/libmx/src/mx_binary_search.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_create_node.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_push_back.c
+/Users/ozahirnyi/pathfinder/libmx/src/mx_deixtra.c
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 

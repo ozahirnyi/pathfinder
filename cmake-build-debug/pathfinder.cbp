@@ -140,6 +140,9 @@
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_create_node.c">
 			<Option target="mx"/>
 		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_deixtra.c">
+			<Option target="mx"/>
+		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_del_extra_spaces.c">
 			<Option target="mx"/>
 		</Unit>

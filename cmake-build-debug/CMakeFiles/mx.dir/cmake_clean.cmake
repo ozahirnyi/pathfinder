@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mx.dir/libmx/src/mx_count_substr.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_count_words.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o"
+  "CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_del_strarr.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_file_to_str.c.o"

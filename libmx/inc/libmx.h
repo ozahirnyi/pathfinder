@@ -41,6 +41,7 @@ int	mx_skip_substr_index(const char *str, const char *sub, int counter);
 int	mx_count_substr(const char *str, const char *sub);
 int	mx_binary_search(char **arr, int size, const char *s, int *count);
 int **mx_matrix_creator(char **islands);
+int **mx_deixtra(int **matrix);
 double	mx_pow(double n, unsigned int pow);
 char	*mx_itoa(int number);
 char mx_validator(void);

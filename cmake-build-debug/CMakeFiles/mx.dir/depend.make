@@ -14,6 +14,9 @@ CMakeFiles/mx.dir/libmx/src/mx_count_words.c.o: ../libmx/src/mx_count_words.c
 CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o: ../libmx/src/mx_create_node.c
 
+CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o: ../libmx/src/mx_deixtra.c
+
 CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o: ../libmx/src/mx_del_extra_spaces.c
 
 CMakeFiles/mx.dir/libmx/src/mx_del_strarr.c.o: ../libmx/src/mx_del_strarr.c

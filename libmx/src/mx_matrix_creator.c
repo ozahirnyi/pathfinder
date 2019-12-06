@@ -53,7 +53,7 @@ static int **matrix_filling(char **islands, int **matrix, t_list *list) {
     int itoe;
     int jitoe;
     int value;
-//                                                                      LISHNYAYA PEREMENNAYA!!!11!11!!!!!!!!!!!!
+
     for (int i = 1; islands[i]; i++) {
         temp_minus = mx_strsplit(islands[i], '-');
         itoe = island_index(&list, temp_minus[0]);
