@@ -18,21 +18,19 @@ static int **default_deixtra_matrix(int *islands_value, int size) {
     }
     return default_matrix;
 }
-/*
-static int is_min(int *path_price, int size) {
-    int min = -1;
-    int i = -1;
 
-    for (int j = 0; i < size; i++) {
-        if (path_price[j] != -1)
-            min = path_price[j];
-        break ;
-    }
+static int is_min(int *path_price, int size) {
+    int min = 2147483647;
+    int i = -1;
+    int j = 0;
+
     for (i = 0; i < size; i++) {
-        if (min > path_price[i])
+        if (min > path_price[i] && path_price[i] != -1)
             min = path_price[i];
     }
-    return i;
+    while (path_price[j] != min)
+        j++;
+    return j;
 }
 
 static int is_done(int *path_price, int size) {
@@ -42,19 +40,22 @@ static int is_done(int *path_price, int size) {
     }
     return 1;
 }
-*/
+
 int **mx_deixtra(int **matrix) {
     int **deixtra_matrix = default_deixtra_matrix(matrix[0], 4);
-//    int min = -1;
-/*
-    for (!is_done(deixtra_matrix[2], 4)) {
+    int min = -1;
+
+    //while (!is_done(deixtra_matrix[2], 4)) {
         for (int i = 0; i < 4; i++) {
             min = is_min(deixtra_matrix[1], 4);
-            if (deixtra_matrix[2][min] != 1) {
+            printf("MIN ========= %d\n", min);
+            if (deixtra_matrix[2][min] == 0) {
+                deixtra_matrix[1][min] = min - 1;
 
             }
         }
-    }*/
+    //}
+    //printf("MIN ======= %d\n", is_min(deixtra_matrix[0], 4));
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 4; j++)
             printf("%d   |    ", deixtra_matrix[i][j]);
