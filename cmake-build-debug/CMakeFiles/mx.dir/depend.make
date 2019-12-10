@@ -17,6 +17,7 @@ CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o: ../libmx/src/mx_create_node.c
 CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o: ../libmx/src/mx_deixtra.c
 
+CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o: ../libmx/src/mx_del_extra_spaces.c
 
 CMakeFiles/mx.dir/libmx/src/mx_del_strarr.c.o: ../libmx/src/mx_del_strarr.c
@@ -112,6 +113,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strndup.c.o: ../libmx/src/mx_strndup.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strnew.c.o: ../libmx/src/mx_strnew.c
 
+CMakeFiles/mx.dir/libmx/src/mx_strsplit.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_strsplit.c.o: ../libmx/src/mx_strsplit.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strstr.c.o: ../libmx/src/mx_strstr.c
@@ -120,6 +122,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strtrim.c.o: ../libmx/src/mx_strtrim.c
 
 CMakeFiles/mx.dir/libmx/src/mx_swap_char.c.o: ../libmx/src/mx_swap_char.c
 
+CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o: ../libmx/src/mx_ultra_del_extra_spaces.c
 
 CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o: ../libmx/src/mx_ultra_strtrim.c

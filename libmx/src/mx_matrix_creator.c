@@ -68,6 +68,9 @@ static int **matrix_filling(char **islands, int **matrix, t_list *list) {
     }
     return matrix;
 }
+
+void dellst(t_list **list);
+
 int **mx_matrix_creator(char **islands) {
     t_list *list = islands_list(islands);
     int size = mx_atoi(islands[0]);
@@ -81,5 +84,19 @@ int **mx_matrix_creator(char **islands) {
             matrix[i][j] = -1;
     }
     matrix = matrix_filling(islands, matrix, list);
+    dellst(&list);
     return matrix;
+}
+
+void dellst(t_list **list)
+{
+    t_list *tmp;
+
+    tmp = *list;
+    while(tmp)
+    {
+        t_list *buff = tmp;
+        free(buff);
+        tmp = tmp->next;
+    }
 }

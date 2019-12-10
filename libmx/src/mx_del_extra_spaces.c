@@ -1,6 +1,6 @@
 #include "../inc/libmx.h"
 
-void	newstr(char *buf, char *res) {
+void	new_str(char *buf, char *res) {
     int	i = 0;
 	int j = 0;
 
@@ -35,7 +35,7 @@ char	*mx_del_extra_spaces(const char *str) {
 			space++;
 	}
 	res = mx_strnew(j + space + 1);
-	newstr(buf, res);
+	new_str(buf, res);
 	mx_strdel(&buf);
 	return res;
 }

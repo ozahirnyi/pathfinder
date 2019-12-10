@@ -18,7 +18,7 @@ fcntl.h
 stdbool.h
 -
 
-/Users/ozahirnyi/pathfinder/libmx/src/mx_deixtra.c
+/Users/ozahirnyi/pathfinder/libmx/src/mx_strsplit.c
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 

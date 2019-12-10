@@ -21,7 +21,7 @@ static int **default_deixtra_matrix(int *islands_value, int size) {
 
 static int is_min(int *path_price, int size) {
     int min = 2147483647;
-    int i = -1;
+    int i;
     int j = 0;
 
     for (i = 0; i < size; i++) {
@@ -32,7 +32,7 @@ static int is_min(int *path_price, int size) {
         j++;
     return j;
 }
-
+/*
 static int is_done(int *path_price, int size) {
     for (int i = 0; i < size; i++) {
         if (path_price[i] == 0)
@@ -40,9 +40,10 @@ static int is_done(int *path_price, int size) {
     }
     return 1;
 }
-
+*/
 int **mx_deixtra(int **matrix) {
     int **deixtra_matrix = default_deixtra_matrix(matrix[0], 4);
+    system("leaks -q pathfinder");
     int min = -1;
 
     //while (!is_done(deixtra_matrix[2], 4)) {
@@ -54,6 +55,7 @@ int **mx_deixtra(int **matrix) {
 
             }
         }
+
     //}
     //printf("MIN ======= %d\n", is_min(deixtra_matrix[0], 4));
     for (int i = 0; i < 3; i++) {
@@ -61,4 +63,5 @@ int **mx_deixtra(int **matrix) {
             printf("%d   |    ", deixtra_matrix[i][j]);
         printf("\n");
     }
+    return 0;
 }
