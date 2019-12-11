@@ -3,7 +3,8 @@
 int main(void) {
     char *str = mx_file_to_str("../qwe");
     char **islands = mx_strsplit(str, '\n');
-    int **matrix = mx_matrix_creator(islands);
+    t_list *list = mx_island_list(islands);
+    int **matrix = mx_matrix_creator(islands, list);
 
     system("leaks pathfinder");
     //mx_deixtra(matrix);

@@ -1,6 +1,8 @@
 NAME = libmx.a
 
 SRC = src/mx_printchar.c \
+        src/mx_island_index.c \
+        src/mx_islands_list.c \
 		src/mx_realloc.c \
 		src/mx_file_to_str.c \
 		src/mx_print_unicode.c \
@@ -67,6 +69,8 @@ SRC = src/mx_printchar.c \
 
 OBJ = mx_printchar.o \
         mx_atoi.o \
+        mx_island_list.o \
+        mx_island_index.o \
         mx_deixtra.o \
         mx_validator.o \
         mx_matrix_creator.o \
