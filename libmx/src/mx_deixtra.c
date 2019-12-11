@@ -1,19 +1,17 @@
 #include "../inc/libmx.h"
 
-static int **default_deixtra_matrix(int *islands_value, int size) {
-    int **default_matrix = (int **)malloc(sizeof(int **) * 3);
+static int **default_deixtra_matrix(int *islands_value, int size, int current) {
+    int **default_matrix = (int **)malloc(sizeof(int *) * 3);
 
     for (int j = 0; j < 3; j++) {
-        default_matrix[j] = (int *)malloc(sizeof(int *) * size);
+        default_matrix[j] = (int *)malloc(sizeof(int) * size);
         for (int i = 0; i < size; i++) {
             if (j == 0)
                 default_matrix[j][i] = islands_value[i];
-            else if (j == 1 && islands_value[i] == -1)
-                default_matrix[j][i] = -1;
-            else if (j == 2)
-                default_matrix[j][i] = 0;
+            else if (j == 1)
+                default_matrix[j][i] = current;
             else
-                default_matrix[1][i] = 0;
+                default_matrix[j][i] = 0;
         }
     }
     return default_matrix;
@@ -42,26 +40,27 @@ static int is_done(int *path_price, int size) {
 }
 */
 int **mx_deixtra(int **matrix) {
-    int **deixtra_matrix = default_deixtra_matrix(matrix[0], 4);
-    system("leaks -q pathfinder");
-    int min = -1;
+    int min;
+    int current = 1;
+    int **deixtra_matrix = default_deixtra_matrix(matrix[0], 4, current);
 
     //while (!is_done(deixtra_matrix[2], 4)) {
         for (int i = 0; i < 4; i++) {
-            min = is_min(deixtra_matrix[1], 4);
+            min = is_min(deixtra_matrix[0], 4);
             printf("MIN ========= %d\n", min);
-            if (deixtra_matrix[2][min] == 0) {
-                deixtra_matrix[1][min] = min - 1;
-
+            if (i == min) {
+                current = deixtra_matrix[1][i];
+                if (deixtra_matrix[0][i] > matrix[i][i + current] + deixtra_matrix[0][min]) {
+                    deixtra_matrix[0][i] = matrix[i][i + current] + deixtra_matrix[0][min];
+                    deixtra_matrix[1][i] = current;
+                    deixtra_matrix[2][i] = 1;
+                }
             }
         }
-
-    //}
-    //printf("MIN ======= %d\n", is_min(deixtra_matrix[0], 4));
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 4; j++)
-            printf("%d   |    ", deixtra_matrix[i][j]);
+            printf("%d   |   ", deixtra_matrix[i][j]);
         printf("\n");
     }
-    return 0;
+    return deixtra_matrix;
 }

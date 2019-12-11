@@ -35,6 +35,12 @@ CMakeFiles/mx.dir/libmx/src/mx_hex_to_nbr.c.o
 CMakeFiles/mx.dir/libmx/src/mx_is_space.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_is_space.c
 CMakeFiles/mx.dir/libmx/src/mx_isdigit.c.o
+CMakeFiles/mx.dir/libmx/src/mx_island_index.c.o
+ /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
+ /Users/ozahirnyi/pathfinder/libmx/src/mx_island_index.c
+CMakeFiles/mx.dir/libmx/src/mx_island_list.c.o
+ /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
+ /Users/ozahirnyi/pathfinder/libmx/src/mx_island_list.c
 CMakeFiles/mx.dir/libmx/src/mx_itoa.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_itoa.c
 CMakeFiles/mx.dir/libmx/src/mx_list_size.c.o

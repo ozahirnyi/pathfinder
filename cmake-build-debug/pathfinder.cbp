@@ -170,6 +170,12 @@
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_isdigit.c">
 			<Option target="mx"/>
 		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_island_index.c">
+			<Option target="mx"/>
+		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_island_list.c">
+			<Option target="mx"/>
+		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_itoa.c">
 			<Option target="mx"/>
 		</Unit>

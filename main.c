@@ -6,8 +6,8 @@ int main(void) {
     t_list *list = mx_island_list(islands);
     int **matrix = mx_matrix_creator(islands, list);
 
-    system("leaks pathfinder");
-    //mx_deixtra(matrix);
+    mx_deixtra(matrix);
+    //system("leaks pathfinder");
     //for (int i = 0; i < mx_atoi(str); i++) {
     //    for (int j = 0; j < mx_atoi(str); j++) {
     //        printf("%d  ", matrix[i][j]);

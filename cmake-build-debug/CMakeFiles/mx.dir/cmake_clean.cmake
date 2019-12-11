@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mx.dir/libmx/src/mx_hex_to_nbr.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_is_space.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_isdigit.c.o"
+  "CMakeFiles/mx.dir/libmx/src/mx_island_index.c.o"
+  "CMakeFiles/mx.dir/libmx/src/mx_island_list.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_itoa.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_list_size.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_matrix_creator.c.o"

@@ -20,6 +20,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_hex_to_nbr.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_hex_to_nbr.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_is_space.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_is_space.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_isdigit.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_isdigit.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_island_index.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_island_index.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_island_list.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_island_list.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_itoa.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_itoa.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_list_size.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_list_size.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_matrix_creator.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_matrix_creator.c.o"
