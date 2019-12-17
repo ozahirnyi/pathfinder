@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <fcntl.h>
 #include <stdbool.h>
+#include <limits.h>
 
 void	mx_printint(int n);
 void	mx_printchar(char c);

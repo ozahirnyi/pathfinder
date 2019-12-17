@@ -17,6 +17,8 @@ fcntl.h
 -
 stdbool.h
 -
+limits.h
+-
 
 /Users/ozahirnyi/pathfinder/libmx/src/mx_deixtra.c
 ../inc/libmx.h

@@ -9,7 +9,9 @@ static int **default_deixtra_matrix(int *islands_value, int size, int current) {
             if (j == 0)
                 default_matrix[j][i] = islands_value[i];
             else if (j == 1)
-                default_matrix[j][i] = current;
+                default_matrix[j][i] = -1;
+//            else if (i == current)
+//                default_matrix[2][i] = 1;
             else
                 default_matrix[j][i] = 0;
         }
@@ -39,27 +41,48 @@ static int is_done(int *path_price, int size) {
     return 1;
 }
 */
+/*
+static void deixta_matrix_filling(int **deixtra_matrix, int *default_matrix, int size, int current) {
+    for (int i = 0; i < size; i++) {
+        if (default_matrix[i] + deixtra_matrix[0][current] < deixtra_matrix[i]) {
+            deixtra_matrix[i] = default_matrix[i] + deixtra_matrix[0][current];
+
+        }
+    }
+}
+*/
 int **mx_deixtra(int **matrix) {
     int min;
-    int current = 1;
+    int current = 0;
     int **deixtra_matrix = default_deixtra_matrix(matrix[0], 4, current);
 
     //while (!is_done(deixtra_matrix[2], 4)) {
-        for (int i = 0; i < 4; i++) {
-            min = is_min(deixtra_matrix[0], 4);
-            printf("MIN ========= %d\n", min);
-            if (i == min) {
-                current = deixtra_matrix[1][i];
-                if (deixtra_matrix[0][i] > matrix[i][i + current] + deixtra_matrix[0][min]) {
-                    deixtra_matrix[0][i] = matrix[i][i + current] + deixtra_matrix[0][min];
-                    deixtra_matrix[1][i] = current;
-                    deixtra_matrix[2][i] = 1;
-                }
-            }
+    deixtra_matrix[2][0] = 1;
+    //min = is_min(deixtra_matrix[0], 4);
+    min = 2;
+    deixtra_matrix[2][1] = 1;
+    deixtra_matrix[2][2] = 1;
+    printf("MIN ========= %d\n", min);
+    for (int i = 0; i < 4; i++) {
+        if (deixtra_matrix[2][i] != 1 && deixtra_matrix[0][i] + matrix[min][i] < deixtra_matrix[0][i]
+            || (deixtra_matrix[0][i] == -1 && i != current)) {
+                deixtra_matrix[0][i] = deixtra_matrix[0][min] + matrix[min][i];
+                deixtra_matrix[1][i] = min;
+                deixtra_matrix[2][i] = 1;
         }
+    }
+    printf("\n");
+        printf("DEIXTRA MATRIX -===>\n");
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 4; j++)
             printf("%d   |   ", deixtra_matrix[i][j]);
+        printf("\n");
+    }
+    printf("\n");
+        printf("DEFAULT MATRIX -===>\n");
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++)
+            printf("%d   |   ", matrix[i][j]);
         printf("\n");
     }
     return deixtra_matrix;
