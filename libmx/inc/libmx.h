@@ -13,6 +13,7 @@ void	mx_printchar(char c);
 void	mx_strdel(char **str);
 void	mx_del_strarr(char ***arr);
 void	mx_printstr(const char *s);
+void	mx_del_intarr(int ***arr, size);
 int	mx_strlen(const char *s);
 int	mx_strcmp(const char *s1, const char *s2);
 int mx_isdigit(char c);

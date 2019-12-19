@@ -14,6 +14,9 @@ CMakeFiles/mx.dir/libmx/src/mx_count_words.c.o: ../libmx/src/mx_count_words.c
 CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o: ../libmx/src/mx_create_node.c
 
+CMakeFiles/mx.dir/libmx/src/mx_create_node_custom.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_create_node_custom.c.o: ../libmx/src/mx_create_node_custom.c
+
 CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o: ../libmx/src/mx_deixtra.c
 
@@ -82,6 +85,9 @@ CMakeFiles/mx.dir/libmx/src/mx_printstr.c.o: ../libmx/src/mx_printstr.c
 
 CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o: ../libmx/src/mx_push_back.c
+
+CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.o: ../libmx/src/mx_push_back_custom.c
 
 CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o: ../libmx/src/mx_push_front.c
 

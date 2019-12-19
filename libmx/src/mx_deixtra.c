@@ -88,11 +88,20 @@ mini_list   *mx_deixtra(int **matrix, int size) {
     mini_list *list = NULL;
     int **mini_matrix = mini_matrix_creator(matrix, size);
     mx_push_back_custom(&list, mini_matrix[0], mini_matrix[1]);
-    for (int i = 0; i < 3; i++) {
-        for (int j = 0; j < size; j++)
-            printf("%d   |   ", mini_matrix[i][j]);
-        printf("\n");
+    for (int i = 0; i < size; i++) {
+        printf("%d  |  ", list->value[i]);
     }
     printf("\n");
-    return NULL;
+    for (int i = 0; i < size; i++) {
+        printf("%d  |  ", list->path[i]);
+    }
+    printf("\n");
+    mx_del_intarr(&mini_matrix, size);
+//    for (int i = 0; i < 3; i++) {
+//        for (int j = 0; j < size; j++)
+//            printf("%d   |   ", mini_matrix[i][j]);
+//        printf("\n");
+//    }
+    //printf("\n");
+    return list;
 }

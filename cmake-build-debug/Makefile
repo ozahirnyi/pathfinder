@@ -298,6 +298,33 @@ libmx/src/mx_create_node.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_create_node.c.s
 .PHONY : libmx/src/mx_create_node.c.s
 
+libmx/src/mx_create_node_custom.o: libmx/src/mx_create_node_custom.c.o
+
+.PHONY : libmx/src/mx_create_node_custom.o
+
+# target to build an object file
+libmx/src/mx_create_node_custom.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_create_node_custom.c.o
+.PHONY : libmx/src/mx_create_node_custom.c.o
+
+libmx/src/mx_create_node_custom.i: libmx/src/mx_create_node_custom.c.i
+
+.PHONY : libmx/src/mx_create_node_custom.i
+
+# target to preprocess a source file
+libmx/src/mx_create_node_custom.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_create_node_custom.c.i
+.PHONY : libmx/src/mx_create_node_custom.c.i
+
+libmx/src/mx_create_node_custom.s: libmx/src/mx_create_node_custom.c.s
+
+.PHONY : libmx/src/mx_create_node_custom.s
+
+# target to generate assembly for a file
+libmx/src/mx_create_node_custom.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_create_node_custom.c.s
+.PHONY : libmx/src/mx_create_node_custom.c.s
+
 libmx/src/mx_deixtra.o: libmx/src/mx_deixtra.c.o
 
 .PHONY : libmx/src/mx_deixtra.o
@@ -1189,6 +1216,33 @@ libmx/src/mx_push_back.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_push_back.c.s
 .PHONY : libmx/src/mx_push_back.c.s
 
+libmx/src/mx_push_back_custom.o: libmx/src/mx_push_back_custom.c.o
+
+.PHONY : libmx/src/mx_push_back_custom.o
+
+# target to build an object file
+libmx/src/mx_push_back_custom.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.o
+.PHONY : libmx/src/mx_push_back_custom.c.o
+
+libmx/src/mx_push_back_custom.i: libmx/src/mx_push_back_custom.c.i
+
+.PHONY : libmx/src/mx_push_back_custom.i
+
+# target to preprocess a source file
+libmx/src/mx_push_back_custom.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.i
+.PHONY : libmx/src/mx_push_back_custom.c.i
+
+libmx/src/mx_push_back_custom.s: libmx/src/mx_push_back_custom.c.s
+
+.PHONY : libmx/src/mx_push_back_custom.s
+
+# target to generate assembly for a file
+libmx/src/mx_push_back_custom.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.s
+.PHONY : libmx/src/mx_push_back_custom.c.s
+
 libmx/src/mx_push_front.o: libmx/src/mx_push_front.c.o
 
 .PHONY : libmx/src/mx_push_front.o
@@ -1919,6 +1973,9 @@ help:
 	@echo "... libmx/src/mx_create_node.o"
 	@echo "... libmx/src/mx_create_node.i"
 	@echo "... libmx/src/mx_create_node.s"
+	@echo "... libmx/src/mx_create_node_custom.o"
+	@echo "... libmx/src/mx_create_node_custom.i"
+	@echo "... libmx/src/mx_create_node_custom.s"
 	@echo "... libmx/src/mx_deixtra.o"
 	@echo "... libmx/src/mx_deixtra.i"
 	@echo "... libmx/src/mx_deixtra.s"
@@ -2018,6 +2075,9 @@ help:
 	@echo "... libmx/src/mx_push_back.o"
 	@echo "... libmx/src/mx_push_back.i"
 	@echo "... libmx/src/mx_push_back.s"
+	@echo "... libmx/src/mx_push_back_custom.o"
+	@echo "... libmx/src/mx_push_back_custom.i"
+	@echo "... libmx/src/mx_push_back_custom.s"
 	@echo "... libmx/src/mx_push_front.o"
 	@echo "... libmx/src/mx_push_front.i"
 	@echo "... libmx/src/mx_push_front.s"

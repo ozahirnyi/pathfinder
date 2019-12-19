@@ -68,6 +68,7 @@ SRC = src/mx_printchar.c \
         src/mx_deixtra.c \
         src/mx_create_node_custom.c \
         src/mx_push_back_custom.c \
+        src/mx_del_intarr.c \
 
 OBJ = mx_printchar.o \
         mx_atoi.o \
@@ -138,6 +139,7 @@ OBJ = mx_printchar.o \
 		mx_strjoin.o \
 		mx_push_back_custom.o \
 		mx_create_node_custom.o \
+		mx_del_intarr.o \
 
 FLAGS = -std=c11 -Wall -Wextra -Werror -Wpedantic
 

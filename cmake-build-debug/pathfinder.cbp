@@ -140,6 +140,9 @@
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_create_node.c">
 			<Option target="mx"/>
 		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_create_node_custom.c">
+			<Option target="mx"/>
+		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_deixtra.c">
 			<Option target="mx"/>
 		</Unit>
@@ -237,6 +240,9 @@
 			<Option target="mx"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_push_back.c">
+			<Option target="mx"/>
+		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_custom.c">
 			<Option target="mx"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_push_front.c">
