@@ -6,9 +6,21 @@ int main(void) {
     char **islands = mx_strsplit(str, '\n');
     t_list *list = mx_island_list(islands);
     int **matrix = mx_matrix_creator(islands, list);
+    mini_list *mini_list = mx_deixtra(matrix, size, mini_list);
+    while (mini_list) {
+        for (int i = 0; i < size; i++) {
+            printf("%d  |  ", mini_list->value[i]);
+        }
+        printf("\n");
+        for (int i = 0; i < size; i++) {
+            printf("%d  |  ", mini_list->path[i]);
+        }
+        printf("\n");
+        mini_list = mini_list->next;
+        printf("\n");
+    }
 
-    mx_deixtra(matrix, size);
-    system("leaks pathfinder");
+    //system("leaks pathfinder");
     //for (int i = 0; i < mx_atoi(str); i++) {
     //    for (int j = 0; j < mx_atoi(str); j++) {
     //        printf("%d  ", matrix[i][j]);

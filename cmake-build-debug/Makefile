@@ -379,6 +379,33 @@ libmx/src/mx_del_extra_spaces.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.s
 .PHONY : libmx/src/mx_del_extra_spaces.c.s
 
+libmx/src/mx_del_intarr.o: libmx/src/mx_del_intarr.c.o
+
+.PHONY : libmx/src/mx_del_intarr.o
+
+# target to build an object file
+libmx/src/mx_del_intarr.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_del_intarr.c.o
+.PHONY : libmx/src/mx_del_intarr.c.o
+
+libmx/src/mx_del_intarr.i: libmx/src/mx_del_intarr.c.i
+
+.PHONY : libmx/src/mx_del_intarr.i
+
+# target to preprocess a source file
+libmx/src/mx_del_intarr.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_del_intarr.c.i
+.PHONY : libmx/src/mx_del_intarr.c.i
+
+libmx/src/mx_del_intarr.s: libmx/src/mx_del_intarr.c.s
+
+.PHONY : libmx/src/mx_del_intarr.s
+
+# target to generate assembly for a file
+libmx/src/mx_del_intarr.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_del_intarr.c.s
+.PHONY : libmx/src/mx_del_intarr.c.s
+
 libmx/src/mx_del_strarr.o: libmx/src/mx_del_strarr.c.o
 
 .PHONY : libmx/src/mx_del_strarr.o
@@ -540,6 +567,60 @@ libmx/src/mx_hex_to_nbr.s: libmx/src/mx_hex_to_nbr.c.s
 libmx/src/mx_hex_to_nbr.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_hex_to_nbr.c.s
 .PHONY : libmx/src/mx_hex_to_nbr.c.s
+
+libmx/src/mx_is_done.o: libmx/src/mx_is_done.c.o
+
+.PHONY : libmx/src/mx_is_done.o
+
+# target to build an object file
+libmx/src/mx_is_done.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_is_done.c.o
+.PHONY : libmx/src/mx_is_done.c.o
+
+libmx/src/mx_is_done.i: libmx/src/mx_is_done.c.i
+
+.PHONY : libmx/src/mx_is_done.i
+
+# target to preprocess a source file
+libmx/src/mx_is_done.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_is_done.c.i
+.PHONY : libmx/src/mx_is_done.c.i
+
+libmx/src/mx_is_done.s: libmx/src/mx_is_done.c.s
+
+.PHONY : libmx/src/mx_is_done.s
+
+# target to generate assembly for a file
+libmx/src/mx_is_done.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_is_done.c.s
+.PHONY : libmx/src/mx_is_done.c.s
+
+libmx/src/mx_is_min.o: libmx/src/mx_is_min.c.o
+
+.PHONY : libmx/src/mx_is_min.o
+
+# target to build an object file
+libmx/src/mx_is_min.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_is_min.c.o
+.PHONY : libmx/src/mx_is_min.c.o
+
+libmx/src/mx_is_min.i: libmx/src/mx_is_min.c.i
+
+.PHONY : libmx/src/mx_is_min.i
+
+# target to preprocess a source file
+libmx/src/mx_is_min.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_is_min.c.i
+.PHONY : libmx/src/mx_is_min.c.i
+
+libmx/src/mx_is_min.s: libmx/src/mx_is_min.c.s
+
+.PHONY : libmx/src/mx_is_min.s
+
+# target to generate assembly for a file
+libmx/src/mx_is_min.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_is_min.c.s
+.PHONY : libmx/src/mx_is_min.c.s
 
 libmx/src/mx_is_space.o: libmx/src/mx_is_space.c.o
 
@@ -1982,6 +2063,9 @@ help:
 	@echo "... libmx/src/mx_del_extra_spaces.o"
 	@echo "... libmx/src/mx_del_extra_spaces.i"
 	@echo "... libmx/src/mx_del_extra_spaces.s"
+	@echo "... libmx/src/mx_del_intarr.o"
+	@echo "... libmx/src/mx_del_intarr.i"
+	@echo "... libmx/src/mx_del_intarr.s"
 	@echo "... libmx/src/mx_del_strarr.o"
 	@echo "... libmx/src/mx_del_strarr.i"
 	@echo "... libmx/src/mx_del_strarr.s"
@@ -2000,6 +2084,12 @@ help:
 	@echo "... libmx/src/mx_hex_to_nbr.o"
 	@echo "... libmx/src/mx_hex_to_nbr.i"
 	@echo "... libmx/src/mx_hex_to_nbr.s"
+	@echo "... libmx/src/mx_is_done.o"
+	@echo "... libmx/src/mx_is_done.i"
+	@echo "... libmx/src/mx_is_done.s"
+	@echo "... libmx/src/mx_is_min.o"
+	@echo "... libmx/src/mx_is_min.i"
+	@echo "... libmx/src/mx_is_min.s"
 	@echo "... libmx/src/mx_is_space.o"
 	@echo "... libmx/src/mx_is_space.i"
 	@echo "... libmx/src/mx_is_space.s"

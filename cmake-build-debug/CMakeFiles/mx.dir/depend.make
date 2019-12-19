@@ -23,6 +23,9 @@ CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o: ../libmx/src/mx_deixtra.c
 CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o: ../libmx/src/mx_del_extra_spaces.c
 
+CMakeFiles/mx.dir/libmx/src/mx_del_intarr.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_del_intarr.c.o: ../libmx/src/mx_del_intarr.c
+
 CMakeFiles/mx.dir/libmx/src/mx_del_strarr.c.o: ../libmx/src/mx_del_strarr.c
 
 CMakeFiles/mx.dir/libmx/src/mx_file_to_str.c.o: ../libmx/src/mx_file_to_str.c
@@ -34,6 +37,12 @@ CMakeFiles/mx.dir/libmx/src/mx_get_char_index.c.o: ../libmx/src/mx_get_char_inde
 CMakeFiles/mx.dir/libmx/src/mx_get_substr_index.c.o: ../libmx/src/mx_get_substr_index.c
 
 CMakeFiles/mx.dir/libmx/src/mx_hex_to_nbr.c.o: ../libmx/src/mx_hex_to_nbr.c
+
+CMakeFiles/mx.dir/libmx/src/mx_is_done.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_is_done.c.o: ../libmx/src/mx_is_done.c
+
+CMakeFiles/mx.dir/libmx/src/mx_is_min.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_is_min.c.o: ../libmx/src/mx_is_min.c
 
 CMakeFiles/mx.dir/libmx/src/mx_is_space.c.o: ../libmx/src/mx_is_space.c
 
