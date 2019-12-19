@@ -23,7 +23,6 @@ int	mx_is_space(char c);
 int	mx_count_words(const char *str, char c);
 int	mx_skip_substr_index(const char *str, const char *sub, int counter);
 int	mx_count_substr(const char *str, const char *sub);
-int **mx_deixtra(int **matrix);
 char mx_validator(void);
 char	*mx_file_to_str(const char *file);
 char	*mx_strnew(const int size);
@@ -42,12 +41,21 @@ typedef struct s_list {
 	struct s_list *next;
 } t_list;
 
+typedef struct q_list {
+    int *value;
+    int *path;
+    struct q_list *next;
+} mini_list;
+
+mini_list   *mx_deixtra(int **mini_matrix, int size);
+mini_list   *mx_create_node_custom(int *value, int *path);
 t_list	*mx_create_node(void *data);
 t_list  *mx_island_list(char **islands);
 t_list	*mx_sort_list(t_list *lst, bool (*cmp)(void *, void *));
 int	mx_list_size(t_list *list);
 int mx_island_index(t_list **list, char *str);
 int **mx_matrix_creator(char **islands, t_list *list);
+void	mx_push_back_custom(mini_list **list, int *value, int *path);
 void	mx_push_front(t_list **list, void *data);
 void	mx_push_back(t_list **list, void *data);
 void	mx_pop_front(t_list **head);
