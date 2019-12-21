@@ -24,7 +24,7 @@ static void algorithm(int **deixtra_matrix, int **matrix, int size, int min) {
             || (deixtra_matrix[0][i] == -1 && deixtra_matrix[2][i] != 1))) {
             deixtra_matrix[0][i] = deixtra_matrix[0][min] + matrix[min][i];
             deixtra_matrix[1][i] = min;
-            deixtra_matrix[2][i] = 1;
+            //deixtra_matrix[2][i] = 1;
         }
     }
 }
@@ -37,6 +37,13 @@ static int **deixtra_matrix_filling(int **matrix, int size, int current) {
         int min = mx_is_min(deixtra_matrix, size);
         if (min != -1) {
             deixtra_matrix[2][min] = 1;
+//            for (int j = 0; j < 3; j++) {
+//                for (int i = 0; i < size; i++) {
+//                    printf("%d   |   ", deixtra_matrix[j][i]);
+//                }
+//                printf("\n");
+//            }
+//            printf("\n");
             printf("MIN ========= %d\n", min);
             algorithm(deixtra_matrix, matrix, size, min);
         }

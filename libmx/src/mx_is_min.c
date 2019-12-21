@@ -11,7 +11,7 @@ int mx_is_min(int **path_price, int size) {
     }
     if (min == 2147483647)
         return -1;
-    while (path_price[0][j] != min)
+    while (path_price[0][j] != min || path_price[2][j] == 1)
         j++;
     return j;
 }
