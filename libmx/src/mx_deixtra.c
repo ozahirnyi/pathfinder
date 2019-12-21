@@ -1,6 +1,6 @@
 #include "../inc/libmx.h"
 
-static int **default_deixtra_matrix(int *islands_value, int size, int current) {
+static int **default_deixtra_matrix(int *islands_value, int size) {
     int **default_matrix = (int **)malloc(sizeof(int *) * 3);
 
     for (int j = 0; j < 3; j++) {
@@ -24,44 +24,22 @@ static void algorithm(int **deixtra_matrix, int **matrix, int size, int min) {
             || (deixtra_matrix[0][i] == -1 && deixtra_matrix[2][i] != 1))) {
             deixtra_matrix[0][i] = deixtra_matrix[0][min] + matrix[min][i];
             deixtra_matrix[1][i] = min;
-            //deixtra_matrix[2][i] = 1;
         }
     }
 }
 
 static int **deixtra_matrix_filling(int **matrix, int size, int current) {
-    int **deixtra_matrix = default_deixtra_matrix(matrix[current], size, current);
+    int **deixtra_matrix = default_deixtra_matrix(matrix[current], size);
 
     deixtra_matrix[2][current] = 1;
     while (!mx_is_done(deixtra_matrix[2], size)) {
         int min = mx_is_min(deixtra_matrix, size);
         if (min != -1) {
             deixtra_matrix[2][min] = 1;
-//            for (int j = 0; j < 3; j++) {
-//                for (int i = 0; i < size; i++) {
-//                    printf("%d   |   ", deixtra_matrix[j][i]);
-//                }
-//                printf("\n");
-//            }
-//            printf("\n");
             printf("MIN ========= %d\n", min);
             algorithm(deixtra_matrix, matrix, size, min);
         }
     }
-//    printf("\n");
-//        printf("DEIXTRA MATRIX -===>\n");
-//    for (int i = 0; i < 3; i++) {
-//        for (int j = 0; j < size; j++)
-//            printf("%d   |   ", deixtra_matrix[i][j]);
-//        printf("\n");
-//    }
-//    printf("\n");
-//        printf("DEFAULT MATRIX -===>\n");
-//    for (int i = 0; i < size; i++) {
-//        for (int j = 0; j < size; j++)
-//            printf("%d   |   ", matrix[i][j]);
-//        printf("\n");
-//    }
     return deixtra_matrix;
 }
 
@@ -72,23 +50,5 @@ mini_list   *mx_deixtra(int **matrix, int size, mini_list *list) {
         mx_del_intarr(&mini_matrix, size);
         free(mini_matrix[2]);
     }
-
-    //free(*mini_matrix);
-//    for (int i = 0; i < size; i++) {
-//        printf("%d  |  ", list->value[i]);
-//    }
-//    printf("\n");
-//    for (int i = 0; i < size; i++) {
-//        printf("%d  |  ", list->path[i]);
-//    }
-//    printf("\n");
-    //mx_del_intarr(&mini_matrix, size);
-
-//    for (int i = 0; i < 3; i++) {
-//        for (int j = 0; j < size; j++)
-//            printf("%d   |   ", mini_matrix[i][j]);
-//        printf("\n");
-//    }
-    //printf("\n");
     return list;
 }
