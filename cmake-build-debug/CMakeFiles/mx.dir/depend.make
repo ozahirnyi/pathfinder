@@ -17,6 +17,9 @@ CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o: ../libmx/src/mx_create_node.c
 CMakeFiles/mx.dir/libmx/src/mx_create_node_custom.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_create_node_custom.c.o: ../libmx/src/mx_create_node_custom.c
 
+CMakeFiles/mx.dir/libmx/src/mx_default_deixtra_matrix.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_default_deixtra_matrix.c.o: ../libmx/src/mx_default_deixtra_matrix.c
+
 CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o: ../libmx/src/mx_deixtra.c
 

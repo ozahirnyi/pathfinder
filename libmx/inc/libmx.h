@@ -26,6 +26,7 @@ int	mx_skip_substr_index(const char *str, const char *sub, int counter);
 int	mx_count_substr(const char *str, const char *sub);
 int mx_is_done(int *path_price, int size);
 int mx_is_min(int **path_price, int size);
+int **mx_default_deixtra_matrix(int *islands_value, int size);
 char mx_validator(void);
 char	*mx_file_to_str(const char *file);
 char	*mx_strnew(const int size);

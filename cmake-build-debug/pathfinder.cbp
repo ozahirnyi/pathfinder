@@ -143,6 +143,9 @@
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_create_node_custom.c">
 			<Option target="mx"/>
 		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_default_deixtra_matrix.c">
+			<Option target="mx"/>
+		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_deixtra.c">
 			<Option target="mx"/>
 		</Unit>

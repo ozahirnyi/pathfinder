@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_count_words.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_count_words.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_create_node.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_create_node_custom.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_create_node_custom.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_default_deixtra_matrix.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_default_deixtra_matrix.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_deixtra.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_del_extra_spaces.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_del_intarr.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_del_intarr.c.o"

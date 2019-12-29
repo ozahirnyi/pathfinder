@@ -1,26 +1,9 @@
 #include "../inc/libmx.h"
 
-static int **default_deixtra_matrix(int *islands_value, int size) {
-    int **default_matrix = (int **)malloc(sizeof(int *) * 3);
-
-    for (int j = 0; j < 3; j++) {
-        default_matrix[j] = (int *)malloc(sizeof(int) * size);
-        for (int i = 0; i < size; i++) {
-            if (j == 0)
-                default_matrix[j][i] = islands_value[i];
-            else if (j == 1)
-                default_matrix[j][i] = -1;
-            else
-                default_matrix[j][i] = 0;
-        }
-    }
-    return default_matrix;
-}
-
 static void algorithm(int **deixtra_matrix, int **matrix, int size, int min) {
     for (int i = 0; i < size; i++) {
         if (matrix[min][i] != -1 && ((deixtra_matrix[2][i] != 1
-            && deixtra_matrix[0][i] + matrix[min][i] < deixtra_matrix[0][i])
+            && deixtra_matrix[0][min] + matrix[min][i] < deixtra_matrix[0][i])
             || (deixtra_matrix[0][i] == -1 && deixtra_matrix[2][i] != 1))) {
             deixtra_matrix[0][i] = deixtra_matrix[0][min] + matrix[min][i];
             deixtra_matrix[1][i] = min;
@@ -29,7 +12,7 @@ static void algorithm(int **deixtra_matrix, int **matrix, int size, int min) {
 }
 
 static int **deixtra_matrix_filling(int **matrix, int size, int current) {
-    int **deixtra_matrix = default_deixtra_matrix(matrix[current], size);
+    int **deixtra_matrix = mx_default_deixtra_matrix(matrix[current], size);
 
     deixtra_matrix[2][current] = 1;
     while (!mx_is_done(deixtra_matrix[2], size)) {

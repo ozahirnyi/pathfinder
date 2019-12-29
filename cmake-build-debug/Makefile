@@ -325,6 +325,33 @@ libmx/src/mx_create_node_custom.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_create_node_custom.c.s
 .PHONY : libmx/src/mx_create_node_custom.c.s
 
+libmx/src/mx_default_deixtra_matrix.o: libmx/src/mx_default_deixtra_matrix.c.o
+
+.PHONY : libmx/src/mx_default_deixtra_matrix.o
+
+# target to build an object file
+libmx/src/mx_default_deixtra_matrix.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_default_deixtra_matrix.c.o
+.PHONY : libmx/src/mx_default_deixtra_matrix.c.o
+
+libmx/src/mx_default_deixtra_matrix.i: libmx/src/mx_default_deixtra_matrix.c.i
+
+.PHONY : libmx/src/mx_default_deixtra_matrix.i
+
+# target to preprocess a source file
+libmx/src/mx_default_deixtra_matrix.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_default_deixtra_matrix.c.i
+.PHONY : libmx/src/mx_default_deixtra_matrix.c.i
+
+libmx/src/mx_default_deixtra_matrix.s: libmx/src/mx_default_deixtra_matrix.c.s
+
+.PHONY : libmx/src/mx_default_deixtra_matrix.s
+
+# target to generate assembly for a file
+libmx/src/mx_default_deixtra_matrix.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_default_deixtra_matrix.c.s
+.PHONY : libmx/src/mx_default_deixtra_matrix.c.s
+
 libmx/src/mx_deixtra.o: libmx/src/mx_deixtra.c.o
 
 .PHONY : libmx/src/mx_deixtra.o
@@ -2057,6 +2084,9 @@ help:
 	@echo "... libmx/src/mx_create_node_custom.o"
 	@echo "... libmx/src/mx_create_node_custom.i"
 	@echo "... libmx/src/mx_create_node_custom.s"
+	@echo "... libmx/src/mx_default_deixtra_matrix.o"
+	@echo "... libmx/src/mx_default_deixtra_matrix.i"
+	@echo "... libmx/src/mx_default_deixtra_matrix.s"
 	@echo "... libmx/src/mx_deixtra.o"
 	@echo "... libmx/src/mx_deixtra.i"
 	@echo "... libmx/src/mx_deixtra.s"

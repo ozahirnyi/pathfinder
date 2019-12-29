@@ -1,6 +1,7 @@
 NAME = libmx.a
 
 SRC = src/mx_printchar.c \
+		src/mx_default_deixtra_matrix.c \
         src/mx_island_index.c \
         src/mx_islands_list.c \
 		src/mx_realloc.c \
@@ -144,6 +145,7 @@ OBJ = mx_printchar.o \
 		mx_del_intarr.o \
 		mx_is_done.o \
 		mx_is_min.o \
+		mx_default_deixtra_matrix.o \
 
 FLAGS = -std=c11 -Wall -Wextra -Werror -Wpedantic
 
