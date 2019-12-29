@@ -2,13 +2,13 @@
 
 mini_list	*mx_create_node_custom(int *value, int *path, int size) {
     mini_list *node = (mini_list *)malloc(sizeof(mini_list));
-    int *buf_value = (int *)malloc(sizeof(int) * size);
+    int *buf_value = (int *)malloc(sizeof(int) * size + 1);
 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < size + 1; i++)
         buf_value[i] = value[i];
     free(value);
-    int *buf_path = (int *)malloc(sizeof(int) * size);
-    for (int i = 0; i < size; i++)
+    int *buf_path = (int *)malloc(sizeof(int) * size + 1);
+    for (int i = 0; i < size + 1; i++)
         buf_path[i] = path[i];
     free(path);
 

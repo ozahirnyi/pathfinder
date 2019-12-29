@@ -2,10 +2,11 @@
 
 static int **default_deixtra_matrix(int *islands_value, int size) {
     int **default_matrix = (int **)malloc(sizeof(int *) * 3);
+    int i = 0;
 
     for (int j = 0; j < 3; j++) {
-        default_matrix[j] = (int *)malloc(sizeof(int) * size);
-        for (int i = 0; i < size; i++) {
+        default_matrix[j] = (int *)malloc(sizeof(int) * size + 1);
+        for (i = 0; i < size; i++) {
             if (j == 0)
                 default_matrix[j][i] = islands_value[i];
             else if (j == 1)
@@ -14,20 +15,32 @@ static int **default_deixtra_matrix(int *islands_value, int size) {
                 default_matrix[j][i] = 0;
         }
     }
+    default_matrix[0][i] = -2;
+    default_matrix[1][i] = -1;
+    default_matrix[2][i] = 1;
     return default_matrix;
 }
 
-void    mx_deixtra_cycle(int **matrix, int size, mini_list *list) {
+void    mx_deixtra_cycle(int **matrix, int size, mini_list **list) {
     for (int current = 0; current < size; current++) {
         int **deixtra_matrix = default_deixtra_matrix(matrix[current], size);
-        int **mini_matrix = mx_deixtra(deixtra_matrix, matrix, size, current);
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < size; j++)
-                printf("%d  |  ", mini_matrix[i][j]);
-            printf("\n");
-        }
-        mx_push_back_custom(&list, mini_matrix[0], mini_matrix[1], size);
-        mx_del_intarr(&mini_matrix, size);
-        free(mini_matrix[2]);
+        deixtra_matrix[2][current] = 1;
+        mx_deixtra(deixtra_matrix, matrix, size, list);
+//        for (int i = 0; i < 3; i++) {
+//            for (int j = 0; j < size; j++)
+//                printf("%d  |  ", mini_matrix[i][j]);
+//            printf("\n");
+//        }
     }
+//    printf("\n");
+//    while (list) {
+//        for (int i = 0; i < size; i++)
+//            printf("%d  |  ", list->value[i]);
+//        printf("\n");
+//        for (int j = 0; j < size; j++)
+//            printf("%d  |  ", list->path[j]);
+//        printf("\n");
+//        printf("\n");
+//        list = list->next;
+//    }
 }
