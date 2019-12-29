@@ -6,17 +6,18 @@ int main(void) {
     char **islands = mx_strsplit(str, '\n');
     t_list *list = mx_island_list(islands);
     int **matrix = mx_matrix_creator(islands, list);
-    mini_list *mini_list = mx_deixtra(matrix, size, mini_list);
-    while (mini_list) {
+    mini_list *list1;
+    mx_deixtra_cycle(matrix, size, list1);
+    while (list1) {
         for (int i = 0; i < size; i++) {
-            printf("%d  |  ", mini_list->value[i]);
+            printf("%d  |  ", list1->value[i]);
         }
         printf("\n");
         for (int i = 0; i < size; i++) {
-            printf("%d  |  ", mini_list->path[i]);
+            printf("%d  |  ", list1->path[i]);
         }
         printf("\n");
-        mini_list = mini_list->next;
+        list1 = list1->next;
         printf("\n");
     }
 

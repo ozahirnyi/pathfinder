@@ -325,33 +325,6 @@ libmx/src/mx_create_node_custom.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_create_node_custom.c.s
 .PHONY : libmx/src/mx_create_node_custom.c.s
 
-libmx/src/mx_default_deixtra_matrix.o: libmx/src/mx_default_deixtra_matrix.c.o
-
-.PHONY : libmx/src/mx_default_deixtra_matrix.o
-
-# target to build an object file
-libmx/src/mx_default_deixtra_matrix.c.o:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_default_deixtra_matrix.c.o
-.PHONY : libmx/src/mx_default_deixtra_matrix.c.o
-
-libmx/src/mx_default_deixtra_matrix.i: libmx/src/mx_default_deixtra_matrix.c.i
-
-.PHONY : libmx/src/mx_default_deixtra_matrix.i
-
-# target to preprocess a source file
-libmx/src/mx_default_deixtra_matrix.c.i:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_default_deixtra_matrix.c.i
-.PHONY : libmx/src/mx_default_deixtra_matrix.c.i
-
-libmx/src/mx_default_deixtra_matrix.s: libmx/src/mx_default_deixtra_matrix.c.s
-
-.PHONY : libmx/src/mx_default_deixtra_matrix.s
-
-# target to generate assembly for a file
-libmx/src/mx_default_deixtra_matrix.c.s:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_default_deixtra_matrix.c.s
-.PHONY : libmx/src/mx_default_deixtra_matrix.c.s
-
 libmx/src/mx_deixtra.o: libmx/src/mx_deixtra.c.o
 
 .PHONY : libmx/src/mx_deixtra.o
@@ -378,6 +351,33 @@ libmx/src/mx_deixtra.s: libmx/src/mx_deixtra.c.s
 libmx/src/mx_deixtra.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.s
 .PHONY : libmx/src/mx_deixtra.c.s
+
+libmx/src/mx_deixtra_cycle.o: libmx/src/mx_deixtra_cycle.c.o
+
+.PHONY : libmx/src/mx_deixtra_cycle.o
+
+# target to build an object file
+libmx/src/mx_deixtra_cycle.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_deixtra_cycle.c.o
+.PHONY : libmx/src/mx_deixtra_cycle.c.o
+
+libmx/src/mx_deixtra_cycle.i: libmx/src/mx_deixtra_cycle.c.i
+
+.PHONY : libmx/src/mx_deixtra_cycle.i
+
+# target to preprocess a source file
+libmx/src/mx_deixtra_cycle.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_deixtra_cycle.c.i
+.PHONY : libmx/src/mx_deixtra_cycle.c.i
+
+libmx/src/mx_deixtra_cycle.s: libmx/src/mx_deixtra_cycle.c.s
+
+.PHONY : libmx/src/mx_deixtra_cycle.s
+
+# target to generate assembly for a file
+libmx/src/mx_deixtra_cycle.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_deixtra_cycle.c.s
+.PHONY : libmx/src/mx_deixtra_cycle.c.s
 
 libmx/src/mx_del_extra_spaces.o: libmx/src/mx_del_extra_spaces.c.o
 
@@ -1053,6 +1053,33 @@ libmx/src/mx_memset.s: libmx/src/mx_memset.c.s
 libmx/src/mx_memset.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_memset.c.s
 .PHONY : libmx/src/mx_memset.c.s
+
+libmx/src/mx_mini_list_adress.o: libmx/src/mx_mini_list_adress.c.o
+
+.PHONY : libmx/src/mx_mini_list_adress.o
+
+# target to build an object file
+libmx/src/mx_mini_list_adress.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_mini_list_adress.c.o
+.PHONY : libmx/src/mx_mini_list_adress.c.o
+
+libmx/src/mx_mini_list_adress.i: libmx/src/mx_mini_list_adress.c.i
+
+.PHONY : libmx/src/mx_mini_list_adress.i
+
+# target to preprocess a source file
+libmx/src/mx_mini_list_adress.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_mini_list_adress.c.i
+.PHONY : libmx/src/mx_mini_list_adress.c.i
+
+libmx/src/mx_mini_list_adress.s: libmx/src/mx_mini_list_adress.c.s
+
+.PHONY : libmx/src/mx_mini_list_adress.s
+
+# target to generate assembly for a file
+libmx/src/mx_mini_list_adress.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_mini_list_adress.c.s
+.PHONY : libmx/src/mx_mini_list_adress.c.s
 
 libmx/src/mx_nbr_to_hex.o: libmx/src/mx_nbr_to_hex.c.o
 
@@ -2084,12 +2111,12 @@ help:
 	@echo "... libmx/src/mx_create_node_custom.o"
 	@echo "... libmx/src/mx_create_node_custom.i"
 	@echo "... libmx/src/mx_create_node_custom.s"
-	@echo "... libmx/src/mx_default_deixtra_matrix.o"
-	@echo "... libmx/src/mx_default_deixtra_matrix.i"
-	@echo "... libmx/src/mx_default_deixtra_matrix.s"
 	@echo "... libmx/src/mx_deixtra.o"
 	@echo "... libmx/src/mx_deixtra.i"
 	@echo "... libmx/src/mx_deixtra.s"
+	@echo "... libmx/src/mx_deixtra_cycle.o"
+	@echo "... libmx/src/mx_deixtra_cycle.i"
+	@echo "... libmx/src/mx_deixtra_cycle.s"
 	@echo "... libmx/src/mx_del_extra_spaces.o"
 	@echo "... libmx/src/mx_del_extra_spaces.i"
 	@echo "... libmx/src/mx_del_extra_spaces.s"
@@ -2165,6 +2192,9 @@ help:
 	@echo "... libmx/src/mx_memset.o"
 	@echo "... libmx/src/mx_memset.i"
 	@echo "... libmx/src/mx_memset.s"
+	@echo "... libmx/src/mx_mini_list_adress.o"
+	@echo "... libmx/src/mx_mini_list_adress.i"
+	@echo "... libmx/src/mx_mini_list_adress.s"
 	@echo "... libmx/src/mx_nbr_to_hex.o"
 	@echo "... libmx/src/mx_nbr_to_hex.i"
 	@echo "... libmx/src/mx_nbr_to_hex.s"

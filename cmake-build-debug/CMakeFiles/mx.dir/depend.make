@@ -17,11 +17,11 @@ CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o: ../libmx/src/mx_create_node.c
 CMakeFiles/mx.dir/libmx/src/mx_create_node_custom.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_create_node_custom.c.o: ../libmx/src/mx_create_node_custom.c
 
-CMakeFiles/mx.dir/libmx/src/mx_default_deixtra_matrix.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_default_deixtra_matrix.c.o: ../libmx/src/mx_default_deixtra_matrix.c
-
 CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o: ../libmx/src/mx_deixtra.c
+
+CMakeFiles/mx.dir/libmx/src/mx_deixtra_cycle.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_deixtra_cycle.c.o: ../libmx/src/mx_deixtra_cycle.c
 
 CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o: ../libmx/src/mx_del_extra_spaces.c
@@ -76,6 +76,9 @@ CMakeFiles/mx.dir/libmx/src/mx_memmove.c.o: ../libmx/src/mx_memmove.c
 CMakeFiles/mx.dir/libmx/src/mx_memrchr.c.o: ../libmx/src/mx_memrchr.c
 
 CMakeFiles/mx.dir/libmx/src/mx_memset.c.o: ../libmx/src/mx_memset.c
+
+CMakeFiles/mx.dir/libmx/src/mx_mini_list_adress.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_mini_list_adress.c.o: ../libmx/src/mx_mini_list_adress.c
 
 CMakeFiles/mx.dir/libmx/src/mx_nbr_to_hex.c.o: ../libmx/src/mx_nbr_to_hex.c
 

@@ -72,6 +72,7 @@ SRC = src/mx_printchar.c \
         src/mx_del_intarr.c \
         src/mx_is_done.c \
         src/mx_is_min.c \
+        src/mx_mini_list_adress.c \
 
 OBJ = mx_printchar.o \
         mx_atoi.o \
@@ -146,6 +147,7 @@ OBJ = mx_printchar.o \
 		mx_is_done.o \
 		mx_is_min.o \
 		mx_default_deixtra_matrix.o \
+		mx_mini_list_adress.o \
 
 FLAGS = -std=c11 -Wall -Wextra -Werror -Wpedantic
 

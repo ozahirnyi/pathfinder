@@ -26,7 +26,6 @@ int	mx_skip_substr_index(const char *str, const char *sub, int counter);
 int	mx_count_substr(const char *str, const char *sub);
 int mx_is_done(int *path_price, int size);
 int mx_is_min(int **path_price, int size);
-int **mx_default_deixtra_matrix(int *islands_value, int size);
 char mx_validator(void);
 char	*mx_file_to_str(const char *file);
 char	*mx_strnew(const int size);
@@ -51,7 +50,9 @@ typedef struct q_list {
     struct q_list *next;
 } mini_list;
 
-mini_list   *mx_deixtra(int **mini_matrix, int size, mini_list *list);
+void    mx_deixtra_cycle(int **matrix, int size, mini_list *list);
+mini_list   *mx_mini_list_adress(mini_list *list);
+int **mx_deixtra(int **deixtra_matrix, int **matrix, int size, int current);
 mini_list   *mx_create_node_custom(int *value, int *path, int size);
 t_list	*mx_create_node(void *data);
 t_list  *mx_island_list(char **islands);
