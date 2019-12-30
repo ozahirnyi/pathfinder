@@ -39,15 +39,38 @@ static void algorithm(int **deixtra_matrix, int **matrix, int min, mini_list **l
         || (deixtra_matrix[0][i] == -1 && deixtra_matrix[2][i] != 1))) {
             copy = copy_matrix(deixtra_matrix);
             copy[1][i] = min;
-            for (int i = 0; i < 3; i++) {
-                for (int j = 0; j < size + 1; j++)
-                    printf("%d  |  ", copy[i][j]);
-                printf("\n");
-            }
+//            for (int i = 0; i < 3; i++) {
+//                for (int j = 0; j < size + 1; j++)
+//                    printf("%d  |  ", copy[i][j]);
+//                printf("\n");
+//            }
             mx_deixtra(copy, matrix, size, list);
         }
     }
 }
+
+//static void push_back_filter(mini_list **list, int *value, int *path, int size) {
+//    int flag = 0;
+//    mini_list *buf = *list;
+//
+//    while (buf) {
+//        for (int i = 0; i < size; i++) {
+//            printf("%d  |  ", value[i]);
+//            if (value[i] == buf->value[i])
+//                flag = 1;
+//        }
+//        printf("\n");
+//        for (int i = 0; i < size; i++) {
+//            printf("%d  |  ", path[i]);
+//            if (path[i] == buf->path[i])
+//                flag = 1;
+//        }
+//        printf("\n");
+//        printf("\n");
+//        buf = buf->next;
+//    }
+//    flag == 0 ? mx_push_back_custom(list, value, path, size) : ((void) 0);
+//}
 
 void    mx_deixtra(int **deixtra_matrix, int **matrix, int size, mini_list **list) {
     while (!mx_is_done(deixtra_matrix[2], size)) {
@@ -60,7 +83,7 @@ void    mx_deixtra(int **deixtra_matrix, int **matrix, int size, mini_list **lis
 //        printf("\n");
         if (min != -1) {
             deixtra_matrix[2][min] = 1;
-            printf("MIN ========= %d\n", min);
+//            printf("MIN ========= %d\n", min);
             algorithm(deixtra_matrix, matrix, min, list);
         }
     }
