@@ -1,5 +1,13 @@
 #include "../inc/libmx.h"
-
+/*
+ *              LISHNYAAA PEREMENNAYA
+                        ||
+                        ||
+                        ||
+                        ||
+                        ||
+                        \/
+*/
 static int **matrix_filling(char **islands, int **matrix, t_list *list) {
     char **temp_minus;
     char **temp_koma;
