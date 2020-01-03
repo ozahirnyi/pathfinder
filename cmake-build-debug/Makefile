@@ -1054,32 +1054,32 @@ libmx/src/mx_memset.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_memset.c.s
 .PHONY : libmx/src/mx_memset.c.s
 
-libmx/src/mx_mini_list_adress.o: libmx/src/mx_mini_list_adress.c.o
+libmx/src/mx_mini_list_filter.o: libmx/src/mx_mini_list_filter.c.o
 
-.PHONY : libmx/src/mx_mini_list_adress.o
+.PHONY : libmx/src/mx_mini_list_filter.o
 
 # target to build an object file
-libmx/src/mx_mini_list_adress.c.o:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_mini_list_adress.c.o
-.PHONY : libmx/src/mx_mini_list_adress.c.o
+libmx/src/mx_mini_list_filter.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_mini_list_filter.c.o
+.PHONY : libmx/src/mx_mini_list_filter.c.o
 
-libmx/src/mx_mini_list_adress.i: libmx/src/mx_mini_list_adress.c.i
+libmx/src/mx_mini_list_filter.i: libmx/src/mx_mini_list_filter.c.i
 
-.PHONY : libmx/src/mx_mini_list_adress.i
+.PHONY : libmx/src/mx_mini_list_filter.i
 
 # target to preprocess a source file
-libmx/src/mx_mini_list_adress.c.i:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_mini_list_adress.c.i
-.PHONY : libmx/src/mx_mini_list_adress.c.i
+libmx/src/mx_mini_list_filter.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_mini_list_filter.c.i
+.PHONY : libmx/src/mx_mini_list_filter.c.i
 
-libmx/src/mx_mini_list_adress.s: libmx/src/mx_mini_list_adress.c.s
+libmx/src/mx_mini_list_filter.s: libmx/src/mx_mini_list_filter.c.s
 
-.PHONY : libmx/src/mx_mini_list_adress.s
+.PHONY : libmx/src/mx_mini_list_filter.s
 
 # target to generate assembly for a file
-libmx/src/mx_mini_list_adress.c.s:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_mini_list_adress.c.s
-.PHONY : libmx/src/mx_mini_list_adress.c.s
+libmx/src/mx_mini_list_filter.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_mini_list_filter.c.s
+.PHONY : libmx/src/mx_mini_list_filter.c.s
 
 libmx/src/mx_nbr_to_hex.o: libmx/src/mx_nbr_to_hex.c.o
 
@@ -1161,6 +1161,33 @@ libmx/src/mx_pop_front.s: libmx/src/mx_pop_front.c.s
 libmx/src/mx_pop_front.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_pop_front.c.s
 .PHONY : libmx/src/mx_pop_front.c.s
+
+libmx/src/mx_pop_specific.o: libmx/src/mx_pop_specific.c.o
+
+.PHONY : libmx/src/mx_pop_specific.o
+
+# target to build an object file
+libmx/src/mx_pop_specific.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_pop_specific.c.o
+.PHONY : libmx/src/mx_pop_specific.c.o
+
+libmx/src/mx_pop_specific.i: libmx/src/mx_pop_specific.c.i
+
+.PHONY : libmx/src/mx_pop_specific.i
+
+# target to preprocess a source file
+libmx/src/mx_pop_specific.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_pop_specific.c.i
+.PHONY : libmx/src/mx_pop_specific.c.i
+
+libmx/src/mx_pop_specific.s: libmx/src/mx_pop_specific.c.s
+
+.PHONY : libmx/src/mx_pop_specific.s
+
+# target to generate assembly for a file
+libmx/src/mx_pop_specific.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_pop_specific.c.s
+.PHONY : libmx/src/mx_pop_specific.c.s
 
 libmx/src/mx_pow.o: libmx/src/mx_pow.c.o
 
@@ -2192,9 +2219,9 @@ help:
 	@echo "... libmx/src/mx_memset.o"
 	@echo "... libmx/src/mx_memset.i"
 	@echo "... libmx/src/mx_memset.s"
-	@echo "... libmx/src/mx_mini_list_adress.o"
-	@echo "... libmx/src/mx_mini_list_adress.i"
-	@echo "... libmx/src/mx_mini_list_adress.s"
+	@echo "... libmx/src/mx_mini_list_filter.o"
+	@echo "... libmx/src/mx_mini_list_filter.i"
+	@echo "... libmx/src/mx_mini_list_filter.s"
 	@echo "... libmx/src/mx_nbr_to_hex.o"
 	@echo "... libmx/src/mx_nbr_to_hex.i"
 	@echo "... libmx/src/mx_nbr_to_hex.s"
@@ -2204,6 +2231,9 @@ help:
 	@echo "... libmx/src/mx_pop_front.o"
 	@echo "... libmx/src/mx_pop_front.i"
 	@echo "... libmx/src/mx_pop_front.s"
+	@echo "... libmx/src/mx_pop_specific.o"
+	@echo "... libmx/src/mx_pop_specific.i"
+	@echo "... libmx/src/mx_pop_specific.s"
 	@echo "... libmx/src/mx_pow.o"
 	@echo "... libmx/src/mx_pow.i"
 	@echo "... libmx/src/mx_pow.s"

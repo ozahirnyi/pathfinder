@@ -26,21 +26,5 @@ void    mx_deixtra_cycle(int **matrix, int size, mini_list **list) {
         int **deixtra_matrix = default_deixtra_matrix(matrix[current], size);
         deixtra_matrix[2][current] = 1;
         mx_deixtra(deixtra_matrix, matrix, size, list);
-//        for (int i = 0; i < 3; i++) {
-//            for (int j = 0; j < size; j++)
-//                printf("%d  |  ", mini_matrix[i][j]);
-//            printf("\n");
-//        }
     }
-//    printf("\n");
-//    while (list) {
-//        for (int i = 0; i < size; i++)
-//            printf("%d  |  ", list->value[i]);
-//        printf("\n");
-//        for (int j = 0; j < size; j++)
-//            printf("%d  |  ", list->path[j]);
-//        printf("\n");
-//        printf("\n");
-//        list = list->next;
-//    }
 }

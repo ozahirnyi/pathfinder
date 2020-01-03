@@ -7,7 +7,13 @@ int main(void) {
     t_list *list = mx_island_list(islands);
     int **matrix = mx_matrix_creator(islands, list);
     mini_list *list1 = NULL;
+//    while (list) {
+//        printf("%s  |  ", list->data);
+//        list = list->next;
+//    }
     mx_deixtra_cycle(matrix, size, &list1);
+    mx_pop_specific(&list1, 1);
+    printf("\n");
     while (list1) {
         for (int i = 0; i < size; i++) {
             printf("%d  |  ", list1->value[i]);

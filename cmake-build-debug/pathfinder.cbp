@@ -224,7 +224,7 @@
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_memset.c">
 			<Option target="mx"/>
 		</Unit>
-		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_mini_list_adress.c">
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_mini_list_filter.c">
 			<Option target="mx"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_nbr_to_hex.c">
@@ -234,6 +234,9 @@
 			<Option target="mx"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_pop_front.c">
+			<Option target="mx"/>
+		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_pop_specific.c">
 			<Option target="mx"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_pow.c">

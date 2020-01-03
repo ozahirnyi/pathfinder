@@ -17,16 +17,28 @@ static int **copy_matrix(int **deixtra_matrix) {
     return copy;
 }
 
+//static void recursion(int **deixtra_matrix, int **matrix, int min, mini_list **list) {
+//    int size = 0;
+//    int **copy = NULL;
+//
+//    for (size = 0; deixtra_matrix[0][size] != -2; size++);
+//    for (int i = 0; deixtra_matrix[0][i] != -2; i++) {
+//        if (matrix[min][i] != -1 && ((deixtra_matrix[2][i] != 1
+//            && deixtra_matrix[0][min] + matrix[min][i] == deixtra_matrix[0][i])
+//            || (deixtra_matrix[0][i] == -1 && deixtra_matrix[2][i] != 1))) {
+//            copy = copy_matrix(deixtra_matrix);
+//            copy[1][i] = min;
+//            mx_deixtra(copy, matrix, size, list);
+//        }
+//    }
+//}
+
 static void algorithm(int **deixtra_matrix, int **matrix, int min, mini_list **list) {
     int size = 0;
     int **copy = NULL;
-//
+    int prev = -1;
+
     for (size = 0; deixtra_matrix[0][size] != -2; size++);
-//    for (int i = 0; i < 3; i++) {
-//        for (int j = 0; j < size + 1; j++)
-//            printf("%d  |  ", deixtra_matrix[i][j]);
-//        printf("\n");
-//    }
     for (int i = 0; deixtra_matrix[0][i] != -2; i++) {
         if (matrix[min][i] != -1 && ((deixtra_matrix[2][i] != 1
             && deixtra_matrix[0][min] + matrix[min][i] < deixtra_matrix[0][i])
@@ -35,58 +47,40 @@ static void algorithm(int **deixtra_matrix, int **matrix, int min, mini_list **l
             deixtra_matrix[1][i] = min;
         }
         else if (matrix[min][i] != -1 && ((deixtra_matrix[2][i] != 1
-        && deixtra_matrix[0][min] + matrix[min][i] == deixtra_matrix[0][i])
-        || (deixtra_matrix[0][i] == -1 && deixtra_matrix[2][i] != 1))) {
+                && deixtra_matrix[0][min] + matrix[min][i] == deixtra_matrix[0][i])
+                || (deixtra_matrix[0][i] == -1 && deixtra_matrix[2][i] != 1))) {
             copy = copy_matrix(deixtra_matrix);
             copy[1][i] = min;
-//            for (int i = 0; i < 3; i++) {
-//                for (int j = 0; j < size + 1; j++)
-//                    printf("%d  |  ", copy[i][j]);
-//                printf("\n");
-//            }
             mx_deixtra(copy, matrix, size, list);
         }
     }
 }
 
-//static void push_back_filter(mini_list **list, int *value, int *path, int size) {
-//    int flag = 0;
-//    mini_list *buf = *list;
-//
-//    while (buf) {
-//        for (int i = 0; i < size; i++) {
-//            printf("%d  |  ", value[i]);
-//            if (value[i] == buf->value[i])
-//                flag = 1;
-//        }
-//        printf("\n");
-//        for (int i = 0; i < size; i++) {
-//            printf("%d  |  ", path[i]);
-//            if (path[i] == buf->path[i])
-//                flag = 1;
-//        }
-//        printf("\n");
-//        printf("\n");
-//        buf = buf->next;
-//    }
-//    flag == 0 ? mx_push_back_custom(list, value, path, size) : ((void) 0);
-//}
-
 void    mx_deixtra(int **deixtra_matrix, int **matrix, int size, mini_list **list) {
     while (!mx_is_done(deixtra_matrix[2], size)) {
-        int min = mx_is_min(deixtra_matrix, size);
-//            for (int i = 0; i < 3; i++) {
-//        for (int j = 0; j < size + 1; j++)
-//            printf("%d  |  ", deixtra_matrix[i][j]);
-//                printf("\n");
-//    }
+//        printf("%s\n", "DEIXTRA MATRIX =======");
 //        printf("\n");
+//        for (int i = 0; i < 3; i++) {
+//            for (int j = 0; j < size; j++)
+//                printf("%d  |  ", deixtra_matrix[i][j]);
+//            printf("\n");
+//        }
+//        printf("\n");
+        int min = mx_is_min(deixtra_matrix, size);
         if (min != -1) {
             deixtra_matrix[2][min] = 1;
-//            printf("MIN ========= %d\n", min);
             algorithm(deixtra_matrix, matrix, min, list);
+//                recursion(deixtra_matrix, matrix, min, list);
         }
     }
+//    printf("%s\n", "DEIXTRA MATRIX =======");
+//    printf("\n");
+//    for (int i = 0; i < 3; i++) {
+//        for (int j = 0; j < size; j++)
+//            printf("%d  |  ", deixtra_matrix[i][j]);
+//        printf("\n");
+//    }
+//    printf("\n");
     mx_push_back_custom(list, deixtra_matrix[0], deixtra_matrix[1], size);
     mx_del_intarr(&deixtra_matrix, size);
     free(deixtra_matrix[2]);

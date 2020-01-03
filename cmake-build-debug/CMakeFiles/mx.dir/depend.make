@@ -77,14 +77,17 @@ CMakeFiles/mx.dir/libmx/src/mx_memrchr.c.o: ../libmx/src/mx_memrchr.c
 
 CMakeFiles/mx.dir/libmx/src/mx_memset.c.o: ../libmx/src/mx_memset.c
 
-CMakeFiles/mx.dir/libmx/src/mx_mini_list_adress.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_mini_list_adress.c.o: ../libmx/src/mx_mini_list_adress.c
+CMakeFiles/mx.dir/libmx/src/mx_mini_list_filter.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_mini_list_filter.c.o: ../libmx/src/mx_mini_list_filter.c
 
 CMakeFiles/mx.dir/libmx/src/mx_nbr_to_hex.c.o: ../libmx/src/mx_nbr_to_hex.c
 
 CMakeFiles/mx.dir/libmx/src/mx_pop_back.c.o: ../libmx/src/mx_pop_back.c
 
 CMakeFiles/mx.dir/libmx/src/mx_pop_front.c.o: ../libmx/src/mx_pop_front.c
+
+CMakeFiles/mx.dir/libmx/src/mx_pop_specific.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_pop_specific.c.o: ../libmx/src/mx_pop_specific.c
 
 CMakeFiles/mx.dir/libmx/src/mx_pow.c.o: ../libmx/src/mx_pow.c
 
