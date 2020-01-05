@@ -12,7 +12,7 @@ int main(void) {
 //        list = list->next;
 //    }
     mx_deixtra_cycle(matrix, size, &list1);
-    mx_pop_specific(&list1, 1);
+//    mx_pop_specific(&list1, 1);
     printf("\n");
     while (list1) {
         for (int i = 0; i < size; i++) {

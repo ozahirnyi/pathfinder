@@ -668,9 +668,22 @@ CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_custom.c -o CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.s
 
+CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.o: CMakeFiles/mx.dir/flags.make
+CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.o: ../libmx/src/mx_push_back_filter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_filter.c
+
+CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_filter.c > CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.i
+
+CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_filter.c -o CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.s
+
 CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o: ../libmx/src/mx_push_front.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_push_front.c
 
 CMakeFiles/mx.dir/libmx/src/mx_push_front.c.i: cmake_force
@@ -683,7 +696,7 @@ CMakeFiles/mx.dir/libmx/src/mx_push_front.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o: ../libmx/src/mx_realloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_realloc.c
 
 CMakeFiles/mx.dir/libmx/src/mx_realloc.c.i: cmake_force
@@ -696,7 +709,7 @@ CMakeFiles/mx.dir/libmx/src/mx_realloc.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.o: ../libmx/src/mx_replace_substr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_replace_substr.c
 
 CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.i: cmake_force
@@ -709,7 +722,7 @@ CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_skip_substr_index.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_skip_substr_index.c.o: ../libmx/src/mx_skip_substr_index.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/mx.dir/libmx/src/mx_skip_substr_index.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/mx.dir/libmx/src/mx_skip_substr_index.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_skip_substr_index.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_skip_substr_index.c
 
 CMakeFiles/mx.dir/libmx/src/mx_skip_substr_index.c.i: cmake_force
@@ -722,7 +735,7 @@ CMakeFiles/mx.dir/libmx/src/mx_skip_substr_index.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_sort_list.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_sort_list.c.o: ../libmx/src/mx_sort_list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/mx.dir/libmx/src/mx_sort_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/mx.dir/libmx/src/mx_sort_list.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_sort_list.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_sort_list.c
 
 CMakeFiles/mx.dir/libmx/src/mx_sort_list.c.i: cmake_force
@@ -735,7 +748,7 @@ CMakeFiles/mx.dir/libmx/src/mx_sort_list.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_sqrt.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_sqrt.c.o: ../libmx/src/mx_sqrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/mx.dir/libmx/src/mx_sqrt.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/mx.dir/libmx/src/mx_sqrt.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_sqrt.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_sqrt.c
 
 CMakeFiles/mx.dir/libmx/src/mx_sqrt.c.i: cmake_force
@@ -748,7 +761,7 @@ CMakeFiles/mx.dir/libmx/src/mx_sqrt.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_str_reverse.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_str_reverse.c.o: ../libmx/src/mx_str_reverse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/mx.dir/libmx/src/mx_str_reverse.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/mx.dir/libmx/src/mx_str_reverse.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_str_reverse.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_str_reverse.c
 
 CMakeFiles/mx.dir/libmx/src/mx_str_reverse.c.i: cmake_force
@@ -761,7 +774,7 @@ CMakeFiles/mx.dir/libmx/src/mx_str_reverse.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_strcat.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_strcat.c.o: ../libmx/src/mx_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strcat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strcat.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_strcat.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_strcat.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strcat.c.i: cmake_force
@@ -774,7 +787,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strcat.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_strcmp.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_strcmp.c.o: ../libmx/src/mx_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strcmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strcmp.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_strcmp.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_strcmp.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strcmp.c.i: cmake_force
@@ -787,7 +800,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strcmp.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_strcpy.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_strcpy.c.o: ../libmx/src/mx_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strcpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strcpy.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_strcpy.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_strcpy.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strcpy.c.i: cmake_force
@@ -800,7 +813,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strcpy.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_strdel.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_strdel.c.o: ../libmx/src/mx_strdel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strdel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strdel.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_strdel.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_strdel.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strdel.c.i: cmake_force
@@ -813,7 +826,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strdel.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_strdup.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_strdup.c.o: ../libmx/src/mx_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strdup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strdup.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_strdup.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_strdup.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strdup.c.i: cmake_force
@@ -826,7 +839,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strdup.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_strjoin.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_strjoin.c.o: ../libmx/src/mx_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strjoin.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strjoin.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_strjoin.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_strjoin.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strjoin.c.i: cmake_force
@@ -839,7 +852,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strjoin.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_strlen.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_strlen.c.o: ../libmx/src/mx_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strlen.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strlen.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_strlen.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_strlen.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strlen.c.i: cmake_force
@@ -852,7 +865,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strlen.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_strncmp.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_strncmp.c.o: ../libmx/src/mx_strncmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strncmp.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strncmp.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_strncmp.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_strncmp.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strncmp.c.i: cmake_force
@@ -865,7 +878,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strncmp.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_strncpy.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_strncpy.c.o: ../libmx/src/mx_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strncpy.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strncpy.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_strncpy.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_strncpy.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strncpy.c.i: cmake_force
@@ -878,7 +891,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strncpy.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_strndup.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_strndup.c.o: ../libmx/src/mx_strndup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strndup.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strndup.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_strndup.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_strndup.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strndup.c.i: cmake_force
@@ -891,7 +904,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strndup.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_strnew.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_strnew.c.o: ../libmx/src/mx_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strnew.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strnew.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_strnew.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_strnew.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strnew.c.i: cmake_force
@@ -904,7 +917,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strnew.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_strsplit.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_strsplit.c.o: ../libmx/src/mx_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strsplit.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strsplit.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_strsplit.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_strsplit.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strsplit.c.i: cmake_force
@@ -917,7 +930,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strsplit.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_strstr.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_strstr.c.o: ../libmx/src/mx_strstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strstr.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strstr.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_strstr.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_strstr.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strstr.c.i: cmake_force
@@ -930,7 +943,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strstr.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_strtrim.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_strtrim.c.o: ../libmx/src/mx_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strtrim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/mx.dir/libmx/src/mx_strtrim.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_strtrim.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_strtrim.c
 
 CMakeFiles/mx.dir/libmx/src/mx_strtrim.c.i: cmake_force
@@ -943,7 +956,7 @@ CMakeFiles/mx.dir/libmx/src/mx_strtrim.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_swap_char.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_swap_char.c.o: ../libmx/src/mx_swap_char.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/mx.dir/libmx/src/mx_swap_char.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/mx.dir/libmx/src/mx_swap_char.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_swap_char.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_swap_char.c
 
 CMakeFiles/mx.dir/libmx/src/mx_swap_char.c.i: cmake_force
@@ -956,7 +969,7 @@ CMakeFiles/mx.dir/libmx/src/mx_swap_char.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o: ../libmx/src/mx_ultra_del_extra_spaces.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_ultra_del_extra_spaces.c
 
 CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.i: cmake_force
@@ -969,7 +982,7 @@ CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o: ../libmx/src/mx_ultra_strtrim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_ultra_strtrim.c
 
 CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.i: cmake_force
@@ -982,7 +995,7 @@ CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_validator.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_validator.c.o: ../libmx/src/mx_validator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/mx.dir/libmx/src/mx_validator.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/mx.dir/libmx/src/mx_validator.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_validator.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_validator.c
 
 CMakeFiles/mx.dir/libmx/src/mx_validator.c.i: cmake_force
@@ -1042,6 +1055,7 @@ mx_OBJECTS = \
 "CMakeFiles/mx.dir/libmx/src/mx_printstr.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.o" \
+"CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.o" \
@@ -1118,6 +1132,7 @@ libmx.a: CMakeFiles/mx.dir/libmx/src/mx_printint.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_printstr.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.o
+libmx.a: CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.o
@@ -1145,7 +1160,7 @@ libmx.a: CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_validator.c.o
 libmx.a: CMakeFiles/mx.dir/build.make
 libmx.a: CMakeFiles/mx.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking C static library libmx.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Linking C static library libmx.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/mx.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mx.dir/link.txt --verbose=$(VERBOSE)
 

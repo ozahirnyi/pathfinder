@@ -52,6 +52,7 @@ typedef struct q_list {
 
 void    mx_deixtra_cycle(int **matrix, int size, mini_list **list);
 void    mx_mini_list_filter(mini_list **list, int size);
+void    mx_push_back_filter(mini_list **list, int *value, int *path, int size);
 void    mx_deixtra(int **deixtra_matrix, int **matrix, int size, mini_list **list);
 mini_list	*mx_create_node_custom(int *value, int *path, int size);
 t_list	*mx_create_node(void *data);

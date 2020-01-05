@@ -20,7 +20,7 @@ stdbool.h
 limits.h
 -
 
-/Users/ozahirnyi/pathfinder/libmx/src/mx_deixtra.c
+/Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_filter.c
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 

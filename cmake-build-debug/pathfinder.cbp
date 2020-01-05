@@ -263,6 +263,9 @@
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_custom.c">
 			<Option target="mx"/>
 		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_filter.c">
+			<Option target="mx"/>
+		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_push_front.c">
 			<Option target="mx"/>
 		</Unit>

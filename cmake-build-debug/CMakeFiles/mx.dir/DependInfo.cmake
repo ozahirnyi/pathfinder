@@ -51,6 +51,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_printstr.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_printstr.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_push_back.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_custom.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_filter.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_push_front.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_realloc.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_replace_substr.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.o"

@@ -107,6 +107,9 @@ CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o
 CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.o
  /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_custom.c
+CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.o
+ /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
+ /Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_filter.c
 CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_push_front.c
 CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o
