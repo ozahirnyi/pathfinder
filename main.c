@@ -1,7 +1,7 @@
 #include "pathfinder.h"
 
 int main(void) {
-    char *str = mx_file_to_str("../hardest");
+    char *str = mx_file_to_str("../qwe");
     int size = mx_atoi(str);
     char **islands = mx_strsplit(str, '\n');
     t_list *list = mx_island_list(islands);
@@ -12,7 +12,7 @@ int main(void) {
 //        list = list->next;
 //    }
     mx_deixtra_cycle(matrix, size, &list1);
-//    mx_pop_specific(&list1, 1);
+    mx_result_matrix(&list1, size);
     printf("\n");
     while (list1) {
         for (int i = 0; i < size; i++) {

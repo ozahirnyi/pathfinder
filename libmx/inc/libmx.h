@@ -51,14 +51,14 @@ typedef struct q_list {
 } mini_list;
 
 void    mx_deixtra_cycle(int **matrix, int size, mini_list **list);
-void    mx_mini_list_filter(mini_list **list, int size);
-void    mx_push_back_filter(mini_list **list, int *value, int *path, int size);
 void    mx_deixtra(int **deixtra_matrix, int **matrix, int size, mini_list **list);
 mini_list	*mx_create_node_custom(int *value, int *path, int size);
 t_list	*mx_create_node(void *data);
 t_list  *mx_island_list(char **islands);
 t_list	*mx_sort_list(t_list *lst, bool (*cmp)(void *, void *));
 int	mx_list_size(t_list *list);
+int ***mx_result_matrix(mini_list **list, int size);
+int mx_count_parallel(mini_list **list, int index);
 int mx_island_index(t_list **list, char *str);
 int **mx_matrix_creator(char **islands, t_list *list);
 void	mx_push_back_custom(mini_list **list, int *value, int *path, int size);

@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_atoi.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_atoi.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_binary_search.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_binary_search.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_bubble_sort.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_bubble_sort.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_count_parallel.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_count_parallel.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_count_substr.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_count_substr.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_count_words.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_count_words.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_create_node.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o"
@@ -77,6 +78,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_ultra_del_extra_spaces.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_ultra_strtrim.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_validator.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_validator.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_write_result.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

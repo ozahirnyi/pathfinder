@@ -7,6 +7,9 @@ CMakeFiles/mx.dir/libmx/src/mx_binary_search.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_binary_search.c
 CMakeFiles/mx.dir/libmx/src/mx_bubble_sort.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_bubble_sort.c
+CMakeFiles/mx.dir/libmx/src/mx_count_parallel.c.o
+ /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
+ /Users/ozahirnyi/pathfinder/libmx/src/mx_count_parallel.c
 CMakeFiles/mx.dir/libmx/src/mx_count_substr.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_count_substr.c
 CMakeFiles/mx.dir/libmx/src/mx_count_words.c.o
@@ -161,3 +164,6 @@ CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o
 CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_ultra_strtrim.c
 CMakeFiles/mx.dir/libmx/src/mx_validator.c.o
+CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o
+ /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
+ /Users/ozahirnyi/pathfinder/libmx/src/mx_write_result.c

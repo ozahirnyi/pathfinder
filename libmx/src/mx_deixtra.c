@@ -57,7 +57,7 @@ void    mx_deixtra(int **deixtra_matrix, int **matrix, int size, mini_list **lis
             recursion(deixtra_matrix, matrix, min, list);
         }
     }
-    mx_push_back_filter(list, deixtra_matrix[0], deixtra_matrix[1], size);
+    mx_push_back_custom(list, deixtra_matrix[0], deixtra_matrix[1], size);
     mx_del_intarr(&deixtra_matrix, size);
     free(deixtra_matrix[2]);
 }

@@ -217,6 +217,33 @@ libmx/src/mx_bubble_sort.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_bubble_sort.c.s
 .PHONY : libmx/src/mx_bubble_sort.c.s
 
+libmx/src/mx_count_parallel.o: libmx/src/mx_count_parallel.c.o
+
+.PHONY : libmx/src/mx_count_parallel.o
+
+# target to build an object file
+libmx/src/mx_count_parallel.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_count_parallel.c.o
+.PHONY : libmx/src/mx_count_parallel.c.o
+
+libmx/src/mx_count_parallel.i: libmx/src/mx_count_parallel.c.i
+
+.PHONY : libmx/src/mx_count_parallel.i
+
+# target to preprocess a source file
+libmx/src/mx_count_parallel.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_count_parallel.c.i
+.PHONY : libmx/src/mx_count_parallel.c.i
+
+libmx/src/mx_count_parallel.s: libmx/src/mx_count_parallel.c.s
+
+.PHONY : libmx/src/mx_count_parallel.s
+
+# target to generate assembly for a file
+libmx/src/mx_count_parallel.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_count_parallel.c.s
+.PHONY : libmx/src/mx_count_parallel.c.s
+
 libmx/src/mx_count_substr.o: libmx/src/mx_count_substr.c.o
 
 .PHONY : libmx/src/mx_count_substr.o
@@ -2107,6 +2134,33 @@ libmx/src/mx_validator.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_validator.c.s
 .PHONY : libmx/src/mx_validator.c.s
 
+libmx/src/mx_write_result.o: libmx/src/mx_write_result.c.o
+
+.PHONY : libmx/src/mx_write_result.o
+
+# target to build an object file
+libmx/src/mx_write_result.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o
+.PHONY : libmx/src/mx_write_result.c.o
+
+libmx/src/mx_write_result.i: libmx/src/mx_write_result.c.i
+
+.PHONY : libmx/src/mx_write_result.i
+
+# target to preprocess a source file
+libmx/src/mx_write_result.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_write_result.c.i
+.PHONY : libmx/src/mx_write_result.c.i
+
+libmx/src/mx_write_result.s: libmx/src/mx_write_result.c.s
+
+.PHONY : libmx/src/mx_write_result.s
+
+# target to generate assembly for a file
+libmx/src/mx_write_result.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_write_result.c.s
+.PHONY : libmx/src/mx_write_result.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -2153,6 +2207,9 @@ help:
 	@echo "... libmx/src/mx_bubble_sort.o"
 	@echo "... libmx/src/mx_bubble_sort.i"
 	@echo "... libmx/src/mx_bubble_sort.s"
+	@echo "... libmx/src/mx_count_parallel.o"
+	@echo "... libmx/src/mx_count_parallel.i"
+	@echo "... libmx/src/mx_count_parallel.s"
 	@echo "... libmx/src/mx_count_substr.o"
 	@echo "... libmx/src/mx_count_substr.i"
 	@echo "... libmx/src/mx_count_substr.s"
@@ -2363,6 +2420,9 @@ help:
 	@echo "... libmx/src/mx_validator.o"
 	@echo "... libmx/src/mx_validator.i"
 	@echo "... libmx/src/mx_validator.s"
+	@echo "... libmx/src/mx_write_result.o"
+	@echo "... libmx/src/mx_write_result.i"
+	@echo "... libmx/src/mx_write_result.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

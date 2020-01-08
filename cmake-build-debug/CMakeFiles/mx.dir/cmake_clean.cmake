@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mx.dir/libmx/src/mx_atoi.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_binary_search.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_bubble_sort.c.o"
+  "CMakeFiles/mx.dir/libmx/src/mx_count_parallel.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_count_substr.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_count_words.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o"
@@ -72,6 +73,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_validator.c.o"
+  "CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o"
   "libmx.a"
   "libmx.pdb"
 )

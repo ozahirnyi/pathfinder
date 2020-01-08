@@ -7,6 +7,9 @@ CMakeFiles/mx.dir/libmx/src/mx_binary_search.c.o: ../libmx/src/mx_binary_search.
 
 CMakeFiles/mx.dir/libmx/src/mx_bubble_sort.c.o: ../libmx/src/mx_bubble_sort.c
 
+CMakeFiles/mx.dir/libmx/src/mx_count_parallel.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_count_parallel.c.o: ../libmx/src/mx_count_parallel.c
+
 CMakeFiles/mx.dir/libmx/src/mx_count_substr.c.o: ../libmx/src/mx_count_substr.c
 
 CMakeFiles/mx.dir/libmx/src/mx_count_words.c.o: ../libmx/src/mx_count_words.c
@@ -160,4 +163,7 @@ CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o: ../libmx/src/mx_ultra
 
 CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o: ../libmx/src/mx_ultra_strtrim.c
 
+
+CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o: ../libmx/src/mx_write_result.c
 
