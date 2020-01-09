@@ -22,7 +22,7 @@ int ***mx_result_matrix(mini_list **list, int size) {
             }
         }
     result_matrix_filling(result_matrix, size, list);
-    for (int q = 0; q < 1; q++) {
+    for (int q = 0; q < size - 1; q++) {
         printf("\n");
         for (int w = 0; w < 3; w++){
             for (int e = 0; result_matrix[q][w][e] != -2; e++)
@@ -33,17 +33,19 @@ int ***mx_result_matrix(mini_list **list, int size) {
         return result_matrix;
 }
 
-static int check_for_duplicates(int **result_matrix, int value, int path) {
+static int check_for_duplicates(int **result_matrix, int value, int path, int index) {
     int flag = 0;
+    printf("INDEX = %d\n", index);
 
     for (int i = 0; i < 2; i++) {
-        for (int j = 0; result_matrix[i][j] != -2; j++)
-            if (value == result_matrix[0][j] && path == result_matrix[1][j] && result_matrix[2][j] != j)
-                flag = 1;
+        for (int j = 0; result_matrix[i][j] != -2; j++) {
+            if (value == result_matrix[0][j] && path == result_matrix[1][j] && result_matrix[2][j] == index)
+                return 1;
 //                if (result_matrix[2][j] != j)
 //                    flag = 2;
             else if (value == result_matrix[0][j] && path != result_matrix[1][j])
-                flag = 2;
+                return 2;
+        }
     }
     printf("FLAG = %d\n", flag);
     return flag;
@@ -59,20 +61,24 @@ static void push_on_place(int **result, int value, int path, int i) {
         printf("\n");
     }
     printf("\n");
+
+    printf("VALUE = %d\n", value);
+    printf("PATH = %d\n", path);
     for (j = 0; result[0][j] != -3; j++);
-    printf("Start J = %d\n", j);
-    printf("I = %d\n", i);
+//    printf("Start J = %d\n", j);
+//    printf("I = %d\n", i);
     while (j > i) {
         result[0][j + 1] = result[0][j];
         result[1][j + 1] = result[1][j];
         result[2][j + 1] = result[2][j];
         j--;
     }
-    printf("Finish J = %d\n", j);
+    j++;
+//    printf("Finish J = %d\n", j);
     result[0][j] = value;
     result[1][j] = path;
     result[2][j] = i;
-    printf("END = \n\n", i);
+    printf("END = %d\n\n", i);
     for (int w = 0; w < 3; w++) {
         for (int q = 0; result[0][q] != -3; q++)
             printf("%d | ", result[w][q]);
@@ -87,20 +93,20 @@ static void    result_matrix_filling(int ***result_matrix, int size, mini_list *
         int i = 0;
         while (buf->value[current] == -1) {
             while (i < size) {
-                if (!check_for_duplicates(result_matrix[current], buf->value[i], buf->path[i])) {
+                if (!check_for_duplicates(result_matrix[current], buf->value[i], buf->path[i], i)) {
                     result_matrix[current][0][i] = buf->value[i];
                     result_matrix[current][1][i] = buf->path[i];
                     result_matrix[current][2][i] = i;
                 }
-//                else if (check_for_duplicates(result_matrix[current], buf->value[i], buf->path[i]) == 2) {
-//                    printf("I = %d\n", i);
-//                    push_on_place(result_matrix[current], buf->value[i], buf->path[i], i);
+                else if (check_for_duplicates(result_matrix[current], buf->value[i], buf->path[i], i) == 2) {
+                    printf("I = %d\n", i);
+                    push_on_place(result_matrix[current], buf->value[i], buf->path[i], i);
 //                    result_matrix[current][0][i] = buf->value[i];
 //                    result_matrix[current][1][i] = buf->path[i];
 //                    result_matrix[current][2][i] = i;
-//                }
-                else if (check_for_duplicates(result_matrix[current], buf->value[i], buf->path[i]) == 2)
-                    push_on_place(result_matrix[current], buf->value[i], buf->path[i], i);
+                }
+//                else if (check_for_duplicates(result_matrix[current], buf->value[i], buf->path[i]) == 2)
+//                    push_on_place(result_matrix[current], buf->value[i], buf->path[i], i);
 //                    printf("HYU\n");
                 i++;
             }

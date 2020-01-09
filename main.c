@@ -14,7 +14,7 @@ int main(void) {
     mx_deixtra_cycle(matrix, size, &list1);
     mx_result_matrix(&list1, size);
     printf("\n");
-    while (list1->value[0] == -1) {
+    while (list1) {
         for (int i = 0; i < size; i++) {
             printf("%d  |  ", list1->value[i]);
         }
