@@ -43,6 +43,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_nbr_to_hex.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_nbr_to_hex.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_pop_back.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_pop_back.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_pop_front.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_pop_front.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_pop_front_mini.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_pop_front_mini.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_pop_specific.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_pop_specific.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_pow.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_pow.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_print_strarr.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_print_strarr.c.o"

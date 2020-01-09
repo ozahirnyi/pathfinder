@@ -1189,6 +1189,33 @@ libmx/src/mx_pop_front.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_pop_front.c.s
 .PHONY : libmx/src/mx_pop_front.c.s
 
+libmx/src/mx_pop_front_mini.o: libmx/src/mx_pop_front_mini.c.o
+
+.PHONY : libmx/src/mx_pop_front_mini.o
+
+# target to build an object file
+libmx/src/mx_pop_front_mini.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_pop_front_mini.c.o
+.PHONY : libmx/src/mx_pop_front_mini.c.o
+
+libmx/src/mx_pop_front_mini.i: libmx/src/mx_pop_front_mini.c.i
+
+.PHONY : libmx/src/mx_pop_front_mini.i
+
+# target to preprocess a source file
+libmx/src/mx_pop_front_mini.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_pop_front_mini.c.i
+.PHONY : libmx/src/mx_pop_front_mini.c.i
+
+libmx/src/mx_pop_front_mini.s: libmx/src/mx_pop_front_mini.c.s
+
+.PHONY : libmx/src/mx_pop_front_mini.s
+
+# target to generate assembly for a file
+libmx/src/mx_pop_front_mini.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_pop_front_mini.c.s
+.PHONY : libmx/src/mx_pop_front_mini.c.s
+
 libmx/src/mx_pop_specific.o: libmx/src/mx_pop_specific.c.o
 
 .PHONY : libmx/src/mx_pop_specific.o
@@ -2315,6 +2342,9 @@ help:
 	@echo "... libmx/src/mx_pop_front.o"
 	@echo "... libmx/src/mx_pop_front.i"
 	@echo "... libmx/src/mx_pop_front.s"
+	@echo "... libmx/src/mx_pop_front_mini.o"
+	@echo "... libmx/src/mx_pop_front_mini.i"
+	@echo "... libmx/src/mx_pop_front_mini.s"
 	@echo "... libmx/src/mx_pop_specific.o"
 	@echo "... libmx/src/mx_pop_specific.i"
 	@echo "... libmx/src/mx_pop_specific.s"

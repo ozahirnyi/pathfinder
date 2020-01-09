@@ -98,20 +98,13 @@ static void    result_matrix_filling(int ***result_matrix, int size, mini_list *
                     result_matrix[current][1][i] = buf->path[i];
                     result_matrix[current][2][i] = i;
                 }
-                else if (check_for_duplicates(result_matrix[current], buf->value[i], buf->path[i], i) == 2) {
-                    printf("I = %d\n", i);
+                else if (check_for_duplicates(result_matrix[current], buf->value[i], buf->path[i], i) == 2)
                     push_on_place(result_matrix[current], buf->value[i], buf->path[i], i);
-//                    result_matrix[current][0][i] = buf->value[i];
-//                    result_matrix[current][1][i] = buf->path[i];
-//                    result_matrix[current][2][i] = i;
-                }
-//                else if (check_for_duplicates(result_matrix[current], buf->value[i], buf->path[i]) == 2)
-//                    push_on_place(result_matrix[current], buf->value[i], buf->path[i], i);
-//                    printf("HYU\n");
                 i++;
             }
                 i = 0;
-                buf = buf->next;
+                mx_pop_front_mini(&buf);
+//                buf = buf->next;
         }
     }
 }

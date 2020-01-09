@@ -38,6 +38,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mx.dir/libmx/src/mx_nbr_to_hex.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_pop_back.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_pop_front.c.o"
+  "CMakeFiles/mx.dir/libmx/src/mx_pop_front_mini.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_pop_specific.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_pow.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_print_strarr.c.o"

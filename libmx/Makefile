@@ -75,6 +75,7 @@ SRC = src/mx_printchar.c \
         src/mx_mini_list_filter.c \
         src/mx_count_parallel.c \
 		src/mx_write_result.c \
+		src/mx_pop_front_mini.c \
 
 OBJ = mx_printchar.o \
         mx_atoi.o \
@@ -152,6 +153,7 @@ OBJ = mx_printchar.o \
 		mx_mini_list_filter.o \
 		mx_count_parallel.o \
 		mx_write_result.o \
+		mx_pop_front_mini.o \
 
 FLAGS = -std=c11 -Wall -Wextra -Werror -Wpedantic
 
