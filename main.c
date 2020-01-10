@@ -6,14 +6,14 @@ int main(void) {
     char **islands = mx_strsplit(str, '\n');
     t_list *list = mx_island_list(islands);
     int **matrix = mx_matrix_creator(islands, list);
-    mini_list *list1 = NULL;
+    mini_list *list2 = NULL;
 //    while (list) {
 //        printf("%s  |  ", list->data);
 //        list = list->next;
 //    }
-    mx_deixtra_cycle(matrix, size, &list1);
-    mx_result_matrix(&list1, size);
+    mx_deixtra_cycle(matrix, size, &list2);
     printf("\n");
+    mini_list *list1 = list2;
     while (list1) {
         for (int i = 0; i < size; i++) {
             printf("%d  |  ", list1->value[i]);
@@ -26,6 +26,7 @@ int main(void) {
         list1 = list1->next;
         printf("\n");
     }
+    mx_result_matrix(&list2, size);
 
 //    system("leaks pathfinder");
 //    //for (int i = 0; i < mx_atoi(str); i++) {

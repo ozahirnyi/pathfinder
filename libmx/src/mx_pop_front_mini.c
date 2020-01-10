@@ -3,7 +3,13 @@
 void	mx_pop_front_mini(mini_list **head) {
     mini_list *buf = NULL;
 
-    buf = (*head)->next;
-    free(*head);
-    *head = buf;
+    if (head != NULL) {
+        buf = (*head)->next;
+//        free((*head)->path);
+//        (*head)->path = NULL;
+//        free((*head)->value);
+//        (*head)->value = NULL;
+        free(*head);
+        *head = buf;
+    }
 }
