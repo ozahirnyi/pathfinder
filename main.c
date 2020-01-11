@@ -1,7 +1,7 @@
 #include "pathfinder.h"
 
 int main(void) {
-    char *str = mx_file_to_str("../qwe");
+    char *str = mx_file_to_str("../qwe2");
     int size = mx_atoi(str);
     char **islands = mx_strsplit(str, '\n');
     t_list *list = mx_island_list(islands);
