@@ -9,8 +9,8 @@ int ***mx_result_matrix(mini_list **list, int size) {
         for (int big = 0; big < size - 1; big++) {
             result_matrix[big] = (int **)malloc(sizeof(int *) * 3);
             each_size = mx_count_parallel(list, big);
-//            printf("%d  |  ", each_size);
-//            printf("\n");
+            printf("EACH_SIZE = %d", each_size);
+            printf("\n");
             for (int medium = 0; medium < 3; medium++) {
 //                printf("SIZE * EACH_SIZE = %d", size * each_size);
 //                printf("\n");
@@ -30,7 +30,7 @@ int ***mx_result_matrix(mini_list **list, int size) {
             printf("\n");
         }
     }
-        return result_matrix;
+    return result_matrix;
 }
 
 static int check_for_duplicates(int **result_matrix, int value, int path, int index) {
@@ -118,7 +118,7 @@ static void    result_matrix_filling(int ***result_matrix, int size, mini_list *
     for (int current = 0; current < size - 1; current++) {
         //mini_list *buf = *list;
         int i = 0;
-        while (list->next && list->value[current] == -1) {
+        while (list && list->value[current] == -1) {
             while (i < size) {
                 if (!check_for_duplicates(result_matrix[current], list->value[i], list->path[i], i)) {
                     result_matrix[current][0][i] = list->value[i];
