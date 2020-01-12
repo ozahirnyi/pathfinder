@@ -25,9 +25,13 @@ int ***mx_result_matrix(mini_list **list, int size) {
     for (int q = 0; q < size - 1 ; q++) {
         printf("\n");
         for (int w = 0; w < 3; w++){
-            for (int e = 0; result_matrix[q][w][e] != -2; e++)
-                printf("%d | ", result_matrix[q][w][e]);
-            printf("\n");
+            for (int e = 0; result_matrix[q][w][e] != -2; e++) {
+                if (result_matrix[q][w][e] >= 0 && result_matrix[q][w][e] < 10)
+                    printf(" %d | ", result_matrix[q][w][e]);
+                else if (result_matrix[q][w][e] == -1 || result_matrix[q][w][e] > 9)
+                    printf("%d | ", result_matrix[q][w][e]);
+            }
+                printf("\n");
         }
     }
     return result_matrix;
