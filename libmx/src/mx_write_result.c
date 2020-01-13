@@ -1,7 +1,6 @@
 #include "../inc/libmx.h"
 
-//void	bzero(void *s, size_t n)
-//{
+//void	bzero(void *s, size_t n) {
 //    unsigned char *ptr;
 //
 //    ptr = (unsigned char *)s;
@@ -32,13 +31,11 @@
 //    return (lst);
 //}
 //
-//void add_to_way(t_list **head, void *data, int value)
-//{
+//void add_to_way(t_list **head, void *data, int value) {
 //    t_list *tmp;
 //
 //    tmp = (*head);
-//    if (!(*head))
-//    {
+//    if (!(*head)) {
 //        (*head) = (t_list *)malloc(sizeof(t_list));
 //        bzero((*head), sizeof(t_list));
 //        (*head)->data = data;
@@ -55,20 +52,17 @@
 //    }
 //}
 //
-//char *find_data(t_list *name, int order)
-//{
+//char *find_data(t_list *name, int order) {
 //    int i = 0;
 //
-//    while (i < order && name)
-//    {
+//    while (i < order && name) {
 //        name = name->next;
 //        i++;
 //    }
 //    return ((char *)name->data);
 //}
 //
-//int *calculate_ways_number(int ***result_matrix, t_list *name, int size)
-//{
+//int *calculate_ways_number(int ***result_matrix, t_list *name, int size) {
 //    size_t i = 0;
 //    size_t j = 0; // cause all the time fisrt elem IT'S A PLACE WHERE WE ARE STANDING!!!
 //    size_t k = 0;
@@ -94,8 +88,7 @@
 //    return 0;
 //}
 //
-//void  print_dilim(void)
-//{
+//void  print_dilim(void) {
 //    size_t i = 0;
 //
 //    while (i < 40)
@@ -106,7 +99,6 @@
 //    mx_printchar('\n');
 //}
 //
-//void output(int **ways, t_list *names, int size)
-//{
+//void output(int **ways, t_list *names, int size) {
 //
 //}

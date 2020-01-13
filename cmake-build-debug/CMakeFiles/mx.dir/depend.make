@@ -34,6 +34,7 @@ CMakeFiles/mx.dir/libmx/src/mx_del_intarr.c.o: ../libmx/src/mx_del_intarr.c
 
 CMakeFiles/mx.dir/libmx/src/mx_del_strarr.c.o: ../libmx/src/mx_del_strarr.c
 
+CMakeFiles/mx.dir/libmx/src/mx_file_to_str.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_file_to_str.c.o: ../libmx/src/mx_file_to_str.c
 
 CMakeFiles/mx.dir/libmx/src/mx_foreach.c.o: ../libmx/src/mx_foreach.c

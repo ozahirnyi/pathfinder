@@ -11,13 +11,12 @@ void list_filler(t_list *list, mini_list *list1, char *str, int size) {
 
 int main(int argc, char **argv) {
     if (argc == 2) {
-        if (mx_file_to_str(argv[1])) {
-            char *str = mx_file_to_str(argv[1]);
-            int size = mx_atoi(str);
-            t_list *list = NULL;
-            mini_list *list1 = NULL;
+        char *str = mx_file_to_str(argv[1]);
+        int size = mx_atoi(str);
+        t_list *list = NULL;
+        mini_list *list1 = NULL;
 
-            list_filler(list, list1, str, size);
+        list_filler(list, list1, str, size);
 //    while (list) {
 //        printf("%s  |  ", list->data);
 //        list = list->next;
@@ -42,9 +41,6 @@ int main(int argc, char **argv) {
 //        list1 = list1->next;
 //        printf("\n");
 //    }
-        }
-        else
-            mx_printerr("error: file [filename] does not exist\n");
     }
     else {
         mx_printerr("usage: ./pathfinder [filename]\n");
