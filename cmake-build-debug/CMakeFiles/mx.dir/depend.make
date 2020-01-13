@@ -122,6 +122,9 @@ CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o: ../libmx/src/mx_realloc.c
 
 CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.o: ../libmx/src/mx_replace_substr.c
 
+CMakeFiles/mx.dir/libmx/src/mx_result_matrix.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_result_matrix.c.o: ../libmx/src/mx_result_matrix.c
+
 CMakeFiles/mx.dir/libmx/src/mx_skip_substr_index.c.o: ../libmx/src/mx_skip_substr_index.c
 
 CMakeFiles/mx.dir/libmx/src/mx_sort_list.c.o: ../libmx/src/mx_sort_list.c
@@ -166,7 +169,4 @@ CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o: ../libmx/src/mx_ultra
 
 CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o: ../libmx/src/mx_ultra_strtrim.c
 
-
-CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o: ../libmx/src/mx_write_result.c
 

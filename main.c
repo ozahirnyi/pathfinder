@@ -12,26 +12,26 @@ int main(int argc, char **argv) {
 //        list = list->next;
 //    }
     mx_deixtra_cycle(matrix, size, &list2);
-    printf("\n");
-    mini_list *list1 = list2;
-    while (list1) {
-        for (int i = 0; i < size; i++) {
-            if (list1->value[i] != -1)
-                printf(" %d  |  ", list1->value[i]);
-            else
-                printf("%d  |  ", list1->value[i]);
-        }
-        printf("\n");
-        for (int i = 0; i < size; i++) {
-            if (list1->path[i] != -1)
-                printf(" %d  |  ", list1->path[i]);
-            else
-                printf("%d  |  ", list1->path[i]);
-        }
-        printf("\n");
-        list1 = list1->next;
-        printf("\n");
-    }
+//    printf("\n");
+//    mini_list *list1 = list2;
+//    while (list1) {
+//        for (int i = 0; i < size; i++) {
+//            if (list1->value[i] != -1)
+//                printf(" %d  |  ", list1->value[i]);
+//            else
+//                printf("%d  |  ", list1->value[i]);
+//        }
+//        printf("\n");
+//        for (int i = 0; i < size; i++) {
+//            if (list1->path[i] != -1)
+//                printf(" %d  |  ", list1->path[i]);
+//            else
+//                printf("%d  |  ", list1->path[i]);
+//        }
+//        printf("\n");
+//        list1 = list1->next;
+//        printf("\n");
+//    }
     mx_result_matrix(&list2, size);
 
 //    system("leaks pathfinder");

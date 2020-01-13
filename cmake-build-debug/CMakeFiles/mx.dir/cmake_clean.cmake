@@ -52,6 +52,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.o"
+  "CMakeFiles/mx.dir/libmx/src/mx_result_matrix.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_skip_substr_index.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_sort_list.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_sqrt.c.o"
@@ -74,7 +75,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_validator.c.o"
-  "CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o"
   "libmx.a"
   "libmx.pdb"
 )

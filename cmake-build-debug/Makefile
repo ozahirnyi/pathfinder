@@ -1567,6 +1567,33 @@ libmx/src/mx_replace_substr.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.s
 .PHONY : libmx/src/mx_replace_substr.c.s
 
+libmx/src/mx_result_matrix.o: libmx/src/mx_result_matrix.c.o
+
+.PHONY : libmx/src/mx_result_matrix.o
+
+# target to build an object file
+libmx/src/mx_result_matrix.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_result_matrix.c.o
+.PHONY : libmx/src/mx_result_matrix.c.o
+
+libmx/src/mx_result_matrix.i: libmx/src/mx_result_matrix.c.i
+
+.PHONY : libmx/src/mx_result_matrix.i
+
+# target to preprocess a source file
+libmx/src/mx_result_matrix.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_result_matrix.c.i
+.PHONY : libmx/src/mx_result_matrix.c.i
+
+libmx/src/mx_result_matrix.s: libmx/src/mx_result_matrix.c.s
+
+.PHONY : libmx/src/mx_result_matrix.s
+
+# target to generate assembly for a file
+libmx/src/mx_result_matrix.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_result_matrix.c.s
+.PHONY : libmx/src/mx_result_matrix.c.s
+
 libmx/src/mx_skip_substr_index.o: libmx/src/mx_skip_substr_index.c.o
 
 .PHONY : libmx/src/mx_skip_substr_index.o
@@ -2161,33 +2188,6 @@ libmx/src/mx_validator.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_validator.c.s
 .PHONY : libmx/src/mx_validator.c.s
 
-libmx/src/mx_write_result.o: libmx/src/mx_write_result.c.o
-
-.PHONY : libmx/src/mx_write_result.o
-
-# target to build an object file
-libmx/src/mx_write_result.c.o:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o
-.PHONY : libmx/src/mx_write_result.c.o
-
-libmx/src/mx_write_result.i: libmx/src/mx_write_result.c.i
-
-.PHONY : libmx/src/mx_write_result.i
-
-# target to preprocess a source file
-libmx/src/mx_write_result.c.i:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_write_result.c.i
-.PHONY : libmx/src/mx_write_result.c.i
-
-libmx/src/mx_write_result.s: libmx/src/mx_write_result.c.s
-
-.PHONY : libmx/src/mx_write_result.s
-
-# target to generate assembly for a file
-libmx/src/mx_write_result.c.s:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_write_result.c.s
-.PHONY : libmx/src/mx_write_result.c.s
-
 main.o: main.c.o
 
 .PHONY : main.o
@@ -2384,6 +2384,9 @@ help:
 	@echo "... libmx/src/mx_replace_substr.o"
 	@echo "... libmx/src/mx_replace_substr.i"
 	@echo "... libmx/src/mx_replace_substr.s"
+	@echo "... libmx/src/mx_result_matrix.o"
+	@echo "... libmx/src/mx_result_matrix.i"
+	@echo "... libmx/src/mx_result_matrix.s"
 	@echo "... libmx/src/mx_skip_substr_index.o"
 	@echo "... libmx/src/mx_skip_substr_index.i"
 	@echo "... libmx/src/mx_skip_substr_index.s"
@@ -2450,9 +2453,6 @@ help:
 	@echo "... libmx/src/mx_validator.o"
 	@echo "... libmx/src/mx_validator.i"
 	@echo "... libmx/src/mx_validator.s"
-	@echo "... libmx/src/mx_write_result.o"
-	@echo "... libmx/src/mx_write_result.i"
-	@echo "... libmx/src/mx_write_result.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

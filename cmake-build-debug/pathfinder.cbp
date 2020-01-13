@@ -281,6 +281,9 @@
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_replace_substr.c">
 			<Option target="mx"/>
 		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_result_matrix.c">
+			<Option target="mx"/>
+		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_skip_substr_index.c">
 			<Option target="mx"/>
 		</Unit>
@@ -345,9 +348,6 @@
 			<Option target="mx"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_validator.c">
-			<Option target="mx"/>
-		</Unit>
-		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_write_result.c">
 			<Option target="mx"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/main.c">
