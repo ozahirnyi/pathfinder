@@ -34,7 +34,7 @@ static void recursion(int **deixtra_matrix, int **matrix, int min, mini_list **l
     }
 }
 
-static void algorithm(int **deixtra_matrix, int **matrix, int min, mini_list **list) {
+static void algorithm(int **deixtra_matrix, int **matrix, int min) {
     int size = 0;
 
     for (size = 0; deixtra_matrix[0][size] != -2; size++);
@@ -53,7 +53,7 @@ void    mx_deixtra(int **deixtra_matrix, int **matrix, int size, mini_list **lis
         int min = mx_is_min(deixtra_matrix, size);
         if (min != -1) {
             deixtra_matrix[2][min] = 1;
-            algorithm(deixtra_matrix, matrix, min, list);
+            algorithm(deixtra_matrix, matrix, min);
             recursion(deixtra_matrix, matrix, min, list);
         }
     }

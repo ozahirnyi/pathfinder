@@ -78,6 +78,7 @@ SRC = src/mx_printchar.c \
 		src/mx_pop_front_mini.c \
 		src/mx_result_matrix.c \
 		src/mx_printerr.c \
+		src/mx_sort_result.c \
 
 OBJ = mx_printchar.o \
         mx_atoi.o \
@@ -158,6 +159,7 @@ OBJ = mx_printchar.o \
 		mx_pop_front_mini.o \
 		mx_result_matrix.o \
 		mx_printerr.o \
+		mx_sort_result.o \
 
 FLAGS = -std=c11 -Wall -Wextra -Werror -Wpedantic
 

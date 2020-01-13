@@ -71,7 +71,7 @@ int ***mx_result_matrix(mini_list **list, int size) {
     int ***result_matrix = (int ***)malloc(sizeof(int **) * size);
 
     for (int big = 0; big < size - 1; big++) {
-        result_matrix[big] = (int **) malloc(sizeof(int *) * 3);
+        result_matrix[big] = (int **)malloc(sizeof(int *) * 3);
         each_size = mx_count_parallel(list, big);
         for (int medium = 0; medium < 3; medium++) {
             result_matrix[big][medium] = (int *) malloc(sizeof(int) * (size * each_size) + 1);
@@ -82,17 +82,17 @@ int ***mx_result_matrix(mini_list **list, int size) {
         }
     }
     result_matrix_filling(result_matrix, size, *list);
-    for (int q = 0; q < size - 1 ; q++) {
-        printf("\n");
-        for (int w = 0; w < 3; w++){
-            for (int e = 0; result_matrix[q][w][e] != -2; e++) {
-                if (result_matrix[q][w][e] >= 0 && result_matrix[q][w][e] < 10)
-                    printf(" %d | ", result_matrix[q][w][e]);
-                else if (result_matrix[q][w][e] == -1 || result_matrix[q][w][e] > 9)
-                    printf("%d | ", result_matrix[q][w][e]);
-            }
-            printf("\n");
-        }
-    }
+//    for (int q = 0; q < size - 1 ; q++) {
+//        printf("\n");
+//        for (int w = 0; w < 3; w++){
+//            for (int e = 0; result_matrix[q][w][e] != -2; e++) {
+//                if (result_matrix[q][w][e] >= 0 && result_matrix[q][w][e] < 10)
+//                    printf(" %d | ", result_matrix[q][w][e]);
+//                else if (result_matrix[q][w][e] == -1 || result_matrix[q][w][e] > 9)
+//                    printf("%d | ", result_matrix[q][w][e]);
+//            }
+//            printf("\n");
+//        }
+//    }
     return result_matrix;
 }
