@@ -63,7 +63,7 @@ int	mx_list_size(t_list *list);
 int ***mx_result_matrix(mini_list **list, int size);
 int mx_count_parallel(mini_list **list, int index);
 int mx_island_index(t_list **list, char *str);
-int **mx_matrix_creator(char **islands, t_list *list);
+int **mx_matrix_creator(char **islands);
 void	mx_push_back_custom(mini_list **list, int *value, int *path, int size);
 void	mx_push_front(t_list **list, void *data);
 void	mx_push_back(t_list **list, void *data);

@@ -88,6 +88,7 @@ CMakeFiles/mx.dir/libmx/src/mx_nbr_to_hex.c.o: ../libmx/src/mx_nbr_to_hex.c
 
 CMakeFiles/mx.dir/libmx/src/mx_pop_back.c.o: ../libmx/src/mx_pop_back.c
 
+CMakeFiles/mx.dir/libmx/src/mx_pop_front.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_pop_front.c.o: ../libmx/src/mx_pop_front.c
 
 CMakeFiles/mx.dir/libmx/src/mx_pop_front_mini.c.o: ../libmx/inc/libmx.h

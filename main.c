@@ -4,8 +4,7 @@ int main(int argc, char **argv) {
     char *str = mx_file_to_str("../qwe");
     int size = mx_atoi(str);
     char **islands = mx_strsplit(str, '\n');
-    t_list *list = mx_island_list(islands);
-    int **matrix = mx_matrix_creator(islands, list);
+    int **matrix = mx_matrix_creator(islands);
     mini_list *list2 = NULL;
 //    while (list) {
 //        printf("%s  |  ", list->data);
