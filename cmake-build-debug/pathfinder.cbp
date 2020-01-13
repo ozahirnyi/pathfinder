@@ -257,6 +257,9 @@
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_printchar.c">
 			<Option target="mx"/>
 		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_printerr.c">
+			<Option target="mx"/>
+		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_printint.c">
 			<Option target="mx"/>
 		</Unit>
@@ -348,6 +351,9 @@
 			<Option target="mx"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_validator.c">
+			<Option target="mx"/>
+		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_write_result.c">
 			<Option target="mx"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/main.c">

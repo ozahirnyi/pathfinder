@@ -49,6 +49,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_print_strarr.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_print_strarr.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_print_unicode.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_print_unicode.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_printchar.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_printchar.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_printerr.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_printerr.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_printint.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_printint.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_printstr.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_printstr.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_push_back.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o"
@@ -80,6 +81,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_ultra_del_extra_spaces.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_ultra_strtrim.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_validator.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_validator.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_write_result.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

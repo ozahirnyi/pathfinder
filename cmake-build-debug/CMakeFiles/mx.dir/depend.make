@@ -103,6 +103,9 @@ CMakeFiles/mx.dir/libmx/src/mx_print_unicode.c.o: ../libmx/src/mx_print_unicode.
 
 CMakeFiles/mx.dir/libmx/src/mx_printchar.c.o: ../libmx/src/mx_printchar.c
 
+CMakeFiles/mx.dir/libmx/src/mx_printerr.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_printerr.c.o: ../libmx/src/mx_printerr.c
+
 CMakeFiles/mx.dir/libmx/src/mx_printint.c.o: ../libmx/src/mx_printint.c
 
 CMakeFiles/mx.dir/libmx/src/mx_printstr.c.o: ../libmx/src/mx_printstr.c
@@ -169,4 +172,7 @@ CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o: ../libmx/src/mx_ultra
 
 CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o: ../libmx/src/mx_ultra_strtrim.c
 
+
+CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o: ../libmx/src/mx_write_result.c
 

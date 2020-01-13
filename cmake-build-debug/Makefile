@@ -1351,6 +1351,33 @@ libmx/src/mx_printchar.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_printchar.c.s
 .PHONY : libmx/src/mx_printchar.c.s
 
+libmx/src/mx_printerr.o: libmx/src/mx_printerr.c.o
+
+.PHONY : libmx/src/mx_printerr.o
+
+# target to build an object file
+libmx/src/mx_printerr.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_printerr.c.o
+.PHONY : libmx/src/mx_printerr.c.o
+
+libmx/src/mx_printerr.i: libmx/src/mx_printerr.c.i
+
+.PHONY : libmx/src/mx_printerr.i
+
+# target to preprocess a source file
+libmx/src/mx_printerr.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_printerr.c.i
+.PHONY : libmx/src/mx_printerr.c.i
+
+libmx/src/mx_printerr.s: libmx/src/mx_printerr.c.s
+
+.PHONY : libmx/src/mx_printerr.s
+
+# target to generate assembly for a file
+libmx/src/mx_printerr.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_printerr.c.s
+.PHONY : libmx/src/mx_printerr.c.s
+
 libmx/src/mx_printint.o: libmx/src/mx_printint.c.o
 
 .PHONY : libmx/src/mx_printint.o
@@ -2188,6 +2215,33 @@ libmx/src/mx_validator.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_validator.c.s
 .PHONY : libmx/src/mx_validator.c.s
 
+libmx/src/mx_write_result.o: libmx/src/mx_write_result.c.o
+
+.PHONY : libmx/src/mx_write_result.o
+
+# target to build an object file
+libmx/src/mx_write_result.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o
+.PHONY : libmx/src/mx_write_result.c.o
+
+libmx/src/mx_write_result.i: libmx/src/mx_write_result.c.i
+
+.PHONY : libmx/src/mx_write_result.i
+
+# target to preprocess a source file
+libmx/src/mx_write_result.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_write_result.c.i
+.PHONY : libmx/src/mx_write_result.c.i
+
+libmx/src/mx_write_result.s: libmx/src/mx_write_result.c.s
+
+.PHONY : libmx/src/mx_write_result.s
+
+# target to generate assembly for a file
+libmx/src/mx_write_result.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_write_result.c.s
+.PHONY : libmx/src/mx_write_result.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -2360,6 +2414,9 @@ help:
 	@echo "... libmx/src/mx_printchar.o"
 	@echo "... libmx/src/mx_printchar.i"
 	@echo "... libmx/src/mx_printchar.s"
+	@echo "... libmx/src/mx_printerr.o"
+	@echo "... libmx/src/mx_printerr.i"
+	@echo "... libmx/src/mx_printerr.s"
 	@echo "... libmx/src/mx_printint.o"
 	@echo "... libmx/src/mx_printint.i"
 	@echo "... libmx/src/mx_printint.s"
@@ -2453,6 +2510,9 @@ help:
 	@echo "... libmx/src/mx_validator.o"
 	@echo "... libmx/src/mx_validator.i"
 	@echo "... libmx/src/mx_validator.s"
+	@echo "... libmx/src/mx_write_result.o"
+	@echo "... libmx/src/mx_write_result.i"
+	@echo "... libmx/src/mx_write_result.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

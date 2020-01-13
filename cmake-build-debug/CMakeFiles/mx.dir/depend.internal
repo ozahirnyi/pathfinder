@@ -103,6 +103,9 @@ CMakeFiles/mx.dir/libmx/src/mx_print_unicode.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_print_unicode.c
 CMakeFiles/mx.dir/libmx/src/mx_printchar.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_printchar.c
+CMakeFiles/mx.dir/libmx/src/mx_printerr.c.o
+ /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
+ /Users/ozahirnyi/pathfinder/libmx/src/mx_printerr.c
 CMakeFiles/mx.dir/libmx/src/mx_printint.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_printint.c
 CMakeFiles/mx.dir/libmx/src/mx_printstr.c.o
@@ -170,3 +173,6 @@ CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o
 CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_ultra_strtrim.c
 CMakeFiles/mx.dir/libmx/src/mx_validator.c.o
+CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o
+ /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
+ /Users/ozahirnyi/pathfinder/libmx/src/mx_write_result.c

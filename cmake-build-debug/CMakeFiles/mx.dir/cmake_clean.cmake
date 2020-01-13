@@ -44,6 +44,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mx.dir/libmx/src/mx_print_strarr.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_print_unicode.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_printchar.c.o"
+  "CMakeFiles/mx.dir/libmx/src/mx_printerr.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_printint.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_printstr.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o"
@@ -75,6 +76,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_validator.c.o"
+  "CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o"
   "libmx.a"
   "libmx.pdb"
 )

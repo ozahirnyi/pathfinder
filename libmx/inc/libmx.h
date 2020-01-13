@@ -38,6 +38,7 @@ char	*mx_strndup(const char *s1, size_t n);
 char	*mx_ultra_strtrim(const char *str, char c);
 char	*mx_ultra_del_extra_spaces(const char *str, char c);
 char	**mx_strsplit(const char *s, char c);
+void mx_printerr(const char *s);
 
 typedef struct s_list {
 	char *data;
