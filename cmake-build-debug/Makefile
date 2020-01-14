@@ -622,6 +622,33 @@ libmx/src/mx_hex_to_nbr.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_hex_to_nbr.c.s
 .PHONY : libmx/src/mx_hex_to_nbr.c.s
 
+libmx/src/mx_is_alpha.o: libmx/src/mx_is_alpha.c.o
+
+.PHONY : libmx/src/mx_is_alpha.o
+
+# target to build an object file
+libmx/src/mx_is_alpha.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_is_alpha.c.o
+.PHONY : libmx/src/mx_is_alpha.c.o
+
+libmx/src/mx_is_alpha.i: libmx/src/mx_is_alpha.c.i
+
+.PHONY : libmx/src/mx_is_alpha.i
+
+# target to preprocess a source file
+libmx/src/mx_is_alpha.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_is_alpha.c.i
+.PHONY : libmx/src/mx_is_alpha.c.i
+
+libmx/src/mx_is_alpha.s: libmx/src/mx_is_alpha.c.s
+
+.PHONY : libmx/src/mx_is_alpha.s
+
+# target to generate assembly for a file
+libmx/src/mx_is_alpha.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_is_alpha.c.s
+.PHONY : libmx/src/mx_is_alpha.c.s
+
 libmx/src/mx_is_done.o: libmx/src/mx_is_done.c.o
 
 .PHONY : libmx/src/mx_is_done.o
@@ -1081,33 +1108,6 @@ libmx/src/mx_memset.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_memset.c.s
 .PHONY : libmx/src/mx_memset.c.s
 
-libmx/src/mx_mini_list_filter.o: libmx/src/mx_mini_list_filter.c.o
-
-.PHONY : libmx/src/mx_mini_list_filter.o
-
-# target to build an object file
-libmx/src/mx_mini_list_filter.c.o:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_mini_list_filter.c.o
-.PHONY : libmx/src/mx_mini_list_filter.c.o
-
-libmx/src/mx_mini_list_filter.i: libmx/src/mx_mini_list_filter.c.i
-
-.PHONY : libmx/src/mx_mini_list_filter.i
-
-# target to preprocess a source file
-libmx/src/mx_mini_list_filter.c.i:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_mini_list_filter.c.i
-.PHONY : libmx/src/mx_mini_list_filter.c.i
-
-libmx/src/mx_mini_list_filter.s: libmx/src/mx_mini_list_filter.c.s
-
-.PHONY : libmx/src/mx_mini_list_filter.s
-
-# target to generate assembly for a file
-libmx/src/mx_mini_list_filter.c.s:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_mini_list_filter.c.s
-.PHONY : libmx/src/mx_mini_list_filter.c.s
-
 libmx/src/mx_nbr_to_hex.o: libmx/src/mx_nbr_to_hex.c.o
 
 .PHONY : libmx/src/mx_nbr_to_hex.o
@@ -1215,33 +1215,6 @@ libmx/src/mx_pop_front_mini.s: libmx/src/mx_pop_front_mini.c.s
 libmx/src/mx_pop_front_mini.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_pop_front_mini.c.s
 .PHONY : libmx/src/mx_pop_front_mini.c.s
-
-libmx/src/mx_pop_specific.o: libmx/src/mx_pop_specific.c.o
-
-.PHONY : libmx/src/mx_pop_specific.o
-
-# target to build an object file
-libmx/src/mx_pop_specific.c.o:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_pop_specific.c.o
-.PHONY : libmx/src/mx_pop_specific.c.o
-
-libmx/src/mx_pop_specific.i: libmx/src/mx_pop_specific.c.i
-
-.PHONY : libmx/src/mx_pop_specific.i
-
-# target to preprocess a source file
-libmx/src/mx_pop_specific.c.i:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_pop_specific.c.i
-.PHONY : libmx/src/mx_pop_specific.c.i
-
-libmx/src/mx_pop_specific.s: libmx/src/mx_pop_specific.c.s
-
-.PHONY : libmx/src/mx_pop_specific.s
-
-# target to generate assembly for a file
-libmx/src/mx_pop_specific.c.s:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_pop_specific.c.s
-.PHONY : libmx/src/mx_pop_specific.c.s
 
 libmx/src/mx_pow.o: libmx/src/mx_pow.c.o
 
@@ -1485,33 +1458,6 @@ libmx/src/mx_push_back_custom.s: libmx/src/mx_push_back_custom.c.s
 libmx/src/mx_push_back_custom.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.s
 .PHONY : libmx/src/mx_push_back_custom.c.s
-
-libmx/src/mx_push_back_filter.o: libmx/src/mx_push_back_filter.c.o
-
-.PHONY : libmx/src/mx_push_back_filter.o
-
-# target to build an object file
-libmx/src/mx_push_back_filter.c.o:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.o
-.PHONY : libmx/src/mx_push_back_filter.c.o
-
-libmx/src/mx_push_back_filter.i: libmx/src/mx_push_back_filter.c.i
-
-.PHONY : libmx/src/mx_push_back_filter.i
-
-# target to preprocess a source file
-libmx/src/mx_push_back_filter.c.i:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.i
-.PHONY : libmx/src/mx_push_back_filter.c.i
-
-libmx/src/mx_push_back_filter.s: libmx/src/mx_push_back_filter.c.s
-
-.PHONY : libmx/src/mx_push_back_filter.s
-
-# target to generate assembly for a file
-libmx/src/mx_push_back_filter.c.s:
-	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.s
-.PHONY : libmx/src/mx_push_back_filter.c.s
 
 libmx/src/mx_push_front.o: libmx/src/mx_push_front.c.o
 
@@ -2360,6 +2306,9 @@ help:
 	@echo "... libmx/src/mx_hex_to_nbr.o"
 	@echo "... libmx/src/mx_hex_to_nbr.i"
 	@echo "... libmx/src/mx_hex_to_nbr.s"
+	@echo "... libmx/src/mx_is_alpha.o"
+	@echo "... libmx/src/mx_is_alpha.i"
+	@echo "... libmx/src/mx_is_alpha.s"
 	@echo "... libmx/src/mx_is_done.o"
 	@echo "... libmx/src/mx_is_done.i"
 	@echo "... libmx/src/mx_is_done.s"
@@ -2411,9 +2360,6 @@ help:
 	@echo "... libmx/src/mx_memset.o"
 	@echo "... libmx/src/mx_memset.i"
 	@echo "... libmx/src/mx_memset.s"
-	@echo "... libmx/src/mx_mini_list_filter.o"
-	@echo "... libmx/src/mx_mini_list_filter.i"
-	@echo "... libmx/src/mx_mini_list_filter.s"
 	@echo "... libmx/src/mx_nbr_to_hex.o"
 	@echo "... libmx/src/mx_nbr_to_hex.i"
 	@echo "... libmx/src/mx_nbr_to_hex.s"
@@ -2426,9 +2372,6 @@ help:
 	@echo "... libmx/src/mx_pop_front_mini.o"
 	@echo "... libmx/src/mx_pop_front_mini.i"
 	@echo "... libmx/src/mx_pop_front_mini.s"
-	@echo "... libmx/src/mx_pop_specific.o"
-	@echo "... libmx/src/mx_pop_specific.i"
-	@echo "... libmx/src/mx_pop_specific.s"
 	@echo "... libmx/src/mx_pow.o"
 	@echo "... libmx/src/mx_pow.i"
 	@echo "... libmx/src/mx_pow.s"
@@ -2456,9 +2399,6 @@ help:
 	@echo "... libmx/src/mx_push_back_custom.o"
 	@echo "... libmx/src/mx_push_back_custom.i"
 	@echo "... libmx/src/mx_push_back_custom.s"
-	@echo "... libmx/src/mx_push_back_filter.o"
-	@echo "... libmx/src/mx_push_back_filter.i"
-	@echo "... libmx/src/mx_push_back_filter.s"
 	@echo "... libmx/src/mx_push_front.o"
 	@echo "... libmx/src/mx_push_front.i"
 	@echo "... libmx/src/mx_push_front.s"

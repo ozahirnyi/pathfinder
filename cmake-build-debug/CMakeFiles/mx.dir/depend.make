@@ -45,6 +45,9 @@ CMakeFiles/mx.dir/libmx/src/mx_get_substr_index.c.o: ../libmx/src/mx_get_substr_
 
 CMakeFiles/mx.dir/libmx/src/mx_hex_to_nbr.c.o: ../libmx/src/mx_hex_to_nbr.c
 
+CMakeFiles/mx.dir/libmx/src/mx_is_alpha.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_is_alpha.c.o: ../libmx/src/mx_is_alpha.c
+
 CMakeFiles/mx.dir/libmx/src/mx_is_done.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_is_done.c.o: ../libmx/src/mx_is_done.c
 
@@ -81,9 +84,6 @@ CMakeFiles/mx.dir/libmx/src/mx_memrchr.c.o: ../libmx/src/mx_memrchr.c
 
 CMakeFiles/mx.dir/libmx/src/mx_memset.c.o: ../libmx/src/mx_memset.c
 
-CMakeFiles/mx.dir/libmx/src/mx_mini_list_filter.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_mini_list_filter.c.o: ../libmx/src/mx_mini_list_filter.c
-
 CMakeFiles/mx.dir/libmx/src/mx_nbr_to_hex.c.o: ../libmx/src/mx_nbr_to_hex.c
 
 CMakeFiles/mx.dir/libmx/src/mx_pop_back.c.o: ../libmx/src/mx_pop_back.c
@@ -93,9 +93,6 @@ CMakeFiles/mx.dir/libmx/src/mx_pop_front.c.o: ../libmx/src/mx_pop_front.c
 
 CMakeFiles/mx.dir/libmx/src/mx_pop_front_mini.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_pop_front_mini.c.o: ../libmx/src/mx_pop_front_mini.c
-
-CMakeFiles/mx.dir/libmx/src/mx_pop_specific.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_pop_specific.c.o: ../libmx/src/mx_pop_specific.c
 
 CMakeFiles/mx.dir/libmx/src/mx_pow.c.o: ../libmx/src/mx_pow.c
 
@@ -117,9 +114,6 @@ CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o: ../libmx/src/mx_push_back.c
 
 CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.o: ../libmx/src/mx_push_back_custom.c
-
-CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.o: ../libmx/src/mx_push_back_filter.c
 
 CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o: ../libmx/src/mx_push_front.c
 

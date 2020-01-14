@@ -21,13 +21,6 @@ static int	mx_middle_cmp(const char *s1, const char *s2) {
     return s1[i] - s2[i];
 }
 
-//bool cmp(void *a, void *b) {
-//    if (mx_strcmp((char *)a, (char *)b) > 0)
-//        return 1;
-//    else
-//        return 0;
-//}
-
 static void	swaper(t_list *lst) {
     void *buf = NULL;
 
@@ -44,7 +37,8 @@ static void sort_by_middle(t_list *list) {
 
     while (j <= size) {
         while (i < size - 1) {
-            if (!mx_custom_cmp(buf->data, buf->next->data) && mx_middle_cmp(buf->data, buf->next->data) > 0) {
+            if (!mx_custom_cmp(buf->data, buf->next->data)
+                && mx_middle_cmp(buf->data, buf->next->data) > 0) {
                 swaper(buf);
             }
             buf = buf -> next;
@@ -56,7 +50,7 @@ static void sort_by_middle(t_list *list) {
     }
 }
 
-t_list	*mx_sort_result(t_list *lst, bool (*cmp)(void *, void *)) {
+t_list	*mx_sort_result(t_list *lst) {
     int	size = mx_list_size(lst);
     int i = 0;
     int j = 0;

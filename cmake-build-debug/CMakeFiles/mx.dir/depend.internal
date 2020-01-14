@@ -45,6 +45,9 @@ CMakeFiles/mx.dir/libmx/src/mx_get_substr_index.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_get_substr_index.c
 CMakeFiles/mx.dir/libmx/src/mx_hex_to_nbr.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_hex_to_nbr.c
+CMakeFiles/mx.dir/libmx/src/mx_is_alpha.c.o
+ /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
+ /Users/ozahirnyi/pathfinder/libmx/src/mx_is_alpha.c
 CMakeFiles/mx.dir/libmx/src/mx_is_done.c.o
  /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/libmx/src/mx_is_done.c
@@ -81,9 +84,6 @@ CMakeFiles/mx.dir/libmx/src/mx_memrchr.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_memrchr.c
 CMakeFiles/mx.dir/libmx/src/mx_memset.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_memset.c
-CMakeFiles/mx.dir/libmx/src/mx_mini_list_filter.c.o
- /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
- /Users/ozahirnyi/pathfinder/libmx/src/mx_mini_list_filter.c
 CMakeFiles/mx.dir/libmx/src/mx_nbr_to_hex.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_nbr_to_hex.c
 CMakeFiles/mx.dir/libmx/src/mx_pop_back.c.o
@@ -94,9 +94,6 @@ CMakeFiles/mx.dir/libmx/src/mx_pop_front.c.o
 CMakeFiles/mx.dir/libmx/src/mx_pop_front_mini.c.o
  /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/libmx/src/mx_pop_front_mini.c
-CMakeFiles/mx.dir/libmx/src/mx_pop_specific.c.o
- /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
- /Users/ozahirnyi/pathfinder/libmx/src/mx_pop_specific.c
 CMakeFiles/mx.dir/libmx/src/mx_pow.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_pow.c
 CMakeFiles/mx.dir/libmx/src/mx_print_strarr.c.o
@@ -118,9 +115,6 @@ CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o
 CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.o
  /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_custom.c
-CMakeFiles/mx.dir/libmx/src/mx_push_back_filter.c.o
- /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
- /Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_filter.c
 CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o
  /Users/ozahirnyi/pathfinder/libmx/src/mx_push_front.c
 CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o
