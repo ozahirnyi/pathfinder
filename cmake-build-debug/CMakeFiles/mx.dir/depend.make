@@ -134,6 +134,9 @@ CMakeFiles/mx.dir/libmx/src/mx_skip_substr_index.c.o: ../libmx/src/mx_skip_subst
 
 CMakeFiles/mx.dir/libmx/src/mx_sort_list.c.o: ../libmx/src/mx_sort_list.c
 
+CMakeFiles/mx.dir/libmx/src/mx_sort_result.c.o: ../libmx/inc/libmx.h
+CMakeFiles/mx.dir/libmx/src/mx_sort_result.c.o: ../libmx/src/mx_sort_result.c
+
 CMakeFiles/mx.dir/libmx/src/mx_sqrt.c.o: ../libmx/src/mx_sqrt.c
 
 CMakeFiles/mx.dir/libmx/src/mx_str_reverse.c.o: ../libmx/src/mx_str_reverse.c

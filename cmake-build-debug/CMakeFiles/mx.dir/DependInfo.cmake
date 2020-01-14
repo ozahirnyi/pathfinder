@@ -61,6 +61,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_result_matrix.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_result_matrix.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_skip_substr_index.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_skip_substr_index.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_sort_list.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_sort_list.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_sort_result.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_sort_result.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_sqrt.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_sqrt.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_str_reverse.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_str_reverse.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_strcat.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_strcat.c.o"

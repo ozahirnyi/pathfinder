@@ -1675,6 +1675,33 @@ libmx/src/mx_sort_list.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_sort_list.c.s
 .PHONY : libmx/src/mx_sort_list.c.s
 
+libmx/src/mx_sort_result.o: libmx/src/mx_sort_result.c.o
+
+.PHONY : libmx/src/mx_sort_result.o
+
+# target to build an object file
+libmx/src/mx_sort_result.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_sort_result.c.o
+.PHONY : libmx/src/mx_sort_result.c.o
+
+libmx/src/mx_sort_result.i: libmx/src/mx_sort_result.c.i
+
+.PHONY : libmx/src/mx_sort_result.i
+
+# target to preprocess a source file
+libmx/src/mx_sort_result.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_sort_result.c.i
+.PHONY : libmx/src/mx_sort_result.c.i
+
+libmx/src/mx_sort_result.s: libmx/src/mx_sort_result.c.s
+
+.PHONY : libmx/src/mx_sort_result.s
+
+# target to generate assembly for a file
+libmx/src/mx_sort_result.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_sort_result.c.s
+.PHONY : libmx/src/mx_sort_result.c.s
+
 libmx/src/mx_sqrt.o: libmx/src/mx_sqrt.c.o
 
 .PHONY : libmx/src/mx_sqrt.o
@@ -2450,6 +2477,9 @@ help:
 	@echo "... libmx/src/mx_sort_list.o"
 	@echo "... libmx/src/mx_sort_list.i"
 	@echo "... libmx/src/mx_sort_list.s"
+	@echo "... libmx/src/mx_sort_result.o"
+	@echo "... libmx/src/mx_sort_result.i"
+	@echo "... libmx/src/mx_sort_result.s"
 	@echo "... libmx/src/mx_sqrt.o"
 	@echo "... libmx/src/mx_sqrt.i"
 	@echo "... libmx/src/mx_sqrt.s"

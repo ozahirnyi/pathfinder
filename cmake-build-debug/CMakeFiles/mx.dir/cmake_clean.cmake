@@ -56,6 +56,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mx.dir/libmx/src/mx_result_matrix.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_skip_substr_index.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_sort_list.c.o"
+  "CMakeFiles/mx.dir/libmx/src/mx_sort_result.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_sqrt.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_str_reverse.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_strcat.c.o"

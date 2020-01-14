@@ -52,7 +52,7 @@ typedef struct q_list {
 } mini_list;
 
 void    mx_pop_front_mini(mini_list **head);
-void    mx_sort_result(t_list *list, int size);
+t_list	*mx_sort_result(t_list *lst, bool (*cmp)(void *, void *));
 void    mx_deixtra_cycle(int **matrix, int size, mini_list **list);
 void    mx_deixtra(int **deixtra_matrix, int **matrix, int size, mini_list **list);
 mini_list	*mx_create_node_custom(int *value, int *path, int size);
