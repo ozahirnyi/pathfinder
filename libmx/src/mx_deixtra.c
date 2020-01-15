@@ -48,7 +48,7 @@ static void algorithm(int **deixtra_matrix, int **matrix, int min) {
     }
 }
 
-void    mx_deixtra(int **deixtra_matrix, int **matrix, int size, mini_list **list) {
+void mx_deixtra(int **deixtra_matrix, int **matrix, int size, mini_list **list) {
     while (!mx_is_done(deixtra_matrix[2], size)) {
         int min = mx_is_min(deixtra_matrix, size);
         if (min != -1) {

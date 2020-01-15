@@ -7,8 +7,9 @@ int mx_is_min(int **path_price, int size) {
 
     for (i = 0; i < size; i++) {
         if (min > path_price[0][i] && path_price[0][i] != -1
-            && path_price[2][i] != 1)
+            && path_price[2][i] != 1) {
             min = path_price[0][i];
+        }
     }
     if (min == 2147483647)
         return -1;

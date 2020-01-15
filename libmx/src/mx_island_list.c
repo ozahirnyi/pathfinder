@@ -11,7 +11,7 @@ static int check_duplicates(t_list **list, char *str) {
     return 0;
 }
 
-t_list  *mx_island_list(char **islands) {
+t_list *mx_island_list(char **islands) {
     t_list *new_list = NULL;
     char *temp = NULL;
     char **temp_minus = NULL;

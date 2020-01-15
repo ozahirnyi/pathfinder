@@ -21,7 +21,7 @@ static int **default_deixtra_matrix(int *islands_value, int size) {
     return default_matrix;
 }
 
-void    mx_deixtra_cycle(int **matrix, int size, mini_list **list) {
+void mx_deixtra_cycle(int **matrix, int size, mini_list **list) {
     for (int current = 0; current < size - 1; current++) {
         int **deixtra_matrix = default_deixtra_matrix(matrix[current], size);
         deixtra_matrix[2][current] = 1;

@@ -1,19 +1,17 @@
 #include "../inc/libmx.h"
 
 static int check_for_dup(int **result_matrix, int value, int path, int index) {
-    int flag = 0;
-
     for (int i = 0; i < 2; i++) {
         for (int j = 0; result_matrix[i][j] != -2; j++) {
-            if (value == result_matrix[0][j] && path
-                == result_matrix[1][j] && result_matrix[2][j] == index)
+            if (value == result_matrix[0][j]
+                && path == result_matrix[1][j] && result_matrix[2][j] == index)
                 return 1;
-            else if (value == result_matrix[0][j] && path
-                    != result_matrix[1][j] && result_matrix[2][j] == index) {
+            else if (value == result_matrix[0][j] && path != result_matrix[1][j]
+                    && result_matrix[2][j] == index) {
                 int q = j;
                 while (result_matrix[2][q] == index) {
-                    if (value == result_matrix[0][q] && path
-                        == result_matrix[1][q] && result_matrix[2][q] == index)
+                    if (value == result_matrix[0][q] && path == result_matrix[1][q]
+                        && result_matrix[2][q] == index)
                         return 1;
                     q++;
                 }
@@ -21,14 +19,14 @@ static int check_for_dup(int **result_matrix, int value, int path, int index) {
             }
         }
     }
-    return flag;
+    return 0;
 }
 
 static void push_on_place(int **result, int value, int path, int i) {
     int j = 0;
 
     for (j = 0; result[0][j] != -3; j++) {}
-    while (j > i) {
+    while (i != result[2][j]) {
         result[0][j + 1] = result[0][j];
         result[1][j + 1] = result[1][j];
         result[2][j + 1] = result[2][j];
@@ -45,19 +43,21 @@ static void push_on_place(int **result, int value, int path, int i) {
     result[2][j] = i;
 }
 
-static void    result_matrix_filling(int ***result_matrix, int size, mini_list *list) {
+static void result_matrix_filling(int ***result_matrix, int size, mini_list *list) {
     for (int current = 0; current < size - 1; current++) {
         int i = 0;
         while (list && list->value[current] == -1) {
             while (i < size) {
-                if (!check_for_dup(result_matrix[current], list->value[i], list->path[i], i)) {
+                if (!check_for_dup(result_matrix[current],
+                list->value[i], list->path[i], i)) {
                     result_matrix[current][0][i] = list->value[i];
                     result_matrix[current][1][i] = list->path[i];
                     result_matrix[current][2][i] = i;
                 }
                 else if (check_for_dup(result_matrix[current],
                         list->value[i], list->path[i], i) == 2)
-                    push_on_place(result_matrix[current], list->value[i], list->path[i], i);
+                    push_on_place(result_matrix[current],
+                    list->value[i], list->path[i], i);
                 i++;
             }
                 i = 0;
@@ -74,7 +74,8 @@ int ***mx_result_matrix(mini_list **list, int size) {
         result_matrix[big] = (int **)malloc(sizeof(int *) * 3);
         each_size = mx_count_parallel(list, big);
         for (int medium = 0; medium < 3; medium++) {
-            result_matrix[big][medium] = (int *) malloc(sizeof(int) * (size * each_size) + 1);
+            result_matrix[big][medium] =
+            (int *)malloc(sizeof(int) * (size * each_size) + 1);
             for (int index = 0; index < each_size * size; index++) {
                 result_matrix[big][medium][index] = -3;
                 result_matrix[big][medium][each_size * size] = -2;

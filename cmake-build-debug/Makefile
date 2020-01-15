@@ -2161,6 +2161,141 @@ libmx/src/mx_ultra_strtrim.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.s
 .PHONY : libmx/src/mx_ultra_strtrim.c.s
 
+libmx/src/mx_valid_for_1line.o: libmx/src/mx_valid_for_1line.c.o
+
+.PHONY : libmx/src/mx_valid_for_1line.o
+
+# target to build an object file
+libmx/src/mx_valid_for_1line.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.o
+.PHONY : libmx/src/mx_valid_for_1line.c.o
+
+libmx/src/mx_valid_for_1line.i: libmx/src/mx_valid_for_1line.c.i
+
+.PHONY : libmx/src/mx_valid_for_1line.i
+
+# target to preprocess a source file
+libmx/src/mx_valid_for_1line.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.i
+.PHONY : libmx/src/mx_valid_for_1line.c.i
+
+libmx/src/mx_valid_for_1line.s: libmx/src/mx_valid_for_1line.c.s
+
+.PHONY : libmx/src/mx_valid_for_1line.s
+
+# target to generate assembly for a file
+libmx/src/mx_valid_for_1line.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.s
+.PHONY : libmx/src/mx_valid_for_1line.c.s
+
+libmx/src/mx_valid_for_alpha.o: libmx/src/mx_valid_for_alpha.c.o
+
+.PHONY : libmx/src/mx_valid_for_alpha.o
+
+# target to build an object file
+libmx/src/mx_valid_for_alpha.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.o
+.PHONY : libmx/src/mx_valid_for_alpha.c.o
+
+libmx/src/mx_valid_for_alpha.i: libmx/src/mx_valid_for_alpha.c.i
+
+.PHONY : libmx/src/mx_valid_for_alpha.i
+
+# target to preprocess a source file
+libmx/src/mx_valid_for_alpha.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.i
+.PHONY : libmx/src/mx_valid_for_alpha.c.i
+
+libmx/src/mx_valid_for_alpha.s: libmx/src/mx_valid_for_alpha.c.s
+
+.PHONY : libmx/src/mx_valid_for_alpha.s
+
+# target to generate assembly for a file
+libmx/src/mx_valid_for_alpha.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.s
+.PHONY : libmx/src/mx_valid_for_alpha.c.s
+
+libmx/src/mx_valid_for_digits.o: libmx/src/mx_valid_for_digits.c.o
+
+.PHONY : libmx/src/mx_valid_for_digits.o
+
+# target to build an object file
+libmx/src/mx_valid_for_digits.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.o
+.PHONY : libmx/src/mx_valid_for_digits.c.o
+
+libmx/src/mx_valid_for_digits.i: libmx/src/mx_valid_for_digits.c.i
+
+.PHONY : libmx/src/mx_valid_for_digits.i
+
+# target to preprocess a source file
+libmx/src/mx_valid_for_digits.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.i
+.PHONY : libmx/src/mx_valid_for_digits.c.i
+
+libmx/src/mx_valid_for_digits.s: libmx/src/mx_valid_for_digits.c.s
+
+.PHONY : libmx/src/mx_valid_for_digits.s
+
+# target to generate assembly for a file
+libmx/src/mx_valid_for_digits.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.s
+.PHONY : libmx/src/mx_valid_for_digits.c.s
+
+libmx/src/mx_valid_for_minus.o: libmx/src/mx_valid_for_minus.c.o
+
+.PHONY : libmx/src/mx_valid_for_minus.o
+
+# target to build an object file
+libmx/src/mx_valid_for_minus.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.o
+.PHONY : libmx/src/mx_valid_for_minus.c.o
+
+libmx/src/mx_valid_for_minus.i: libmx/src/mx_valid_for_minus.c.i
+
+.PHONY : libmx/src/mx_valid_for_minus.i
+
+# target to preprocess a source file
+libmx/src/mx_valid_for_minus.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.i
+.PHONY : libmx/src/mx_valid_for_minus.c.i
+
+libmx/src/mx_valid_for_minus.s: libmx/src/mx_valid_for_minus.c.s
+
+.PHONY : libmx/src/mx_valid_for_minus.s
+
+# target to generate assembly for a file
+libmx/src/mx_valid_for_minus.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.s
+.PHONY : libmx/src/mx_valid_for_minus.c.s
+
+libmx/src/mx_valid_for_slashn.o: libmx/src/mx_valid_for_slashn.c.o
+
+.PHONY : libmx/src/mx_valid_for_slashn.o
+
+# target to build an object file
+libmx/src/mx_valid_for_slashn.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.o
+.PHONY : libmx/src/mx_valid_for_slashn.c.o
+
+libmx/src/mx_valid_for_slashn.i: libmx/src/mx_valid_for_slashn.c.i
+
+.PHONY : libmx/src/mx_valid_for_slashn.i
+
+# target to preprocess a source file
+libmx/src/mx_valid_for_slashn.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.i
+.PHONY : libmx/src/mx_valid_for_slashn.c.i
+
+libmx/src/mx_valid_for_slashn.s: libmx/src/mx_valid_for_slashn.c.s
+
+.PHONY : libmx/src/mx_valid_for_slashn.s
+
+# target to generate assembly for a file
+libmx/src/mx_valid_for_slashn.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.s
+.PHONY : libmx/src/mx_valid_for_slashn.c.s
+
 libmx/src/mx_validator.o: libmx/src/mx_validator.c.o
 
 .PHONY : libmx/src/mx_validator.o
@@ -2477,6 +2612,21 @@ help:
 	@echo "... libmx/src/mx_ultra_strtrim.o"
 	@echo "... libmx/src/mx_ultra_strtrim.i"
 	@echo "... libmx/src/mx_ultra_strtrim.s"
+	@echo "... libmx/src/mx_valid_for_1line.o"
+	@echo "... libmx/src/mx_valid_for_1line.i"
+	@echo "... libmx/src/mx_valid_for_1line.s"
+	@echo "... libmx/src/mx_valid_for_alpha.o"
+	@echo "... libmx/src/mx_valid_for_alpha.i"
+	@echo "... libmx/src/mx_valid_for_alpha.s"
+	@echo "... libmx/src/mx_valid_for_digits.o"
+	@echo "... libmx/src/mx_valid_for_digits.i"
+	@echo "... libmx/src/mx_valid_for_digits.s"
+	@echo "... libmx/src/mx_valid_for_minus.o"
+	@echo "... libmx/src/mx_valid_for_minus.i"
+	@echo "... libmx/src/mx_valid_for_minus.s"
+	@echo "... libmx/src/mx_valid_for_slashn.o"
+	@echo "... libmx/src/mx_valid_for_slashn.i"
+	@echo "... libmx/src/mx_valid_for_slashn.s"
 	@echo "... libmx/src/mx_validator.o"
 	@echo "... libmx/src/mx_validator.i"
 	@echo "... libmx/src/mx_validator.s"

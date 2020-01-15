@@ -18,7 +18,7 @@ fcntl.h
 stdbool.h
 -
 
-/Users/ozahirnyi/pathfinder/libmx/src/mx_is_alpha.c
+/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_1line.c
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 

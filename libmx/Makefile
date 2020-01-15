@@ -79,6 +79,11 @@ SRC = src/mx_printchar.c \
 		src/mx_printerr.c \
 		src/mx_sort_result.c \
 		src/mx_is_alpha.c \
+		src/mx_valid_for_1line.c \
+		src/mx_valid_for_alpha.c \
+		src/mx_valid_for_digits.c \
+		src/mx_valid_for_minus.c \
+		src/mx_valid_for_slashn.c \
 
 OBJ = mx_printchar.o \
         mx_atoi.o \
@@ -160,6 +165,11 @@ OBJ = mx_printchar.o \
 		mx_printerr.o \
 		mx_sort_result.o \
 		mx_is_alpha.o \
+		mx_valid_for_1line.o \
+		mx_valid_for_alpha.o \
+		mx_valid_for_digits.o \
+		mx_valid_for_minus.o \
+		mx_valid_for_slashn.o \
 
 FLAGS = -std=c11 -Wall -Wextra -Werror -Wpedantic
 

@@ -1,6 +1,6 @@
 #include "../inc/libmx.h"
 
-mini_list	*mx_create_node_custom(int *value, int *path, int size) {
+mini_list *mx_create_node_custom(int *value, int *path, int size) {
     mini_list *node = (mini_list *)malloc(sizeof(mini_list));
     int *buf_value = (int *)malloc(sizeof(int) * size + 1);
 

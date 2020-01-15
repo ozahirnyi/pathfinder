@@ -347,6 +347,21 @@
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_ultra_strtrim.c">
 			<Option target="mx"/>
 		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_1line.c">
+			<Option target="mx"/>
+		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_alpha.c">
+			<Option target="mx"/>
+		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_digits.c">
+			<Option target="mx"/>
+		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_minus.c">
+			<Option target="mx"/>
+		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_slashn.c">
+			<Option target="mx"/>
+		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_validator.c">
 			<Option target="mx"/>
 		</Unit>

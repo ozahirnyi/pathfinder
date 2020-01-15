@@ -79,6 +79,11 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_swap_char.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_swap_char.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_ultra_del_extra_spaces.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_ultra_strtrim.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_1line.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_alpha.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_digits.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_minus.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_slashn.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_validator.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_validator.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_write_result.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o"
   )

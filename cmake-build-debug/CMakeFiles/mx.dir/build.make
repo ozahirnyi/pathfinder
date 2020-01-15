@@ -1032,9 +1032,74 @@ CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/libmx/src/mx_ultra_strtrim.c -o CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.s
 
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.o: CMakeFiles/mx.dir/flags.make
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.o: ../libmx/src/mx_valid_for_1line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_1line.c
+
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_1line.c > CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.i
+
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_1line.c -o CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.s
+
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.o: CMakeFiles/mx.dir/flags.make
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.o: ../libmx/src/mx_valid_for_alpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_alpha.c
+
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_alpha.c > CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.i
+
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_alpha.c -o CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.s
+
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.o: CMakeFiles/mx.dir/flags.make
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.o: ../libmx/src/mx_valid_for_digits.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_digits.c
+
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_digits.c > CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.i
+
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_digits.c -o CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.s
+
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.o: CMakeFiles/mx.dir/flags.make
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.o: ../libmx/src/mx_valid_for_minus.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_minus.c
+
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_minus.c > CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.i
+
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_minus.c -o CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.s
+
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.o: CMakeFiles/mx.dir/flags.make
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.o: ../libmx/src/mx_valid_for_slashn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_slashn.c
+
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_slashn.c > CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.i
+
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_slashn.c -o CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.s
+
 CMakeFiles/mx.dir/libmx/src/mx_validator.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_validator.c.o: ../libmx/src/mx_validator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/mx.dir/libmx/src/mx_validator.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/mx.dir/libmx/src/mx_validator.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_validator.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_validator.c
 
 CMakeFiles/mx.dir/libmx/src/mx_validator.c.i: cmake_force
@@ -1047,7 +1112,7 @@ CMakeFiles/mx.dir/libmx/src/mx_validator.c.s: cmake_force
 
 CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o: CMakeFiles/mx.dir/flags.make
 CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o: ../libmx/src/mx_write_result.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o   -c /Users/ozahirnyi/pathfinder/libmx/src/mx_write_result.c
 
 CMakeFiles/mx.dir/libmx/src/mx_write_result.c.i: cmake_force
@@ -1135,6 +1200,11 @@ mx_OBJECTS = \
 "CMakeFiles/mx.dir/libmx/src/mx_swap_char.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o" \
+"CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.o" \
+"CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.o" \
+"CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.o" \
+"CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.o" \
+"CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_validator.c.o" \
 "CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o"
 
@@ -1216,11 +1286,16 @@ libmx.a: CMakeFiles/mx.dir/libmx/src/mx_strtrim.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_swap_char.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o
+libmx.a: CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.o
+libmx.a: CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.o
+libmx.a: CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.o
+libmx.a: CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.o
+libmx.a: CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_validator.c.o
 libmx.a: CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o
 libmx.a: CMakeFiles/mx.dir/build.make
 libmx.a: CMakeFiles/mx.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Linking C static library libmx.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Linking C static library libmx.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/mx.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mx.dir/link.txt --verbose=$(VERBOSE)
 

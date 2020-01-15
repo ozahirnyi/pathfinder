@@ -40,6 +40,11 @@ char *mx_ultra_strtrim(const char *str, char c);
 char *mx_ultra_del_extra_spaces(const char *str, char c);
 char **mx_strsplit(const char *s, char c);
 void mx_printerr(const char *s);
+int mx_valid_for_1line(char *str);
+int valid_for_alpha(char *str, int *i);
+int valid_for_digits(char *str, int *i);
+int valid_for_minus(char c, int *i);
+int valid_for_slashn(char c, int *i);
 
 typedef struct s_list {
     char *data;
