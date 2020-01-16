@@ -229,6 +229,9 @@ CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.o
 CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.o
  /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_digits.c
+CMakeFiles/mx.dir/libmx/src/mx_valid_for_koma.c.o
+ /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
+ /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_koma.c
 CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.o
  /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_minus.c

@@ -1,6 +1,6 @@
 #include "../inc/libmx.h"
 
-int valid_for_alpha(char *str, int *i) {
+int mx_valid_for_alpha(char *str, int *i) {
     if (!mx_is_alpha(str[(*i)]))
         return 0;
     (*i)++;

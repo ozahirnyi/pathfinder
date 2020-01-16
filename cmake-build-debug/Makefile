@@ -2242,6 +2242,33 @@ libmx/src/mx_valid_for_digits.c.s:
 	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.s
 .PHONY : libmx/src/mx_valid_for_digits.c.s
 
+libmx/src/mx_valid_for_koma.o: libmx/src/mx_valid_for_koma.c.o
+
+.PHONY : libmx/src/mx_valid_for_koma.o
+
+# target to build an object file
+libmx/src/mx_valid_for_koma.c.o:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_koma.c.o
+.PHONY : libmx/src/mx_valid_for_koma.c.o
+
+libmx/src/mx_valid_for_koma.i: libmx/src/mx_valid_for_koma.c.i
+
+.PHONY : libmx/src/mx_valid_for_koma.i
+
+# target to preprocess a source file
+libmx/src/mx_valid_for_koma.c.i:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_koma.c.i
+.PHONY : libmx/src/mx_valid_for_koma.c.i
+
+libmx/src/mx_valid_for_koma.s: libmx/src/mx_valid_for_koma.c.s
+
+.PHONY : libmx/src/mx_valid_for_koma.s
+
+# target to generate assembly for a file
+libmx/src/mx_valid_for_koma.c.s:
+	$(MAKE) -f CMakeFiles/mx.dir/build.make CMakeFiles/mx.dir/libmx/src/mx_valid_for_koma.c.s
+.PHONY : libmx/src/mx_valid_for_koma.c.s
+
 libmx/src/mx_valid_for_minus.o: libmx/src/mx_valid_for_minus.c.o
 
 .PHONY : libmx/src/mx_valid_for_minus.o
@@ -2621,6 +2648,9 @@ help:
 	@echo "... libmx/src/mx_valid_for_digits.o"
 	@echo "... libmx/src/mx_valid_for_digits.i"
 	@echo "... libmx/src/mx_valid_for_digits.s"
+	@echo "... libmx/src/mx_valid_for_koma.o"
+	@echo "... libmx/src/mx_valid_for_koma.i"
+	@echo "... libmx/src/mx_valid_for_koma.s"
 	@echo "... libmx/src/mx_valid_for_minus.o"
 	@echo "... libmx/src/mx_valid_for_minus.i"
 	@echo "... libmx/src/mx_valid_for_minus.s"

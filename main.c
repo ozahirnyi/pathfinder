@@ -2,15 +2,24 @@
 
 int main(int argc, char **argv) {
     char *str = mx_file_to_str("../qwe");
-    mx_validator(str);
-//    int size = mx_atoi(str);
-//    char **islands = mx_strsplit(str, '\n');
-//    int **matrix = mx_matrix_creator(islands);
-//    mini_list *list2= NULL;
- //   t_list *list2 = NULL;
+    int size = mx_atoi(str);
+    char **islands = mx_strsplit(str, '\n');
+    if (!mx_validator(str, size, islands)) {
+        exit(1);
+    }
+    int **matrix = mx_matrix_creator(islands);
+    for (int i = 0; i < size; i++) {
+        for (int j = 0; j < size; j++)
+            printf("%d | ", matrix[i][j]);
+            printf("\n");
+    }
+    mini_list *list2= NULL;
+//    t_list *list2 = NULL;
 //
 //    mx_push_back(&list2, "0321");
 //    mx_push_back(&list2, "0231");
+//    mx_push_back(&list2, "457");
+//    mx_push_back(&list2, "4567");
 //    mx_push_back(&list2, "0324");
 //    mx_push_back(&list2, "0523");
 //    mx_push_back(&list2, "04513");
@@ -28,7 +37,7 @@ int main(int argc, char **argv) {
 //        printf("%s  |  ", list2->data);
 //        list2 = list2->next;
 //    }
-//    mx_deixtra_cycle(matrix, size, &list2);
+    mx_deixtra_cycle(matrix, size, &list2);
 //    printf("\n");
 //    mini_list *list1 = list2;
 //    while (list1) {
@@ -69,7 +78,7 @@ int main(int argc, char **argv) {
 //        list1 = list1->next;
 //        printf("\n");
 //    }
-//    mx_result_matrix(&list2, size);
+    mx_result_matrix(&list2, size);
 
 //    system("leaks pathfinder");
 }

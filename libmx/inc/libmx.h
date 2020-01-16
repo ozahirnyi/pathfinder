@@ -27,7 +27,7 @@ int mx_skip_substr_index(const char *str, const char *sub, int counter);
 int mx_count_substr(const char *str, const char *sub);
 int mx_is_done(int *path_price, int size);
 int mx_is_min(int **path_price, int size);
-int mx_validator(char *str);
+int mx_validator(char *str, int size, char **islands);
 char *mx_file_to_str(const char *file);
 char *mx_strnew(const int size);
 char *mx_strcpy(char *dst, const char *src);
@@ -40,11 +40,12 @@ char *mx_ultra_strtrim(const char *str, char c);
 char *mx_ultra_del_extra_spaces(const char *str, char c);
 char **mx_strsplit(const char *s, char c);
 void mx_printerr(const char *s);
-int mx_valid_for_1line(char *str);
-int valid_for_alpha(char *str, int *i);
-int valid_for_digits(char *str, int *i);
-int valid_for_minus(char c, int *i);
-int valid_for_slashn(char c, int *i);
+int mx_valid_for_1line(char *str, int *i);
+int mx_valid_for_alpha(char *str, int *i);
+int mx_valid_for_digits(char *str, int *i);
+int mx_valid_for_minus(char c, int *i);
+int mx_valid_for_slashn(char c, int *i);
+char    *mx_itoa(int number);
 
 typedef struct s_list {
     char *data;
@@ -75,6 +76,7 @@ void mx_push_front(t_list **list, void *data);
 void mx_push_back(t_list **list, void *data);
 void mx_pop_front(t_list **head);
 void mx_pop_back(t_list **head);
+int mx_valid_for_koma(char c, int *i);
 void mx_pop_specific(mini_list **list, int n);
 
 #endif

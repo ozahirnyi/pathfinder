@@ -84,6 +84,7 @@ SRC = src/mx_printchar.c \
 		src/mx_valid_for_digits.c \
 		src/mx_valid_for_minus.c \
 		src/mx_valid_for_slashn.c \
+		src/mx_valid_for_koma.c \
 
 OBJ = mx_printchar.o \
         mx_atoi.o \
@@ -170,6 +171,7 @@ OBJ = mx_printchar.o \
 		mx_valid_for_digits.o \
 		mx_valid_for_minus.o \
 		mx_valid_for_slashn.o \
+		mx_valid_for_koma.o \
 
 FLAGS = -std=c11 -Wall -Wextra -Werror -Wpedantic
 

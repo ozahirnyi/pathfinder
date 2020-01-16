@@ -77,6 +77,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.o"
+  "CMakeFiles/mx.dir/libmx/src/mx_valid_for_koma.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.o"
   "CMakeFiles/mx.dir/libmx/src/mx_validator.c.o"

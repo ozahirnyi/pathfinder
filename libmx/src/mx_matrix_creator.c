@@ -35,6 +35,12 @@ int **mx_matrix_creator(char **islands) {
             matrix[i][j] = -1;
     }
     matrix = matrix_filling(islands, matrix, list);
+    for (i = 0; i < size; i++) {
+        for (j = 0; j < size; j++) {
+            if (i == j)
+                matrix[i][j] = -1;
+        }
+    }
     while (list)
         mx_pop_front(&list);
     return matrix;

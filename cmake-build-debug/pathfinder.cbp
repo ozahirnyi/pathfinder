@@ -356,6 +356,9 @@
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_digits.c">
 			<Option target="mx"/>
 		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_koma.c">
+			<Option target="mx"/>
+		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_minus.c">
 			<Option target="mx"/>
 		</Unit>

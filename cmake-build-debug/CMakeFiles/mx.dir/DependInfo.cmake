@@ -82,6 +82,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_1line.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_alpha.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_digits.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.o"
+  "/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_koma.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_valid_for_koma.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_minus.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_slashn.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.o"
   "/Users/ozahirnyi/pathfinder/libmx/src/mx_validator.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/mx.dir/libmx/src/mx_validator.c.o"
