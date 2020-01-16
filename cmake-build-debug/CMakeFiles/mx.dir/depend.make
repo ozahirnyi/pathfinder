@@ -8,8 +8,6 @@ CMakeFiles/mx.dir/libmx/src/mx_binary_search.c.o: ../libmx/src/mx_binary_search.
 CMakeFiles/mx.dir/libmx/src/mx_bubble_sort.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_bubble_sort.c.o: ../libmx/src/mx_bubble_sort.c
 
-CMakeFiles/mx.dir/libmx/src/mx_count_parallel.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_count_parallel.c.o: ../libmx/src/mx_count_parallel.c
 
 CMakeFiles/mx.dir/libmx/src/mx_count_substr.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_count_substr.c.o: ../libmx/src/mx_count_substr.c
@@ -20,14 +18,8 @@ CMakeFiles/mx.dir/libmx/src/mx_count_words.c.o: ../libmx/src/mx_count_words.c
 CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_create_node.c.o: ../libmx/src/mx_create_node.c
 
-CMakeFiles/mx.dir/libmx/src/mx_create_node_custom.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_create_node_custom.c.o: ../libmx/src/mx_create_node_custom.c
 
-CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_deixtra.c.o: ../libmx/src/mx_deixtra.c
 
-CMakeFiles/mx.dir/libmx/src/mx_deixtra_cycle.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_deixtra_cycle.c.o: ../libmx/src/mx_deixtra_cycle.c
 
 CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_del_extra_spaces.c.o: ../libmx/src/mx_del_extra_spaces.c
@@ -53,24 +45,14 @@ CMakeFiles/mx.dir/libmx/src/mx_get_substr_index.c.o: ../libmx/src/mx_get_substr_
 CMakeFiles/mx.dir/libmx/src/mx_hex_to_nbr.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_hex_to_nbr.c.o: ../libmx/src/mx_hex_to_nbr.c
 
-CMakeFiles/mx.dir/libmx/src/mx_is_alpha.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_is_alpha.c.o: ../libmx/src/mx_is_alpha.c
 
-CMakeFiles/mx.dir/libmx/src/mx_is_done.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_is_done.c.o: ../libmx/src/mx_is_done.c
 
-CMakeFiles/mx.dir/libmx/src/mx_is_min.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_is_min.c.o: ../libmx/src/mx_is_min.c
 
 CMakeFiles/mx.dir/libmx/src/mx_is_space.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_is_space.c.o: ../libmx/src/mx_is_space.c
 
 
-CMakeFiles/mx.dir/libmx/src/mx_island_index.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_island_index.c.o: ../libmx/src/mx_island_index.c
 
-CMakeFiles/mx.dir/libmx/src/mx_island_list.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_island_list.c.o: ../libmx/src/mx_island_list.c
 
 CMakeFiles/mx.dir/libmx/src/mx_itoa.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_itoa.c.o: ../libmx/src/mx_itoa.c
@@ -112,8 +94,6 @@ CMakeFiles/mx.dir/libmx/src/mx_pop_back.c.o: ../libmx/src/mx_pop_back.c
 CMakeFiles/mx.dir/libmx/src/mx_pop_front.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_pop_front.c.o: ../libmx/src/mx_pop_front.c
 
-CMakeFiles/mx.dir/libmx/src/mx_pop_front_mini.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_pop_front_mini.c.o: ../libmx/src/mx_pop_front_mini.c
 
 CMakeFiles/mx.dir/libmx/src/mx_pow.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_pow.c.o: ../libmx/src/mx_pow.c
@@ -139,8 +119,6 @@ CMakeFiles/mx.dir/libmx/src/mx_printstr.c.o: ../libmx/src/mx_printstr.c
 CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_push_back.c.o: ../libmx/src/mx_push_back.c
 
-CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_push_back_custom.c.o: ../libmx/src/mx_push_back_custom.c
 
 CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_push_front.c.o: ../libmx/src/mx_push_front.c
@@ -151,8 +129,6 @@ CMakeFiles/mx.dir/libmx/src/mx_realloc.c.o: ../libmx/src/mx_realloc.c
 CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_replace_substr.c.o: ../libmx/src/mx_replace_substr.c
 
-CMakeFiles/mx.dir/libmx/src/mx_result_matrix.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_result_matrix.c.o: ../libmx/src/mx_result_matrix.c
 
 CMakeFiles/mx.dir/libmx/src/mx_skip_substr_index.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_skip_substr_index.c.o: ../libmx/src/mx_skip_substr_index.c
@@ -160,8 +136,6 @@ CMakeFiles/mx.dir/libmx/src/mx_skip_substr_index.c.o: ../libmx/src/mx_skip_subst
 CMakeFiles/mx.dir/libmx/src/mx_sort_list.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_sort_list.c.o: ../libmx/src/mx_sort_list.c
 
-CMakeFiles/mx.dir/libmx/src/mx_sort_result.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_sort_result.c.o: ../libmx/src/mx_sort_result.c
 
 CMakeFiles/mx.dir/libmx/src/mx_sqrt.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_sqrt.c.o: ../libmx/src/mx_sqrt.c
@@ -220,25 +194,11 @@ CMakeFiles/mx.dir/libmx/src/mx_ultra_del_extra_spaces.c.o: ../libmx/src/mx_ultra
 CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o: ../libmx/inc/libmx.h
 CMakeFiles/mx.dir/libmx/src/mx_ultra_strtrim.c.o: ../libmx/src/mx_ultra_strtrim.c
 
-CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_valid_for_1line.c.o: ../libmx/src/mx_valid_for_1line.c
-
-CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_valid_for_alpha.c.o: ../libmx/src/mx_valid_for_alpha.c
-
-CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_valid_for_digits.c.o: ../libmx/src/mx_valid_for_digits.c
-
-CMakeFiles/mx.dir/libmx/src/mx_valid_for_koma.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_valid_for_koma.c.o: ../libmx/src/mx_valid_for_koma.c
-
-CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_valid_for_minus.c.o: ../libmx/src/mx_valid_for_minus.c
-
-CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_valid_for_slashn.c.o: ../libmx/src/mx_valid_for_slashn.c
 
 
-CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o: ../libmx/inc/libmx.h
-CMakeFiles/mx.dir/libmx/src/mx_write_result.c.o: ../libmx/src/mx_write_result.c
+
+
+
+
+
 

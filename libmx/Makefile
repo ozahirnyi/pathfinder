@@ -1,193 +1,101 @@
 NAME = libmx.a
 
-SRC = src/mx_printchar.c \
-		src/mx_default_deixtra_matrix.c \
-        src/mx_island_index.c \
-        src/mx_islands_list.c \
-		src/mx_realloc.c \
-		src/mx_file_to_str.c \
-		src/mx_print_unicode.c \
-		src/mx_printstr.c \
-		src/mx_print_strarr.c \
-		src/mx_printint.c \
-		src/mx_pow.c \
-		src/mx_sqrt.c \
-		src/mx_hex_to_nbr.c \
-		src/mx_nbr_to_hex.c \
-		src/mx_itoa.c \
-		src/mx_foreach.c \
-		src/mx_binary_search.c \
-		src/mx_bubble_sort.c \
-		src/mx_strlen.c \
-		src/mx_swap_char.c \
-		src/mx_str_reverse.c \
-		src/mx_strdel.c \
-		src/mx_del_strarr.c \
-		src/mx_get_char_index.c \
-		src/mx_strdup.c \
-		src/mx_strndup.c \
-		src/mx_strcpy.c \
-		src/mx_strncpy.c \
-		src/mx_strcmp.c \
-		src/mx_strncmp.c \
-		src/mx_strcat.c \
-		src/mx_strstr.c \
-		src/mx_get_substr_index.c \
-		src/mx_count_substr.c \
-		src/mx_count_words.c \
-		src/mx_strnew.c \
-		src/mx_strtrim.c \
-		src/mx_del_extra_spaces.c \
-		src/mx_strsplit.c \
-		src/mx_strjoin.c \
-		src/mx_replace_substr.c \
-		src/mx_memset.c \
-		src/mx_memcpy.c \
-		src/mx_memccpy.c \
-		src/mx_memcmp.c \
-		src/mx_memchr.c \
-		src/mx_memrchr.c \
-		src/mx_memmem.c \
-		src/mx_memmove.c \
-		src/mx_realloc.c \
-		src/mx_create_node.c \
-		src/mx_push_front.c \
-		src/mx_push_back.c \
-		src/mx_pop_front.c \
-		src/mx_pop_back.c \
-		src/mx_list_size.c \
-		src/mx_ultra_strtrim.c \
-		src/mx_ultra_del_extra_spaces.c \
-		src/mx_skip_substr_index.c \
-		src/mx_strncmp.c \
-		src/mx_is_space.c \
-		src/mx_strjoin.c \
-        src/mx_atoi.c \
-        src/mx_validator.c \
-        src/mx_isdigit.c \
-        src/mx_matrix_creator.c \
-        src/mx_deixtra.c \
-        src/mx_create_node_custom.c \
-        src/mx_push_back_custom.c \
-        src/mx_del_intarr.c \
-        src/mx_is_done.c \
-        src/mx_is_min.c \
-        src/mx_count_parallel.c \
-		src/mx_write_result.c \
-		src/mx_pop_front_mini.c \
-		src/mx_result_matrix.c \
-		src/mx_printerr.c \
-		src/mx_sort_result.c \
-		src/mx_is_alpha.c \
-		src/mx_valid_for_1line.c \
-		src/mx_valid_for_alpha.c \
-		src/mx_valid_for_digits.c \
-		src/mx_valid_for_minus.c \
-		src/mx_valid_for_slashn.c \
-		src/mx_valid_for_koma.c \
+FILES = mx_printchar \
+		mx_realloc \
+		mx_file_to_str \
+		mx_print_unicode \
+		mx_printstr \
+		mx_print_strarr \
+		mx_printint \
+		mx_pow \
+		mx_sqrt \
+		mx_hex_to_nbr \
+		mx_nbr_to_hex \
+		mx_itoa \
+		mx_foreach \
+		mx_binary_search \
+		mx_bubble_sort \
+		mx_strlen \
+		mx_swap_char \
+		mx_str_reverse \
+		mx_strdel \
+		mx_del_strarr \
+		mx_get_char_index \
+		mx_strdup \
+		mx_strndup \
+		mx_strcpy \
+		mx_strncpy \
+		mx_strcmp \
+		mx_strncmp \
+		mx_strcat \
+		mx_strstr \
+		mx_get_substr_index \
+		mx_count_substr \
+		mx_count_words \
+		mx_strnew \
+		mx_strtrim \
+		mx_del_extra_spaces \
+		mx_strsplit \
+		mx_strjoin \
+		mx_replace_substr \
+		mx_memset \
+		mx_memcpy \
+		mx_memccpy \
+		mx_memcmp \
+		mx_memchr \
+		mx_memrchr \
+		mx_memmem \
+		mx_memmove \
+		mx_realloc \
+		mx_create_node \
+		mx_push_front \
+		mx_push_back \
+		mx_pop_front \
+		mx_pop_back \
+		mx_strlen \
+		mx_list_size \
+		mx_ultra_strtrim \
+		mx_ultra_del_extra_spaces \
+		mx_skip_substr_index \
+		mx_strncmp \
+		mx_is_space \
+		mx_strjoin \
+		mx_printerr \
+		mx_del_intarr \
+		mx_atoi \
+		mx_is_alpha \
+		mx_isdigit \
 
-OBJ = mx_printchar.o \
-        mx_atoi.o \
-        mx_island_list.o \
-        mx_island_index.o \
-        mx_deixtra.o \
-        mx_validator.o \
-        mx_matrix_creator.o \
-        mx_isdigit.o \
-		mx_realloc.o \
-		mx_file_to_str.o \
-		mx_print_unicode.o \
-		mx_printstr.o \
-		mx_print_strarr.o \
-		mx_printint.o \
-		mx_pow.o \
-		mx_sqrt.o \
-		mx_hex_to_nbr.o \
-		mx_nbr_to_hex.o \
-		mx_itoa.o \
-		mx_foreach.o \
-		mx_binary_search.o \
-		mx_bubble_sort.o \
-		mx_strlen.o \
-		mx_swap_char.o \
-		mx_str_reverse.o \
-		mx_strdel.o \
-		mx_del_strarr.o \
-		mx_get_char_index.o \
-		mx_strdup.o \
-		mx_strndup.o \
-		mx_strcpy.o \
-		mx_strncpy.o \
-		mx_strcmp.o \
-		mx_strncmp.o \
-		mx_strcat.o \
-		mx_strstr.o \
-		mx_get_substr_index.o \
-		mx_count_substr.o \
-		mx_count_words.o \
-		mx_strnew.o \
-		mx_strtrim.o \
-		mx_del_extra_spaces.o \
-		mx_strsplit.o \
-		mx_strjoin.o \
-		mx_replace_substr.o \
-		mx_memset.o \
-		mx_memcpy.o \
-		mx_memccpy.o \
-		mx_memcmp.o \
-		mx_memchr.o \
-		mx_memrchr.o \
-		mx_memmem.o \
-		mx_memmove.o \
-		mx_realloc.o \
-		mx_create_node.o \
-		mx_push_front.o \
-		mx_push_back.o \
-		mx_pop_front.o \
-		mx_pop_back.o \
-		mx_strlen.o \
-		mx_list_size.o \
-		mx_ultra_strtrim.o \
-		mx_ultra_del_extra_spaces.o \
-		mx_skip_substr_index.o \
-		mx_strncmp.o \
-		mx_is_space.o \
-		mx_strjoin.o \
-		mx_push_back_custom.o \
-		mx_create_node_custom.o \
-		mx_del_intarr.o \
-		mx_is_done.o \
-		mx_is_min.o \
-		mx_default_deixtra_matrix.o \
-		mx_count_parallel.o \
-		mx_write_result.o \
-		mx_pop_front_mini.o \
-		mx_result_matrix.o \
-		mx_printerr.o \
-		mx_sort_result.o \
-		mx_is_alpha.o \
-		mx_valid_for_1line.o \
-		mx_valid_for_alpha.o \
-		mx_valid_for_digits.o \
-		mx_valid_for_minus.o \
-		mx_valid_for_slashn.o \
-		mx_valid_for_koma.o \
+SRC_PREFFIX = $(addprefix "src/", $(FILES))
+
+DEL_SRC = $(addsuffix ".c", $(FILES))
+
+SRC = $(addsuffix ".c", $(SRC_PREFFIX))
+
+OBJ = $(addsuffix ".o", $(FILES))
 
 FLAGS = -std=c11 -Wall -Wextra -Werror -Wpedantic
+
+LIB = inc/libmx.h
 
 all: install clean
 
 install:
-		@clang $(FLAGS) -c $(SRC)
-		@mkdir -p obj
-		@cp $(OBJ) obj/.
-		@ar -rc $(NAME) $(OBJ)
-		@rm -rf $(OBJ)
+	@cp $(LIB) .
+	@cp $(SRC) .
+	@clang $(CFLAGS) -c $(SRC)
+	@ar -rc $(NAME) $(OBJ)
+	@mkdir -p obj
+	@cp $(OBJ) obj/
+	@rm -rf $(OBJ)
 
 uninstall: clean
-		@rm -rf $(NAME)
+	@rm -rf $(NAME)
 
 clean:
-		@rm -rf obj
+	@rm -rf obj
+	@rm -rf $(DEL_SRC)
+	@rm -rf $(OBJ)
+	@rm -rf libmx.h
 
-reinstall: all
+reinstall: uninstall install

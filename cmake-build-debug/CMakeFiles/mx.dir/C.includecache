@@ -26,10 +26,6 @@ stdbool.h
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 
-/Users/ozahirnyi/pathfinder/libmx/src/mx_count_parallel.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
 /Users/ozahirnyi/pathfinder/libmx/src/mx_count_substr.c
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
@@ -39,18 +35,6 @@ stdbool.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 
 /Users/ozahirnyi/pathfinder/libmx/src/mx_create_node.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_create_node_custom.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_deixtra.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_deixtra_cycle.c
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 
@@ -86,27 +70,7 @@ stdbool.h
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 
-/Users/ozahirnyi/pathfinder/libmx/src/mx_is_alpha.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_is_done.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_is_min.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
 /Users/ozahirnyi/pathfinder/libmx/src/mx_is_space.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_island_index.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_island_list.c
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 
@@ -162,10 +126,6 @@ stdbool.h
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 
-/Users/ozahirnyi/pathfinder/libmx/src/mx_pop_front_mini.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
 /Users/ozahirnyi/pathfinder/libmx/src/mx_pow.c
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
@@ -198,10 +158,6 @@ stdbool.h
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 
-/Users/ozahirnyi/pathfinder/libmx/src/mx_push_back_custom.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
 /Users/ozahirnyi/pathfinder/libmx/src/mx_push_front.c
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
@@ -214,19 +170,11 @@ stdbool.h
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 
-/Users/ozahirnyi/pathfinder/libmx/src/mx_result_matrix.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
 /Users/ozahirnyi/pathfinder/libmx/src/mx_skip_substr_index.c
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 
 /Users/ozahirnyi/pathfinder/libmx/src/mx_sort_list.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_sort_result.c
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 
@@ -303,34 +251,6 @@ stdbool.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 
 /Users/ozahirnyi/pathfinder/libmx/src/mx_ultra_strtrim.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_1line.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_alpha.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_digits.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_koma.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_minus.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_valid_for_slashn.c
-../inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-
-/Users/ozahirnyi/pathfinder/libmx/src/mx_write_result.c
 ../inc/libmx.h
 /Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
 
