@@ -1,13 +1,14 @@
 #include "pathfinder.h"
 
-int main() {
-    char *str = mx_file_to_str("../qwe");
-    int size = mx_atoi(str);
-    char **islands = mx_strsplit(str, '\n');
-    mx_validator(str, size, islands);
-    int **matrix = mx_matrix_creator(islands);
-    mini_list *list2= NULL;
-    //   t_list *list2 = NULL;
+int main(int argc, char **argv) {
+    if (argc == 2) {
+        char *str = mx_file_to_str(argv[1]);
+        int size = mx_atoi(str);
+        char **islands = mx_strsplit(str, '\n');
+        mx_validator(str, size, islands);
+        int **matrix = mx_matrix_creator(islands);
+        mini_list *list2 = NULL;
+        //   t_list *list2 = NULL;
 //
 //    mx_push_back(&list2, "0321");
 //    mx_push_back(&list2, "0231");
@@ -28,7 +29,7 @@ int main() {
 //        printf("%s  |  ", list2->data);
 //        list2 = list2->next;
 //    }
-    mx_deixtra_cycle(matrix, size, &list2);
+        mx_deixtra_cycle(matrix, size, &list2);
 //    printf("\n");
 //    mini_list *list1 = list2;
 //    while (list1) {
@@ -69,7 +70,10 @@ int main() {
 //        list1 = list1->next;
 //        printf("\n");
 //    }
-    mx_result_matrix(&list2, size);
+        mx_result_matrix(&list2, size);
 
-//    system("leaks pathfinder");
+//    system("leaks -q pathfinder");
+    }
+    else
+        mx_printerr("usage: ./pathfinder [filename]\n");
 }

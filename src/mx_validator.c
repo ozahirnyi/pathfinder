@@ -2,8 +2,10 @@
 
 static void check_for_islands(int size, char **islands) {
     t_list *list = mx_island_list(islands);
-
     int list_size = mx_list_size(list);
+
+    while (list)
+        mx_pop_front(&list);
     if (list_size != size) {
         mx_printerr("error: invalid number of islands");
         exit(1);
@@ -68,6 +70,5 @@ int mx_validator(char *str, int size, char **islands) {
         line++;
     }
     check_for_islands(size, islands);
-    mx_printstr(str);
     return 1;
 }

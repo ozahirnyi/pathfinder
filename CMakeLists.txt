@@ -3,10 +3,10 @@ project(pathfinder C)
 
 set(CMAKE_C_STANDARD 11)
 
-aux_source_directory(libmx/src LIB_SRC)
+aux_source_directory(src LIB_SRC)
 add_library(mx STATIC ${LIB_SRC})
 
-#include_directories(libmx/inc)
+#include_directories(inc)
 
-add_executable(pathfinder main.c)
-target_link_libraries(pathfinder mx)
+add_executable(pathfinder src/main.c inc/pathfinder.h )
+target_link_libraries(pathfinder src/mx)

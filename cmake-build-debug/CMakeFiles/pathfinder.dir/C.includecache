@@ -6,23 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-unistd.h
--
-wchar.h
--
-stdlib.h
--
-fcntl.h
--
-stdbool.h
--
-
-/Users/ozahirnyi/pathfinder/main.c
-pathfinder.h
-/Users/ozahirnyi/pathfinder/pathfinder.h
-
-/Users/ozahirnyi/pathfinder/pathfinder.h
-libmx/inc/libmx.h
-/Users/ozahirnyi/pathfinder/libmx/inc/libmx.h
-

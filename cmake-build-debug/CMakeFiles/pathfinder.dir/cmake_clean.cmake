@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pathfinder.dir/main.c.o"
+  "CMakeFiles/pathfinder.dir/src/main.c.o"
   "pathfinder"
   "pathfinder.pdb"
 )

@@ -57,29 +57,28 @@ include CMakeFiles/pathfinder.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pathfinder.dir/flags.make
 
-CMakeFiles/pathfinder.dir/main.c.o: CMakeFiles/pathfinder.dir/flags.make
-CMakeFiles/pathfinder.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pathfinder.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/main.c.o   -c /Users/ozahirnyi/pathfinder/main.c
+CMakeFiles/pathfinder.dir/src/main.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/main.c.o: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pathfinder.dir/src/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/main.c.o   -c /Users/ozahirnyi/pathfinder/src/main.c
 
-CMakeFiles/pathfinder.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/main.c > CMakeFiles/pathfinder.dir/main.c.i
+CMakeFiles/pathfinder.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/main.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/main.c > CMakeFiles/pathfinder.dir/src/main.c.i
 
-CMakeFiles/pathfinder.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/main.c -o CMakeFiles/pathfinder.dir/main.c.s
+CMakeFiles/pathfinder.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/main.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/main.c -o CMakeFiles/pathfinder.dir/src/main.c.s
 
 # Object files for target pathfinder
 pathfinder_OBJECTS = \
-"CMakeFiles/pathfinder.dir/main.c.o"
+"CMakeFiles/pathfinder.dir/src/main.c.o"
 
 # External object files for target pathfinder
 pathfinder_EXTERNAL_OBJECTS =
 
-pathfinder: CMakeFiles/pathfinder.dir/main.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/main.c.o
 pathfinder: CMakeFiles/pathfinder.dir/build.make
-pathfinder: libmx.a
 pathfinder: CMakeFiles/pathfinder.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable pathfinder"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pathfinder.dir/link.txt --verbose=$(VERBOSE)

@@ -1,6 +1,6 @@
 NAME = pathfinder
 
-SRC =  mx_count_parallel \
+FILES =  mx_count_parallel \
 		mx_create_node_custom \
 		mx_deixtra \
 		mx_deixtra_cycle \
@@ -33,6 +33,8 @@ DEL_SRC = $(addsuffix ".c", $(FILES))
 
 SRC = $(addsuffix ".c", $(SRC_PREFFIX))
 
+SRC_COMPILE = $(addsuffix ".c", $(FILES))
+
 OBJ = $(addsuffix ".o", $(FILES))
 
 CFLAGS = -std=c11 -Werror -Wall -Wextra -Wpedantic
@@ -46,7 +48,7 @@ install:
 	@cp $(HEADER) .
 	@cp $(SRC) .
 	@cp $(LIBMX_A) .
-	@clang $(CFLAGS) -c $(SRC)
+	@clang $(CFLAGS) -c $(SRC_COMPILE)
 	@clang $(CFLAGS) $(OBJ) $(LIB_A) -o $(NAME)
 	@mkdir -p obj
 	@cp $(OBJ) obj/
