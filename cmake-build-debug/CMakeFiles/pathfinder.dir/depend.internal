@@ -13,6 +13,10 @@ CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.o
  ../inc/pathfinder.h
  ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_create_node_custom.c
+CMakeFiles/pathfinder.dir/src/mx_create_struct.c.o
+ ../inc/pathfinder.h
+ ../libmx/inc/libmx.h
+ /Users/ozahirnyi/pathfinder/src/mx_create_struct.c
 CMakeFiles/pathfinder.dir/src/mx_deixtra.c.o
  ../inc/pathfinder.h
  ../libmx/inc/libmx.h
@@ -49,6 +53,10 @@ CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.o
  ../inc/pathfinder.h
  ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_push_back_custom.c
+CMakeFiles/pathfinder.dir/src/mx_push_result.c.o
+ ../inc/pathfinder.h
+ ../libmx/inc/libmx.h
+ /Users/ozahirnyi/pathfinder/src/mx_push_result.c
 CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.o
  ../inc/pathfinder.h
  ../libmx/inc/libmx.h
@@ -89,7 +97,3 @@ CMakeFiles/pathfinder.dir/src/mx_validator.c.o
  ../inc/pathfinder.h
  ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_validator.c
-CMakeFiles/pathfinder.dir/src/mx_write_result.c.o
- ../inc/pathfinder.h
- ../libmx/inc/libmx.h
- /Users/ozahirnyi/pathfinder/src/mx_write_result.c

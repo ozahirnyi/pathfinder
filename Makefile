@@ -20,7 +20,9 @@ FILES =  mx_count_parallel \
 		mx_valid_for_minus \
 		mx_valid_for_slashn \
 		mx_validator \
-		mx_write_result \
+		mx_result_list_creator \
+        mx_create_struct \
+        mx_push_result \
 		main \
 
 LIBMX_A = libmx/libmx.a
@@ -41,7 +43,7 @@ CFLAGS = -std=c11 -Werror -Wall -Wextra -Wpedantic
 
 LIB_A = libmx.a
 
-all: install clean
+all: install
 
 install:
 	@make -C libmx install

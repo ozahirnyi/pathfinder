@@ -13,6 +13,10 @@ CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.o: ../inc/pathfinder.h
 CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.o: ../libmx/inc/libmx.h
 CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.o: ../src/mx_create_node_custom.c
 
+CMakeFiles/pathfinder.dir/src/mx_create_struct.c.o: ../inc/pathfinder.h
+CMakeFiles/pathfinder.dir/src/mx_create_struct.c.o: ../libmx/inc/libmx.h
+CMakeFiles/pathfinder.dir/src/mx_create_struct.c.o: ../src/mx_create_struct.c
+
 CMakeFiles/pathfinder.dir/src/mx_deixtra.c.o: ../inc/pathfinder.h
 CMakeFiles/pathfinder.dir/src/mx_deixtra.c.o: ../libmx/inc/libmx.h
 CMakeFiles/pathfinder.dir/src/mx_deixtra.c.o: ../src/mx_deixtra.c
@@ -48,6 +52,10 @@ CMakeFiles/pathfinder.dir/src/mx_pop_front_mini.c.o: ../src/mx_pop_front_mini.c
 CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.o: ../inc/pathfinder.h
 CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.o: ../libmx/inc/libmx.h
 CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.o: ../src/mx_push_back_custom.c
+
+CMakeFiles/pathfinder.dir/src/mx_push_result.c.o: ../inc/pathfinder.h
+CMakeFiles/pathfinder.dir/src/mx_push_result.c.o: ../libmx/inc/libmx.h
+CMakeFiles/pathfinder.dir/src/mx_push_result.c.o: ../src/mx_push_result.c
 
 CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.o: ../inc/pathfinder.h
 CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.o: ../libmx/inc/libmx.h
@@ -88,8 +96,4 @@ CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.o: ../src/mx_valid_for_slash
 CMakeFiles/pathfinder.dir/src/mx_validator.c.o: ../inc/pathfinder.h
 CMakeFiles/pathfinder.dir/src/mx_validator.c.o: ../libmx/inc/libmx.h
 CMakeFiles/pathfinder.dir/src/mx_validator.c.o: ../src/mx_validator.c
-
-CMakeFiles/pathfinder.dir/src/mx_write_result.c.o: ../inc/pathfinder.h
-CMakeFiles/pathfinder.dir/src/mx_write_result.c.o: ../libmx/inc/libmx.h
-CMakeFiles/pathfinder.dir/src/mx_write_result.c.o: ../src/mx_write_result.c
 

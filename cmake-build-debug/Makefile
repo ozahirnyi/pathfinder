@@ -1891,6 +1891,33 @@ src/mx_create_node_custom.c.s:
 	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.s
 .PHONY : src/mx_create_node_custom.c.s
 
+src/mx_create_struct.o: src/mx_create_struct.c.o
+
+.PHONY : src/mx_create_struct.o
+
+# target to build an object file
+src/mx_create_struct.c.o:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_create_struct.c.o
+.PHONY : src/mx_create_struct.c.o
+
+src/mx_create_struct.i: src/mx_create_struct.c.i
+
+.PHONY : src/mx_create_struct.i
+
+# target to preprocess a source file
+src/mx_create_struct.c.i:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_create_struct.c.i
+.PHONY : src/mx_create_struct.c.i
+
+src/mx_create_struct.s: src/mx_create_struct.c.s
+
+.PHONY : src/mx_create_struct.s
+
+# target to generate assembly for a file
+src/mx_create_struct.c.s:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_create_struct.c.s
+.PHONY : src/mx_create_struct.c.s
+
 src/mx_deixtra.o: src/mx_deixtra.c.o
 
 .PHONY : src/mx_deixtra.o
@@ -2133,6 +2160,33 @@ src/mx_push_back_custom.s: src/mx_push_back_custom.c.s
 src/mx_push_back_custom.c.s:
 	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.s
 .PHONY : src/mx_push_back_custom.c.s
+
+src/mx_push_result.o: src/mx_push_result.c.o
+
+.PHONY : src/mx_push_result.o
+
+# target to build an object file
+src/mx_push_result.c.o:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_push_result.c.o
+.PHONY : src/mx_push_result.c.o
+
+src/mx_push_result.i: src/mx_push_result.c.i
+
+.PHONY : src/mx_push_result.i
+
+# target to preprocess a source file
+src/mx_push_result.c.i:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_push_result.c.i
+.PHONY : src/mx_push_result.c.i
+
+src/mx_push_result.s: src/mx_push_result.c.s
+
+.PHONY : src/mx_push_result.s
+
+# target to generate assembly for a file
+src/mx_push_result.c.s:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_push_result.c.s
+.PHONY : src/mx_push_result.c.s
 
 src/mx_result_list_creator.o: src/mx_result_list_creator.c.o
 
@@ -2404,33 +2458,6 @@ src/mx_validator.c.s:
 	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_validator.c.s
 .PHONY : src/mx_validator.c.s
 
-src/mx_write_result.o: src/mx_write_result.c.o
-
-.PHONY : src/mx_write_result.o
-
-# target to build an object file
-src/mx_write_result.c.o:
-	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_write_result.c.o
-.PHONY : src/mx_write_result.c.o
-
-src/mx_write_result.i: src/mx_write_result.c.i
-
-.PHONY : src/mx_write_result.i
-
-# target to preprocess a source file
-src/mx_write_result.c.i:
-	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_write_result.c.i
-.PHONY : src/mx_write_result.c.i
-
-src/mx_write_result.s: src/mx_write_result.c.s
-
-.PHONY : src/mx_write_result.s
-
-# target to generate assembly for a file
-src/mx_write_result.c.s:
-	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_write_result.c.s
-.PHONY : src/mx_write_result.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2636,6 +2663,9 @@ help:
 	@echo "... src/mx_create_node_custom.o"
 	@echo "... src/mx_create_node_custom.i"
 	@echo "... src/mx_create_node_custom.s"
+	@echo "... src/mx_create_struct.o"
+	@echo "... src/mx_create_struct.i"
+	@echo "... src/mx_create_struct.s"
 	@echo "... src/mx_deixtra.o"
 	@echo "... src/mx_deixtra.i"
 	@echo "... src/mx_deixtra.s"
@@ -2663,6 +2693,9 @@ help:
 	@echo "... src/mx_push_back_custom.o"
 	@echo "... src/mx_push_back_custom.i"
 	@echo "... src/mx_push_back_custom.s"
+	@echo "... src/mx_push_result.o"
+	@echo "... src/mx_push_result.i"
+	@echo "... src/mx_push_result.s"
 	@echo "... src/mx_result_list_creator.o"
 	@echo "... src/mx_result_list_creator.i"
 	@echo "... src/mx_result_list_creator.s"
@@ -2693,9 +2726,6 @@ help:
 	@echo "... src/mx_validator.o"
 	@echo "... src/mx_validator.i"
 	@echo "... src/mx_validator.s"
-	@echo "... src/mx_write_result.o"
-	@echo "... src/mx_write_result.i"
-	@echo "... src/mx_write_result.s"
 .PHONY : help
 
 

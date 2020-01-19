@@ -27,7 +27,7 @@ static void algorithm(result_struct *result, int island_index, int dest, int pat
     path_index++;
     if (result->matrix[1][dest] == -1) {
         result->path[path_index] = result->matrix[2][island_index];
-        mx_push_result(result->islands, result->path);
+        mx_push_result(&result->islands, result->path);
     }
     else {
         new_dest = get_new_index(result->matrix, result->matrix[1][dest]);
@@ -41,7 +41,7 @@ static void algorithm(result_struct *result, int island_index, int dest, int pat
 static void list_filler(result_struct *result, int island_index,
 int **matrix, int island_count) {
     result->path = path_creator(island_count);
-    result->result_matrix = matrix;
+    result->matrix = matrix;
 
     for (int i = 0; result->matrix[0][i] < -3
         || result->matrix[0][i] > -2; i++)
@@ -53,10 +53,11 @@ void mx_result_list_creator(int ***result_matrix, int island_count) {
 
     for (int i = 0; i < island_count - 1; i++)
         list_filler(result, i, result_matrix[i], island_count);
-//    result_list *buf = list;
-//    while (buf) {
-//        printf("%s\n", (char *)buf->data);
-//        printf("\n");
-//        buf = buf->next;
-//    }
+    result_list *buf = result->islands;
+    while (buf) {
+        for (int i = 0; i <= island_count; i++)
+            printf("%d | ", buf->path[i]);
+        printf("\n");
+        buf = buf->next;
+    }
 }

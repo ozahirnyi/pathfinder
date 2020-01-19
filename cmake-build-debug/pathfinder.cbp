@@ -321,6 +321,9 @@
 		<Unit filename="/Users/ozahirnyi/pathfinder/src/mx_create_node_custom.c">
 			<Option target="pathfinder"/>
 		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/src/mx_create_struct.c">
+			<Option target="pathfinder"/>
+		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/src/mx_deixtra.c">
 			<Option target="pathfinder"/>
 		</Unit>
@@ -346,6 +349,9 @@
 			<Option target="pathfinder"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/src/mx_push_back_custom.c">
+			<Option target="pathfinder"/>
+		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/src/mx_push_result.c">
 			<Option target="pathfinder"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/src/mx_result_list_creator.c">
@@ -376,9 +382,6 @@
 			<Option target="pathfinder"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/src/mx_validator.c">
-			<Option target="pathfinder"/>
-		</Unit>
-		<Unit filename="/Users/ozahirnyi/pathfinder/src/mx_write_result.c">
 			<Option target="pathfinder"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/CMakeLists.txt">

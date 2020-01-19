@@ -31,7 +31,7 @@ typedef struct e_list {
 } result_struct;
 
 result_struct *mx_create_struct(void);
-void mx_push_result(result_list *list, int *path);
+void mx_push_result(result_list **list, int *path);
 void mx_pop_front_mini(mini_list **head);
 void mx_result_list_creator(int ***result_matrix, int island_count);
 t_list *mx_sort_result(t_list *lst);
