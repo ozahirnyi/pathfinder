@@ -1,7 +1,7 @@
 #ifndef PATHFINDER_H
 #define PATHFINDER_H
 
-#include "libmx/inc/libmx.h"
+#include "libmx.h"
 
 int mx_is_done(int *path_price, int size);
 int mx_is_min(int **path_price, int size);
@@ -19,7 +19,21 @@ typedef struct q_list {
     struct q_list *next;
 } mini_list;
 
+typedef struct w_list {
+    int *path;
+    struct w_list *next;
+} result_list;
+
+typedef struct e_list {
+    result_list *islands;
+    int *path;
+    int **matrix;
+} result_struct;
+
+result_struct *mx_create_struct(void);
+void mx_push_result(result_list *list, int *path);
 void mx_pop_front_mini(mini_list **head);
+void mx_result_list_creator(int ***result_matrix, int island_count);
 t_list *mx_sort_result(t_list *lst);
 void mx_deixtra_cycle(int **matrix, int size, mini_list **list);
 void mx_deixtra(int **deixtra_matrix, int **matrix, int size, mini_list **list);

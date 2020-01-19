@@ -1,18 +1,19 @@
 #include "pathfinder.h"
-
-//void	bzero(void *s, size_t n) {
-//    unsigned char *ptr;
 //
+//void	bzero(void *s, int n)
+//{
+//    unsigned char *ptr;
+//    ​
 //    ptr = (unsigned char *)s;
 //    while (n--)
 //        *ptr++ = 0;
 //}
-//
-//t_pathlist *allocate_way_list(size_t len) {
+//​
+//t_pathlist *allocate_way_list(int len) {
 //    t_pathlist *lst = NULL;
 //    t_pathlist *iterator;
-//    size_t i = 0;
-//
+//    int i = 0;
+//    ​
 //    while (i < len)
 //    {
 //        if (!lst) {
@@ -30,12 +31,14 @@
 //    }
 //    return (lst);
 //}
-//
-//void add_to_way(t_list **head, void *data, int value) {
+//​
+//void add_to_way(t_list **head, void *data, int value)
+//{
 //    t_list *tmp;
-//
+//    ​
 //    tmp = (*head);
-//    if (!(*head)) {
+//    if (!(*head))
+//    {
 //        (*head) = (t_list *)malloc(sizeof(t_list));
 //        bzero((*head), sizeof(t_list));
 //        (*head)->data = data;
@@ -51,46 +54,98 @@
 //        tmp->value = value;
 //    }
 //}
-//
-//char *find_data(t_list *name, int order) {
+//​
+//char *find_data(t_list *name, int order)
+//{
 //    int i = 0;
-//
-//    while (i < order && name) {
+//    ​
+//    while (i < order && name)
+//    {
 //        name = name->next;
 //        i++;
 //    }
 //    return ((char *)name->data);
 //}
-//
-//int *calculate_ways_number(int ***result_matrix, t_list *name, int size) {
-//    size_t i = 0;
-//    size_t j = 0; // cause all the time fisrt elem IT'S A PLACE WHERE WE ARE STANDING!!!
-//    size_t k = 0;
+//​
+//void add_to_way_list(t_pathlist *head, t_list *list)
+//{
+//    while(!head->way)
+//        head->way = list;
+//    head->way = list;
+//}
+//​
+//void clear_way(t_list **way)
+//{
+//    t_list *tmp = (*way);
+//    t_list *buf;
+//    ​
+//    while(tmp)
+//    {
+//        buf = tmp;
+//        tmp = tmp->next;
+//        free(buf);
+//    }
+//    *way = NULL;
+//}
+//​
+//int     count_size(int const *array)
+//{
+//    int size = 0;
+//    ​
+//    while (array[size] != -3)
+//        size++;
+//    return (size);
+//}
+//​
+//void  print_dilim(void);
+//​
+//void output(t_pathlist *way_list);
+//​
+//int *calculate_ways_number(int **result_matrix, t_list *name)
+//{
+//    int i = 0;
+//    int j = 1;
+//    int k = 0;
+//    int size = count_size(*result_matrix);
 //    t_pathlist *way_list = allocate_way_list(size - 1);
 //    t_list *way = NULL;
-//
-//
-//    while (i < size - 1) // going at first dimension, looking for corresponding array, not including the last way.
-//    {
-//        add_to_way(&way, name->data, result_matrix[i][VALUES][j]);//adding a start point
-//        while (result_matrix[i][VALUES][j] != -1)
-//            j++;
-//        j += 1; // next elem after -1, iterating trough the rooms.//and here we find a destination point
-//        add_to_way(&way, find_data(name, result_matrix[i][NAME][j]), result_matrix[i][VALUES][j]);//TODO пока что сделаем так - что последний элемент на втором месте
-//        while(result_matrix[i][WAYS][j] != -1)
-//        {
-//
-//        }
-//
+//    ​
+//    while(result_matrix[VALUES][i] != -1 && result_matrix[WAYS][i] != -1)
 //        i++;
+//    char *start_name = find_data(name, result_matrix[NAME][i]);
+//    int start_value = 0;
+//    ​
+//    while (j < size)
+//    {
+//        add_to_way(&way, start_name, start_value);//start;
+//        add_to_way(&way, find_data(name, result_matrix[NAME][j]), result_matrix[VALUES][j]);//end;
+//        while (result_matrix[WAYS][j] != -1)
+//        {
+//            k = size;
+//            add_to_way(&way, find_data(name, result_matrix[NAME][j]), result_matrix[VALUES][j]);
+//            while(k > 0)
+//            {
+//                if (result_matrix[NAME][k] == result_matrix[WAYS][j]) {
+//                    j = k;
+//                }
+//                k--;
+//            }
+//        }
+//        //put here add_to_way
+////        else if (result_matrix[WAYS][j] == -1)
+////            j++;
+//        add_to_way_list(way_list, way);
+//        clear_way(&way);
+////        j++;
 //    }
-//
+//    output(way_list);
 //    return 0;
 //}
-//
-//void  print_dilim(void) {
+//​
+//void  print_dilim(void)
+//{
 //    size_t i = 0;
-//
+//    ​
 //    while (i < 40)
 //    {
 //        mx_printchar('-');
@@ -98,7 +153,48 @@
 //    }
 //    mx_printchar('\n');
 //}
-//
-//void output(int **ways, t_list *names, int size) {
-//
+//​
+//t_list *find_end_at_way(t_list *way)
+//{
+//    way = way->next;//cause second - IT IS THE END!!!!
+//    return (way);
+//}
+//​
+//void output(t_pathlist *way_list)
+//{
+//    int sum = 0;
+//    while (way_list && way_list->way)
+//    {
+//        print_dilim();
+//        t_list *tmp = (way_list)->way;
+//        t_list *end = find_end_at_way(tmp);
+//        mx_printstr(PATH);
+//        mx_printstr(tmp->data);
+//        mx_printstr(" -> ");
+//        mx_printstr(end->data);
+//        mx_printchar('\n');
+//        mx_printstr("Route: ");
+//        while(tmp)
+//        {
+//            mx_printstr(tmp->data);
+//            mx_printstr(" -> ");
+//            tmp = tmp->next;
+//        }
+//        tmp = (way_list)->way;
+//        mx_printstr("Distance: ");
+//        while(tmp)
+//        {
+//            if (tmp->value >= 0) {
+//                mx_printint(tmp->value);
+//                sum += tmp->value;
+//                mx_printstr(" + ");
+//            }
+//            tmp = tmp->next;
+//        }//COSTILI on pre last elem!
+//        mx_printstr(" = ");
+//        mx_printint(sum);
+//        mx_printstr("\n");
+//        print_dilim();
+//        way_list = (way_list)->next;
+//    }
 //}

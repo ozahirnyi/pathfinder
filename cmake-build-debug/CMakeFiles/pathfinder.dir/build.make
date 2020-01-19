@@ -70,17 +70,348 @@ CMakeFiles/pathfinder.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/main.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/main.c -o CMakeFiles/pathfinder.dir/src/main.c.s
 
+CMakeFiles/pathfinder.dir/src/mx_count_parallel.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_count_parallel.c.o: ../src/mx_count_parallel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/pathfinder.dir/src/mx_count_parallel.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_count_parallel.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_count_parallel.c
+
+CMakeFiles/pathfinder.dir/src/mx_count_parallel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_count_parallel.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_count_parallel.c > CMakeFiles/pathfinder.dir/src/mx_count_parallel.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_count_parallel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_count_parallel.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_count_parallel.c -o CMakeFiles/pathfinder.dir/src/mx_count_parallel.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.o: ../src/mx_create_node_custom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_create_node_custom.c
+
+CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_create_node_custom.c > CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_create_node_custom.c -o CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_deixtra.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_deixtra.c.o: ../src/mx_deixtra.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/pathfinder.dir/src/mx_deixtra.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_deixtra.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_deixtra.c
+
+CMakeFiles/pathfinder.dir/src/mx_deixtra.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_deixtra.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_deixtra.c > CMakeFiles/pathfinder.dir/src/mx_deixtra.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_deixtra.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_deixtra.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_deixtra.c -o CMakeFiles/pathfinder.dir/src/mx_deixtra.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.o: ../src/mx_deixtra_cycle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_deixtra_cycle.c
+
+CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_deixtra_cycle.c > CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_deixtra_cycle.c -o CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_is_done.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_is_done.c.o: ../src/mx_is_done.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/pathfinder.dir/src/mx_is_done.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_is_done.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_is_done.c
+
+CMakeFiles/pathfinder.dir/src/mx_is_done.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_is_done.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_is_done.c > CMakeFiles/pathfinder.dir/src/mx_is_done.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_is_done.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_is_done.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_is_done.c -o CMakeFiles/pathfinder.dir/src/mx_is_done.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_is_min.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_is_min.c.o: ../src/mx_is_min.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/pathfinder.dir/src/mx_is_min.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_is_min.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_is_min.c
+
+CMakeFiles/pathfinder.dir/src/mx_is_min.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_is_min.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_is_min.c > CMakeFiles/pathfinder.dir/src/mx_is_min.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_is_min.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_is_min.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_is_min.c -o CMakeFiles/pathfinder.dir/src/mx_is_min.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_island_index.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_island_index.c.o: ../src/mx_island_index.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/pathfinder.dir/src/mx_island_index.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_island_index.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_island_index.c
+
+CMakeFiles/pathfinder.dir/src/mx_island_index.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_island_index.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_island_index.c > CMakeFiles/pathfinder.dir/src/mx_island_index.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_island_index.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_island_index.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_island_index.c -o CMakeFiles/pathfinder.dir/src/mx_island_index.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_island_list.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_island_list.c.o: ../src/mx_island_list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/pathfinder.dir/src/mx_island_list.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_island_list.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_island_list.c
+
+CMakeFiles/pathfinder.dir/src/mx_island_list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_island_list.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_island_list.c > CMakeFiles/pathfinder.dir/src/mx_island_list.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_island_list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_island_list.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_island_list.c -o CMakeFiles/pathfinder.dir/src/mx_island_list.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_matrix_creator.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_matrix_creator.c.o: ../src/mx_matrix_creator.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/pathfinder.dir/src/mx_matrix_creator.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_matrix_creator.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_matrix_creator.c
+
+CMakeFiles/pathfinder.dir/src/mx_matrix_creator.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_matrix_creator.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_matrix_creator.c > CMakeFiles/pathfinder.dir/src/mx_matrix_creator.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_matrix_creator.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_matrix_creator.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_matrix_creator.c -o CMakeFiles/pathfinder.dir/src/mx_matrix_creator.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_pop_front_mini.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_pop_front_mini.c.o: ../src/mx_pop_front_mini.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/pathfinder.dir/src/mx_pop_front_mini.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_pop_front_mini.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_pop_front_mini.c
+
+CMakeFiles/pathfinder.dir/src/mx_pop_front_mini.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_pop_front_mini.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_pop_front_mini.c > CMakeFiles/pathfinder.dir/src/mx_pop_front_mini.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_pop_front_mini.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_pop_front_mini.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_pop_front_mini.c -o CMakeFiles/pathfinder.dir/src/mx_pop_front_mini.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.o: ../src/mx_push_back_custom.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_push_back_custom.c
+
+CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_push_back_custom.c > CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_push_back_custom.c -o CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_result_matrix.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_result_matrix.c.o: ../src/mx_result_matrix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/pathfinder.dir/src/mx_result_matrix.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_result_matrix.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_result_matrix.c
+
+CMakeFiles/pathfinder.dir/src/mx_result_matrix.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_result_matrix.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_result_matrix.c > CMakeFiles/pathfinder.dir/src/mx_result_matrix.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_result_matrix.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_result_matrix.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_result_matrix.c -o CMakeFiles/pathfinder.dir/src/mx_result_matrix.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_sort_result.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_sort_result.c.o: ../src/mx_sort_result.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/pathfinder.dir/src/mx_sort_result.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_sort_result.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_sort_result.c
+
+CMakeFiles/pathfinder.dir/src/mx_sort_result.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_sort_result.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_sort_result.c > CMakeFiles/pathfinder.dir/src/mx_sort_result.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_sort_result.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_sort_result.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_sort_result.c -o CMakeFiles/pathfinder.dir/src/mx_sort_result.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_1line.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_valid_for_1line.c.o: ../src/mx_valid_for_1line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/pathfinder.dir/src/mx_valid_for_1line.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_valid_for_1line.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_valid_for_1line.c
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_1line.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_valid_for_1line.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_valid_for_1line.c > CMakeFiles/pathfinder.dir/src/mx_valid_for_1line.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_1line.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_valid_for_1line.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_valid_for_1line.c -o CMakeFiles/pathfinder.dir/src/mx_valid_for_1line.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_alpha.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_valid_for_alpha.c.o: ../src/mx_valid_for_alpha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/pathfinder.dir/src/mx_valid_for_alpha.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_valid_for_alpha.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_valid_for_alpha.c
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_alpha.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_valid_for_alpha.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_valid_for_alpha.c > CMakeFiles/pathfinder.dir/src/mx_valid_for_alpha.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_alpha.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_valid_for_alpha.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_valid_for_alpha.c -o CMakeFiles/pathfinder.dir/src/mx_valid_for_alpha.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_digits.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_valid_for_digits.c.o: ../src/mx_valid_for_digits.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/pathfinder.dir/src/mx_valid_for_digits.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_valid_for_digits.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_valid_for_digits.c
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_digits.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_valid_for_digits.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_valid_for_digits.c > CMakeFiles/pathfinder.dir/src/mx_valid_for_digits.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_digits.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_valid_for_digits.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_valid_for_digits.c -o CMakeFiles/pathfinder.dir/src/mx_valid_for_digits.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_koma.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_valid_for_koma.c.o: ../src/mx_valid_for_koma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/pathfinder.dir/src/mx_valid_for_koma.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_valid_for_koma.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_valid_for_koma.c
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_koma.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_valid_for_koma.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_valid_for_koma.c > CMakeFiles/pathfinder.dir/src/mx_valid_for_koma.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_koma.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_valid_for_koma.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_valid_for_koma.c -o CMakeFiles/pathfinder.dir/src/mx_valid_for_koma.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_minus.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_valid_for_minus.c.o: ../src/mx_valid_for_minus.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/pathfinder.dir/src/mx_valid_for_minus.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_valid_for_minus.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_valid_for_minus.c
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_minus.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_valid_for_minus.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_valid_for_minus.c > CMakeFiles/pathfinder.dir/src/mx_valid_for_minus.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_minus.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_valid_for_minus.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_valid_for_minus.c -o CMakeFiles/pathfinder.dir/src/mx_valid_for_minus.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.o: ../src/mx_valid_for_slashn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_valid_for_slashn.c
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_valid_for_slashn.c > CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_valid_for_slashn.c -o CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_validator.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_validator.c.o: ../src/mx_validator.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/pathfinder.dir/src/mx_validator.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_validator.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_validator.c
+
+CMakeFiles/pathfinder.dir/src/mx_validator.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_validator.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_validator.c > CMakeFiles/pathfinder.dir/src/mx_validator.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_validator.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_validator.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_validator.c -o CMakeFiles/pathfinder.dir/src/mx_validator.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_write_result.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_write_result.c.o: ../src/mx_write_result.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/pathfinder.dir/src/mx_write_result.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_write_result.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_write_result.c
+
+CMakeFiles/pathfinder.dir/src/mx_write_result.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_write_result.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_write_result.c > CMakeFiles/pathfinder.dir/src/mx_write_result.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_write_result.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_write_result.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_write_result.c -o CMakeFiles/pathfinder.dir/src/mx_write_result.c.s
+
+CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.o: CMakeFiles/pathfinder.dir/flags.make
+CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.o: ../src/mx_result_list_creator.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.o   -c /Users/ozahirnyi/pathfinder/src/mx_result_list_creator.c
+
+CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ozahirnyi/pathfinder/src/mx_result_list_creator.c > CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.i
+
+CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ozahirnyi/pathfinder/src/mx_result_list_creator.c -o CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.s
+
 # Object files for target pathfinder
 pathfinder_OBJECTS = \
-"CMakeFiles/pathfinder.dir/src/main.c.o"
+"CMakeFiles/pathfinder.dir/src/main.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_count_parallel.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_deixtra.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_is_done.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_is_min.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_island_index.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_island_list.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_matrix_creator.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_pop_front_mini.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_result_matrix.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_sort_result.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_valid_for_1line.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_valid_for_alpha.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_valid_for_digits.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_valid_for_koma.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_valid_for_minus.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_validator.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_write_result.c.o" \
+"CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.o"
 
 # External object files for target pathfinder
 pathfinder_EXTERNAL_OBJECTS =
 
 pathfinder: CMakeFiles/pathfinder.dir/src/main.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_count_parallel.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_deixtra.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_is_done.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_is_min.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_island_index.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_island_list.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_matrix_creator.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_pop_front_mini.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_result_matrix.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_sort_result.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_valid_for_1line.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_valid_for_alpha.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_valid_for_digits.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_valid_for_koma.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_valid_for_minus.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_validator.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_write_result.c.o
+pathfinder: CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.o
 pathfinder: CMakeFiles/pathfinder.dir/build.make
+pathfinder: libmx.a
 pathfinder: CMakeFiles/pathfinder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable pathfinder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable pathfinder"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pathfinder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

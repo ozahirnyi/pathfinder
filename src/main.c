@@ -1,8 +1,8 @@
 #include "pathfinder.h"
 
-int main(int argc, char **argv) {
-    if (argc == 2) {
-        char *str = mx_file_to_str(argv[1]);
+int main() {
+//    if (argc == 2) {
+        char *str = mx_file_to_str("../qwe");
         int size = mx_atoi(str);
         char **islands = mx_strsplit(str, '\n');
         mx_validator(str, size, islands);
@@ -41,7 +41,7 @@ int main(int argc, char **argv) {
 //        }
 //        printf("\n");
 //        for (int i = 0; i < size; i++) {
-//            if (list1->path[i] != -1)
+//            if (list1->path[i] != -1 || (list1->path[i] <= 9 && list1->path[i] >= 0))
 //                printf(" %d  |  ", list1->path[i]);
 //            else
 //                printf("%d  |  ", list1->path[i]);
@@ -73,7 +73,7 @@ int main(int argc, char **argv) {
         mx_result_matrix(&list2, size);
 
 //    system("leaks -q pathfinder");
-    }
-    else
-        mx_printerr("usage: ./pathfinder [filename]\n");
+//    }
+//    else
+//        mx_printerr("usage: ./pathfinder [filename]\n");
 }
