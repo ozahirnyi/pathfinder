@@ -1,6 +1,6 @@
 #include "pathfinder.h"
 
-static int mx_custom_cmp(const char *s1, const char *s2) {
+static int mx_custom_cmp(const int *s1, const int *s2) {
     int finishlen = mx_strlen(s1) - 1;
     int finishlen1 = mx_strlen(s2) - 1;
 
@@ -12,7 +12,7 @@ static int mx_custom_cmp(const char *s1, const char *s2) {
         return 0;
 }
 
-static int  mx_middle_cmp(const char *s1, const char *s2) {
+static int mx_middle_cmp(const int *s1, const int *s2) {
     int i;
 
     i = 0;
@@ -21,24 +21,24 @@ static int  mx_middle_cmp(const char *s1, const char *s2) {
     return s1[i] - s2[i];
 }
 
-static void swaper(t_list *lst) {
+static void swaper(result_list *lst) {
     void *buf = NULL;
 
-    buf = lst->data;
-    lst->data = lst->next->data;
-    lst->next->data = buf;
+    buf = lst->path;
+    lst->path = lst->next->path;
+    lst->next->path = buf;
 }
 
-static void sort_by_middle(t_list *list) {
+static void sort_by_middle(result_list *list) {
     int size = mx_list_size(list);
     int i = 0;
     int j = 0;
-    t_list *buf = list;
+    result_list *buf = list;
 
     while (j <= size) {
         while (i < size - 1) {
-            if (!mx_custom_cmp(buf->data, buf->next->data)
-                && mx_middle_cmp(buf->data, buf->next->data) > 0) {
+            if (!mx_custom_cmp(buf->path, buf->next->path)
+                && mx_middle_cmp(buf->path, buf->next->path) > 0) {
                 swaper(buf);
             }
             buf = buf->next;
@@ -50,15 +50,15 @@ static void sort_by_middle(t_list *list) {
     }
 }
 
-t_list *mx_sort_result(t_list *lst) {
+void mx_sort_result(result_list *lst) {
     int size = mx_list_size(lst);
     int i = 0;
     int j = 0;
-    t_list *start = lst;
+    result_list *start = lst;
 
     while (j <= size) {
         while (i < size - 1) {
-            if (mx_custom_cmp(start->data, start->next->data) > 0)
+            if (mx_custom_cmp(start->path, start->next->path) > 0)
                 swaper(start);
             start = start->next;
             i++;

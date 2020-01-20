@@ -34,11 +34,13 @@ result_struct *mx_create_struct(void);
 void mx_push_result(result_list **list, int *path);
 void mx_pop_front_mini(mini_list **head);
 void mx_result_list_creator(int ***result_matrix, int island_count);
-t_list *mx_sort_result(t_list *lst);
+void mx_sort_result(result_list *lst);
+void mx_write_result(result_list *list);
 void mx_deixtra_cycle(int **matrix, int size, mini_list **list);
 void mx_deixtra(int **deixtra_matrix, int **matrix, int size, mini_list **list);
 mini_list *mx_create_node_custom(int *value, int *path, int size);
 t_list *mx_island_list(char **islands);
+int mx_index_search(int *path)
 int ***mx_result_matrix(mini_list **list, int size);
 int mx_count_parallel(mini_list **list, int index);
 int mx_island_index(t_list **list, char *str);

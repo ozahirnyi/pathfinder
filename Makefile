@@ -23,6 +23,8 @@ FILES =  mx_count_parallel \
 		mx_result_list_creator \
         mx_create_struct \
         mx_push_result \
+        mx_write_result \
+        mx_index_search \
 		main \
 
 LIBMX_A = libmx/libmx.a

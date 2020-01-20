@@ -14,19 +14,20 @@ static int get_new_index(int **result_matrix, int island) {
 
     while (result_matrix[2][i] != island) {
         if (result_matrix[2][i] == island)
-            return i;
+            break ;
         i++;
     }
-    return 0;
+    return i;
 }
 
-static void algorithm(result_struct *result, int island_index, int dest, int path_index) {
+static void algorithm(result_struct *result, int island_index,
+int dest, int path_index) {
     int new_dest = 0;
 
     result->path[path_index] = result->matrix[2][dest];
     path_index++;
     if (result->matrix[1][dest] == -1) {
-        result->path[path_index] = result->matrix[2][island_index];
+        result->path[path_index] = island_index;
         mx_push_result(&result->islands, result->path);
     }
     else {
@@ -40,24 +41,33 @@ static void algorithm(result_struct *result, int island_index, int dest, int pat
 
 static void list_filler(result_struct *result, int island_index,
 int **matrix, int island_count) {
-    result->path = path_creator(island_count);
     result->matrix = matrix;
+    int j = 0;
 
-    for (int i = 0; result->matrix[0][i] < -3
-        || result->matrix[0][i] > -2; i++)
+    for (j = 0; matrix[2][j] != island_index; j++);
+    int i = j + 1;
+    for (; result->matrix[0][i] < -3
+        || result->matrix[0][i] > -2; i++) {
+        for (int q = 0; q < island_count; q++)
+            result->path[q] = -1;
+        result->path[island_count] = -2;
         algorithm(result, island_index, i, 0);
+    }
 }
 
 void mx_result_list_creator(int ***result_matrix, int island_count) {
     result_struct *result = mx_create_struct();
+    result->path = path_creator(island_count);
 
     for (int i = 0; i < island_count - 1; i++)
         list_filler(result, i, result_matrix[i], island_count);
     result_list *buf = result->islands;
     while (buf) {
-        for (int i = 0; i <= island_count; i++)
+        printf("INDEX = %d\n", mx_index_search(buf->path));
+        for (int i = 0; buf->path[i] != -2; i++)
             printf("%d | ", buf->path[i]);
         printf("\n");
         buf = buf->next;
     }
+//    mx_sort_result()
 }
