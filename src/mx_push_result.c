@@ -15,12 +15,11 @@ static int *dup_int_arr(int *path) {
     return node;
 }
 
-void mx_push_result(result_list **list, int *path) {
-    result_list *node = (result_list *)malloc(sizeof(result_list));
-    result_list *buf = *list;
+void mx_push_result(t_list **list, int *path) {
+    int *dup_path = dup_int_arr(path);
+    t_list *node = mx_create_node(dup_path);
+    t_list *buf = *list;
 
-    node->path = dup_int_arr(path);
-//    free(path);
     if (buf == NULL) {
         *list = node;
         (*list)->next = NULL;

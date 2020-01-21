@@ -26,6 +26,11 @@ int dest, int path_index) {
 
     result->path[path_index] = result->matrix[2][dest];
     path_index++;
+    if (result->path[path_index] != -1) {
+        for (int a = path_index; result->path[a] < -2
+            || result->path[a] > -1; a++)
+            result->path[a] = -1;
+    }
     if (result->matrix[1][dest] == -1) {
         result->path[path_index] = island_index;
         mx_push_result(&result->islands, result->path);
@@ -61,13 +66,14 @@ void mx_result_list_creator(int ***result_matrix, int island_count) {
 
     for (int i = 0; i < island_count - 1; i++)
         list_filler(result, i, result_matrix[i], island_count);
-    result_list *buf = result->islands;
+    t_list *buf = result->islands;
+    mx_sort_result(buf);
     while (buf) {
-        printf("INDEX = %d\n", mx_index_search(buf->path));
-        for (int i = 0; buf->path[i] != -2; i++)
-            printf("%d | ", buf->path[i]);
+        int *buf_int = (int *)buf->data;
+        printf("INDEX = %d\n", mx_index_search(buf_int, 0));
+        for (int i = 0; buf_int[i] != -2; i++)
+            printf("%d | ", buf_int[i]);
         printf("\n");
         buf = buf->next;
     }
-//    mx_sort_result()
 }
