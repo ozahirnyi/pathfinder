@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pathfinder.dir/src/main.c.o"
+  "CMakeFiles/pathfinder.dir/src/mx_count_distance.c.o"
   "CMakeFiles/pathfinder.dir/src/mx_count_parallel.c.o"
   "CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.o"
   "CMakeFiles/pathfinder.dir/src/mx_create_struct.c.o"
   "CMakeFiles/pathfinder.dir/src/mx_deixtra.c.o"
   "CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.o"
+  "CMakeFiles/pathfinder.dir/src/mx_index_search.c.o"
   "CMakeFiles/pathfinder.dir/src/mx_is_done.c.o"
   "CMakeFiles/pathfinder.dir/src/mx_is_min.c.o"
   "CMakeFiles/pathfinder.dir/src/mx_island_index.c.o"
@@ -23,6 +25,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/pathfinder.dir/src/mx_valid_for_minus.c.o"
   "CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.o"
   "CMakeFiles/pathfinder.dir/src/mx_validator.c.o"
+  "CMakeFiles/pathfinder.dir/src/mx_write_result.c.o"
   "pathfinder"
   "pathfinder.pdb"
 )

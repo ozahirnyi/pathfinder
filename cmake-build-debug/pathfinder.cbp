@@ -315,6 +315,9 @@
 		<Unit filename="/Users/ozahirnyi/pathfinder/src/main.c">
 			<Option target="pathfinder"/>
 		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/src/mx_count_distance.c">
+			<Option target="pathfinder"/>
+		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/src/mx_count_parallel.c">
 			<Option target="pathfinder"/>
 		</Unit>
@@ -328,6 +331,9 @@
 			<Option target="pathfinder"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/src/mx_deixtra_cycle.c">
+			<Option target="pathfinder"/>
+		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/src/mx_index_search.c">
 			<Option target="pathfinder"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/src/mx_is_done.c">
@@ -382,6 +388,9 @@
 			<Option target="pathfinder"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/src/mx_validator.c">
+			<Option target="pathfinder"/>
+		</Unit>
+		<Unit filename="/Users/ozahirnyi/pathfinder/src/mx_write_result.c">
 			<Option target="pathfinder"/>
 		</Unit>
 		<Unit filename="/Users/ozahirnyi/pathfinder/CMakeLists.txt">

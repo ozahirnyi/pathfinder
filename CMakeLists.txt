@@ -35,5 +35,8 @@ add_executable(pathfinder src/main.c
                 src/mx_validator.c
                 src/mx_result_list_creator.c
                 src/mx_push_result.c
-                src/mx_create_struct.c)
+                src/mx_create_struct.c
+                src/mx_index_search.c
+                src/mx_write_result.c
+                src/mx_count_distance.c)
 target_link_libraries(pathfinder mx)

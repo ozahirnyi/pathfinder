@@ -66,7 +66,7 @@ static void result_matrix_filling(int ***result_matrix, int size, mini_list *lis
     }
 }
 
-int ***mx_result_matrix(mini_list **list, int size) {
+int ***mx_result_matrix(mini_list **list, int size, char **islands) {
     int each_size = 0;
     int ***result_matrix = (int ***)malloc(sizeof(int **) * size);
 
@@ -96,6 +96,6 @@ int ***mx_result_matrix(mini_list **list, int size) {
         }
     }
     printf("\n");
-    mx_result_list_creator(result_matrix, size);
+    mx_result_list_creator(result_matrix, size, islands);
     return result_matrix;
 }

@@ -60,7 +60,8 @@ int **matrix, int island_count) {
     }
 }
 
-void mx_result_list_creator(int ***result_matrix, int island_count) {
+void mx_result_list_creator(int ***result_matrix, int island_count,
+char **islands) {
     result_struct *result = mx_create_struct();
     result->path = path_creator(island_count);
 
@@ -70,10 +71,12 @@ void mx_result_list_creator(int ***result_matrix, int island_count) {
     mx_sort_result(buf);
     while (buf) {
         int *buf_int = (int *)buf->data;
-        printf("INDEX = %d\n", mx_index_search(buf_int, 0));
         for (int i = 0; buf_int[i] != -2; i++)
             printf("%d | ", buf_int[i]);
         printf("\n");
         buf = buf->next;
     }
+    mx_write_result(&result->islands, islands, result_matrix);
+    free(result->path);
+    free(result);
 }

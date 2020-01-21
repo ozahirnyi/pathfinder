@@ -5,11 +5,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/ozahirnyi/pathfinder/src/main.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir/src/main.c.o"
+  "/Users/ozahirnyi/pathfinder/src/mx_count_distance.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir/src/mx_count_distance.c.o"
   "/Users/ozahirnyi/pathfinder/src/mx_count_parallel.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir/src/mx_count_parallel.c.o"
   "/Users/ozahirnyi/pathfinder/src/mx_create_node_custom.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.o"
   "/Users/ozahirnyi/pathfinder/src/mx_create_struct.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir/src/mx_create_struct.c.o"
   "/Users/ozahirnyi/pathfinder/src/mx_deixtra.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir/src/mx_deixtra.c.o"
   "/Users/ozahirnyi/pathfinder/src/mx_deixtra_cycle.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.o"
+  "/Users/ozahirnyi/pathfinder/src/mx_index_search.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir/src/mx_index_search.c.o"
   "/Users/ozahirnyi/pathfinder/src/mx_is_done.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir/src/mx_is_done.c.o"
   "/Users/ozahirnyi/pathfinder/src/mx_is_min.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir/src/mx_is_min.c.o"
   "/Users/ozahirnyi/pathfinder/src/mx_island_index.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir/src/mx_island_index.c.o"
@@ -28,6 +30,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/ozahirnyi/pathfinder/src/mx_valid_for_minus.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir/src/mx_valid_for_minus.c.o"
   "/Users/ozahirnyi/pathfinder/src/mx_valid_for_slashn.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.o"
   "/Users/ozahirnyi/pathfinder/src/mx_validator.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir/src/mx_validator.c.o"
+  "/Users/ozahirnyi/pathfinder/src/mx_write_result.c" "/Users/ozahirnyi/pathfinder/cmake-build-debug/CMakeFiles/pathfinder.dir/src/mx_write_result.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

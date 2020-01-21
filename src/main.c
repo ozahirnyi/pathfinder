@@ -70,9 +70,9 @@ int main() {
 //        list1 = list1->next;
 //        printf("\n");
 //    }
-        mx_result_matrix(&list2, size);
+        mx_result_matrix(&list2, size, islands);
 
-//    system("leaks -q pathfinder");
+    system("leaks -q pathfinder");
 //    }
 //    else
 //        mx_printerr("usage: ./pathfinder [filename]\n");

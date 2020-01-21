@@ -1837,6 +1837,33 @@ src/main.c.s:
 	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/mx_count_distance.o: src/mx_count_distance.c.o
+
+.PHONY : src/mx_count_distance.o
+
+# target to build an object file
+src/mx_count_distance.c.o:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_count_distance.c.o
+.PHONY : src/mx_count_distance.c.o
+
+src/mx_count_distance.i: src/mx_count_distance.c.i
+
+.PHONY : src/mx_count_distance.i
+
+# target to preprocess a source file
+src/mx_count_distance.c.i:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_count_distance.c.i
+.PHONY : src/mx_count_distance.c.i
+
+src/mx_count_distance.s: src/mx_count_distance.c.s
+
+.PHONY : src/mx_count_distance.s
+
+# target to generate assembly for a file
+src/mx_count_distance.c.s:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_count_distance.c.s
+.PHONY : src/mx_count_distance.c.s
+
 src/mx_count_parallel.o: src/mx_count_parallel.c.o
 
 .PHONY : src/mx_count_parallel.o
@@ -1971,6 +1998,33 @@ src/mx_deixtra_cycle.s: src/mx_deixtra_cycle.c.s
 src/mx_deixtra_cycle.c.s:
 	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.s
 .PHONY : src/mx_deixtra_cycle.c.s
+
+src/mx_index_search.o: src/mx_index_search.c.o
+
+.PHONY : src/mx_index_search.o
+
+# target to build an object file
+src/mx_index_search.c.o:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_index_search.c.o
+.PHONY : src/mx_index_search.c.o
+
+src/mx_index_search.i: src/mx_index_search.c.i
+
+.PHONY : src/mx_index_search.i
+
+# target to preprocess a source file
+src/mx_index_search.c.i:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_index_search.c.i
+.PHONY : src/mx_index_search.c.i
+
+src/mx_index_search.s: src/mx_index_search.c.s
+
+.PHONY : src/mx_index_search.s
+
+# target to generate assembly for a file
+src/mx_index_search.c.s:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_index_search.c.s
+.PHONY : src/mx_index_search.c.s
 
 src/mx_is_done.o: src/mx_is_done.c.o
 
@@ -2458,6 +2512,33 @@ src/mx_validator.c.s:
 	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_validator.c.s
 .PHONY : src/mx_validator.c.s
 
+src/mx_write_result.o: src/mx_write_result.c.o
+
+.PHONY : src/mx_write_result.o
+
+# target to build an object file
+src/mx_write_result.c.o:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_write_result.c.o
+.PHONY : src/mx_write_result.c.o
+
+src/mx_write_result.i: src/mx_write_result.c.i
+
+.PHONY : src/mx_write_result.i
+
+# target to preprocess a source file
+src/mx_write_result.c.i:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_write_result.c.i
+.PHONY : src/mx_write_result.c.i
+
+src/mx_write_result.s: src/mx_write_result.c.s
+
+.PHONY : src/mx_write_result.s
+
+# target to generate assembly for a file
+src/mx_write_result.c.s:
+	$(MAKE) -f CMakeFiles/pathfinder.dir/build.make CMakeFiles/pathfinder.dir/src/mx_write_result.c.s
+.PHONY : src/mx_write_result.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2657,6 +2738,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/mx_count_distance.o"
+	@echo "... src/mx_count_distance.i"
+	@echo "... src/mx_count_distance.s"
 	@echo "... src/mx_count_parallel.o"
 	@echo "... src/mx_count_parallel.i"
 	@echo "... src/mx_count_parallel.s"
@@ -2672,6 +2756,9 @@ help:
 	@echo "... src/mx_deixtra_cycle.o"
 	@echo "... src/mx_deixtra_cycle.i"
 	@echo "... src/mx_deixtra_cycle.s"
+	@echo "... src/mx_index_search.o"
+	@echo "... src/mx_index_search.i"
+	@echo "... src/mx_index_search.s"
 	@echo "... src/mx_is_done.o"
 	@echo "... src/mx_is_done.i"
 	@echo "... src/mx_is_done.s"
@@ -2726,6 +2813,9 @@ help:
 	@echo "... src/mx_validator.o"
 	@echo "... src/mx_validator.i"
 	@echo "... src/mx_validator.s"
+	@echo "... src/mx_write_result.o"
+	@echo "... src/mx_write_result.i"
+	@echo "... src/mx_write_result.s"
 .PHONY : help
 
 

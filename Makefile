@@ -25,6 +25,7 @@ FILES =  mx_count_parallel \
         mx_push_result \
         mx_write_result \
         mx_index_search \
+        mx_count_distance \
 		main \
 
 LIBMX_A = libmx/libmx.a

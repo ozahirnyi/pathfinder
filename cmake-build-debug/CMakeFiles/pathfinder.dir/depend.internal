@@ -3,97 +3,82 @@
 
 CMakeFiles/pathfinder.dir/src/main.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/main.c
+CMakeFiles/pathfinder.dir/src/mx_count_distance.c.o
+ ../inc/pathfinder.h
+ /Users/ozahirnyi/pathfinder/src/mx_count_distance.c
 CMakeFiles/pathfinder.dir/src/mx_count_parallel.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_count_parallel.c
 CMakeFiles/pathfinder.dir/src/mx_create_node_custom.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_create_node_custom.c
 CMakeFiles/pathfinder.dir/src/mx_create_struct.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_create_struct.c
 CMakeFiles/pathfinder.dir/src/mx_deixtra.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_deixtra.c
 CMakeFiles/pathfinder.dir/src/mx_deixtra_cycle.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_deixtra_cycle.c
+CMakeFiles/pathfinder.dir/src/mx_index_search.c.o
+ ../inc/pathfinder.h
+ /Users/ozahirnyi/pathfinder/src/mx_index_search.c
 CMakeFiles/pathfinder.dir/src/mx_is_done.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_is_done.c
 CMakeFiles/pathfinder.dir/src/mx_is_min.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_is_min.c
 CMakeFiles/pathfinder.dir/src/mx_island_index.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_island_index.c
 CMakeFiles/pathfinder.dir/src/mx_island_list.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_island_list.c
 CMakeFiles/pathfinder.dir/src/mx_matrix_creator.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_matrix_creator.c
 CMakeFiles/pathfinder.dir/src/mx_pop_front_mini.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_pop_front_mini.c
 CMakeFiles/pathfinder.dir/src/mx_push_back_custom.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_push_back_custom.c
 CMakeFiles/pathfinder.dir/src/mx_push_result.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_push_result.c
 CMakeFiles/pathfinder.dir/src/mx_result_list_creator.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_result_list_creator.c
 CMakeFiles/pathfinder.dir/src/mx_result_matrix.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_result_matrix.c
 CMakeFiles/pathfinder.dir/src/mx_sort_result.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_sort_result.c
 CMakeFiles/pathfinder.dir/src/mx_valid_for_1line.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_valid_for_1line.c
 CMakeFiles/pathfinder.dir/src/mx_valid_for_alpha.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_valid_for_alpha.c
 CMakeFiles/pathfinder.dir/src/mx_valid_for_digits.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_valid_for_digits.c
 CMakeFiles/pathfinder.dir/src/mx_valid_for_koma.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_valid_for_koma.c
 CMakeFiles/pathfinder.dir/src/mx_valid_for_minus.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_valid_for_minus.c
 CMakeFiles/pathfinder.dir/src/mx_valid_for_slashn.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_valid_for_slashn.c
 CMakeFiles/pathfinder.dir/src/mx_validator.c.o
  ../inc/pathfinder.h
- ../libmx/inc/libmx.h
  /Users/ozahirnyi/pathfinder/src/mx_validator.c
+CMakeFiles/pathfinder.dir/src/mx_write_result.c.o
+ ../inc/pathfinder.h
+ /Users/ozahirnyi/pathfinder/src/mx_write_result.c
