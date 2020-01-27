@@ -6,7 +6,7 @@
 int mx_is_done(int *path_price, int size);
 int mx_is_min(int **path_price, int size);
 int mx_validator(char *str, int size, char **islands);
-int mx_valid_for_1line(char *str, int *i);
+int mx_valid_for_first(char *str, int *i);
 int mx_valid_for_alpha(char *str, int *i);
 int mx_valid_for_digits(char *str, int *i);
 int mx_valid_for_minus(char c, int *i);

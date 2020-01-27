@@ -13,7 +13,7 @@ FILES =  mx_count_parallel \
 		mx_push_back_custom \
 		mx_result_matrix \
 		mx_sort_result \
-		mx_valid_for_1line \
+		mx_valid_for_first \
 		mx_valid_for_alpha \
 		mx_valid_for_digits \
 		mx_valid_for_koma \
